@@ -1,0 +1,1078 @@
+# Full CellChatDB.mouse run (all 2,019 interactions)
+
+## Per-age summary
+
+| age | interactions evaluated | nonzero edges | significant edges | significant interactions | significant pathways |
+| --- | --- | --- | --- | --- | --- |
+| 3M | 2019 | 739 | 455 | 146 | 33 |
+| 12M | 2019 | 561 | 360 | 115 | 34 |
+| 24M | 2019 | 463 | 245 | 64 | 27 |
+
+## Significant interactions (permutation p < 0.05)
+
+- 3M: Fibrocytes -> Macrophages/Microglia | TGFB2_TGFBR1_TGFBR2 | prob 0.02352 | p 0
+- 3M: Spiral ganglion neurons -> Macrophages/Microglia | TGFB2_TGFBR1_TGFBR2 | prob 0.01347 | p 0
+- 3M: Supporting cells -> Macrophages/Microglia | TGFB2_TGFBR1_TGFBR2 | prob 0.01343 | p 0
+- 3M: Fibrocytes -> Supporting cells | TGFB2_TGFBR1_TGFBR2 | prob 0.008698 | p 0
+- 3M: Spiral ganglion neurons -> Supporting cells | TGFB2_TGFBR1_TGFBR2 | prob 0.004944 | p 0.04
+- 3M: Supporting cells -> Supporting cells | TGFB2_TGFBR1_TGFBR2 | prob 0.00493 | p 0
+- 3M: Fibrocytes -> Supporting cells | TGFB2_ACVR1_TGFBR1 | prob 0.00834 | p 0
+- 3M: Supporting cells -> Supporting cells | TGFB2_ACVR1_TGFBR1 | prob 0.004442 | p 0
+- 3M: Glia/Schwann -> Inner hair cells | BMP5_ACVR1_ACVR2A | prob 0.005561 | p 0
+- 3M: Supporting cells -> Inner hair cells | BMP5_ACVR1_ACVR2A | prob 0.003726 | p 0
+- 3M: Glia/Schwann -> Spiral ganglion neurons | BMP5_ACVR1_ACVR2A | prob 0.00448 | p 0.03
+- 3M: Glia/Schwann -> Supporting cells | BMP5_ACVR1_ACVR2A | prob 0.004657 | p 0
+- 3M: Supporting cells -> Supporting cells | BMP5_ACVR1_ACVR2A | prob 0.003119 | p 0
+- 3M: Glia/Schwann -> Supporting cells | BMP5_ACVR1_BMPR2 | prob 0.01195 | p 0
+- 3M: Supporting cells -> Supporting cells | BMP5_ACVR1_BMPR2 | prob 0.008022 | p 0
+- 3M: Glia/Schwann -> Inner hair cells | BMP5_BMPR1A_ACVR2A | prob 0.005426 | p 0.03
+- 3M: Glia/Schwann -> Supporting cells | BMP5_BMPR1A_ACVR2A | prob 0.007504 | p 0
+- 3M: Supporting cells -> Supporting cells | BMP5_BMPR1A_ACVR2A | prob 0.00503 | p 0
+- 3M: Glia/Schwann -> Supporting cells | BMP5_BMPR1A_BMPR2 | prob 0.01916 | p 0
+- 3M: Supporting cells -> Supporting cells | BMP5_BMPR1A_BMPR2 | prob 0.0129 | p 0
+- 3M: Glia/Schwann -> Inner hair cells | BMP5_BMPR1B_ACVR2A | prob 0.01117 | p 0
+- 3M: Supporting cells -> Inner hair cells | BMP5_BMPR1B_ACVR2A | prob 0.007495 | p 0
+- 3M: Glia/Schwann -> Inner hair cells | BMP5_BMPR1B_BMPR2 | prob 0.01363 | p 0
+- 3M: Supporting cells -> Inner hair cells | BMP5_BMPR1B_BMPR2 | prob 0.009156 | p 0
+- 3M: Fibrocytes -> Inner hair cells | BMP6_ACVR1_ACVR2A | prob 0.008384 | p 0
+- 3M: Fibrocytes -> Spiral ganglion neurons | BMP6_ACVR1_ACVR2A | prob 0.006758 | p 0
+- 3M: Fibrocytes -> Supporting cells | BMP6_ACVR1_ACVR2A | prob 0.007025 | p 0
+- 3M: Fibrocytes -> Glia/Schwann | BMP6_ACVR1_BMPR2 | prob 0.008588 | p 0
+- 3M: Fibrocytes -> Inner hair cells | BMP6_ACVR1_BMPR2 | prob 0.01024 | p 0
+- 3M: Fibrocytes -> Spiral ganglion neurons | BMP6_ACVR1_BMPR2 | prob 0.01265 | p 0
+- 3M: Fibrocytes -> Supporting cells | BMP6_ACVR1_BMPR2 | prob 0.01796 | p 0
+- 3M: Fibrocytes -> Inner hair cells | BMP6_BMPR1A_ACVR2A | prob 0.008181 | p 0
+- 3M: Fibrocytes -> Spiral ganglion neurons | BMP6_BMPR1A_ACVR2A | prob 0.007776 | p 0
+- 3M: Fibrocytes -> Supporting cells | BMP6_BMPR1A_ACVR2A | prob 0.0113 | p 0
+- 3M: Fibrocytes -> Fibrocytes | BMP6_BMPR1A_BMPR2 | prob 0.01057 | p 0
+- 3M: Fibrocytes -> Glia/Schwann | BMP6_BMPR1A_BMPR2 | prob 0.00934 | p 0
+- 3M: Fibrocytes -> Inner hair cells | BMP6_BMPR1A_BMPR2 | prob 0.009993 | p 0
+- 3M: Fibrocytes -> Spiral ganglion neurons | BMP6_BMPR1A_BMPR2 | prob 0.01454 | p 0.01
+- 3M: Fibrocytes -> Supporting cells | BMP6_BMPR1A_BMPR2 | prob 0.02869 | p 0
+- 3M: Fibrocytes -> Inner hair cells | BMP6_BMPR1B_ACVR2A | prob 0.01679 | p 0
+- 3M: Fibrocytes -> Fibrocytes | BMP6_BMPR1B_BMPR2 | prob 0.008134 | p 0
+- 3M: Fibrocytes -> Glia/Schwann | BMP6_BMPR1B_BMPR2 | prob 0.01012 | p 0
+- 3M: Fibrocytes -> Inner hair cells | BMP6_BMPR1B_BMPR2 | prob 0.02046 | p 0
+- 3M: Inner hair cells -> Inner hair cells | BMP8B_ACVR1_ACVR2A | prob 0.001965 | p 0
+- 3M: Inner hair cells -> Spiral ganglion neurons | BMP8B_ACVR1_ACVR2A | prob 0.001582 | p 0
+- 3M: Inner hair cells -> Supporting cells | BMP8B_ACVR1_ACVR2A | prob 0.001645 | p 0
+- 3M: Inner hair cells -> Glia/Schwann | BMP8B_ACVR1_BMPR2 | prob 0.002013 | p 0
+- 3M: Inner hair cells -> Inner hair cells | BMP8B_ACVR1_BMPR2 | prob 0.002403 | p 0
+- 3M: Inner hair cells -> Spiral ganglion neurons | BMP8B_ACVR1_BMPR2 | prob 0.002974 | p 0
+- 3M: Inner hair cells -> Supporting cells | BMP8B_ACVR1_BMPR2 | prob 0.00424 | p 0
+- 3M: Inner hair cells -> Inner hair cells | BMP8B_BMPR1A_ACVR2A | prob 0.001917 | p 0
+- 3M: Inner hair cells -> Spiral ganglion neurons | BMP8B_BMPR1A_ACVR2A | prob 0.001822 | p 0
+- 3M: Inner hair cells -> Supporting cells | BMP8B_BMPR1A_ACVR2A | prob 0.002655 | p 0
+- 3M: Inner hair cells -> Fibrocytes | BMP8B_BMPR1A_BMPR2 | prob 0.002482 | p 0
+- 3M: Inner hair cells -> Glia/Schwann | BMP8B_BMPR1A_BMPR2 | prob 0.002191 | p 0
+- 3M: Inner hair cells -> Inner hair cells | BMP8B_BMPR1A_BMPR2 | prob 0.002345 | p 0
+- 3M: Inner hair cells -> Spiral ganglion neurons | BMP8B_BMPR1A_BMPR2 | prob 0.003424 | p 0
+- 3M: Inner hair cells -> Supporting cells | BMP8B_BMPR1A_BMPR2 | prob 0.006832 | p 0
+- 3M: Inner hair cells -> Inner hair cells | BMP8B_BMPR1B_ACVR2A | prob 0.00396 | p 0
+- 3M: Inner hair cells -> Fibrocytes | BMP8B_BMPR1B_BMPR2 | prob 0.001906 | p 0
+- 3M: Inner hair cells -> Glia/Schwann | BMP8B_BMPR1B_BMPR2 | prob 0.002375 | p 0
+- 3M: Inner hair cells -> Inner hair cells | BMP8B_BMPR1B_BMPR2 | prob 0.004841 | p 0
+- 3M: Spiral ganglion neurons -> Fibrocytes | NRG1_ERBB4 | prob 0.07505 | p 0
+- 3M: Spiral ganglion neurons -> Glia/Schwann | NRG1_ERBB4 | prob 0.0769 | p 0
+- 3M: Spiral ganglion neurons -> Inner hair cells | NRG1_ERBB4 | prob 0.05135 | p 0
+- 3M: Spiral ganglion neurons -> Macrophages/Microglia | NRG1_ERBB4 | prob 0.03159 | p 0
+- 3M: Spiral ganglion neurons -> Outer hair cells | NRG1_ERBB4 | prob 0.02546 | p 0
+- 3M: Spiral ganglion neurons -> Spiral ganglion neurons | NRG1_ERBB4 | prob 0.05702 | p 0
+- 3M: Spiral ganglion neurons -> Supporting cells | NRG1_ERBB4 | prob 0.1126 | p 0
+- 3M: Spiral ganglion neurons -> Fibrocytes | NRG2_ERBB4 | prob 0.02438 | p 0
+- 3M: Spiral ganglion neurons -> Glia/Schwann | NRG2_ERBB4 | prob 0.02501 | p 0
+- 3M: Spiral ganglion neurons -> Inner hair cells | NRG2_ERBB4 | prob 0.0164 | p 0
+- 3M: Spiral ganglion neurons -> Macrophages/Microglia | NRG2_ERBB4 | prob 0.009946 | p 0
+- 3M: Spiral ganglion neurons -> Outer hair cells | NRG2_ERBB4 | prob 0.00798 | p 0
+- 3M: Spiral ganglion neurons -> Spiral ganglion neurons | NRG2_ERBB4 | prob 0.01828 | p 0
+- 3M: Spiral ganglion neurons -> Supporting cells | NRG2_ERBB4 | prob 0.03762 | p 0
+- 3M: Spiral ganglion neurons -> Fibrocytes | NRG3_ERBB4 | prob 0.195 | p 0
+- 3M: Spiral ganglion neurons -> Glia/Schwann | NRG3_ERBB4 | prob 0.1992 | p 0
+- 3M: Spiral ganglion neurons -> Inner hair cells | NRG3_ERBB4 | prob 0.1391 | p 0
+- 3M: Spiral ganglion neurons -> Macrophages/Microglia | NRG3_ERBB4 | prob 0.08875 | p 0
+- 3M: Spiral ganglion neurons -> Outer hair cells | NRG3_ERBB4 | prob 0.07235 | p 0
+- 3M: Spiral ganglion neurons -> Spiral ganglion neurons | NRG3_ERBB4 | prob 0.1529 | p 0
+- 3M: Spiral ganglion neurons -> Supporting cells | NRG3_ERBB4 | prob 0.2748 | p 0
+- 3M: Spiral ganglion neurons -> Fibrocytes | FGF1_FGFR1 | prob 0.005641 | p 0
+- 3M: Spiral ganglion neurons -> Glia/Schwann | FGF1_FGFR1 | prob 0.004187 | p 0
+- 3M: Spiral ganglion neurons -> Inner hair cells | FGF1_FGFR1 | prob 0.002193 | p 0.01
+- 3M: Spiral ganglion neurons -> Spiral ganglion neurons | FGF1_FGFR1 | prob 0.002146 | p 0
+- 3M: Spiral ganglion neurons -> Supporting cells | FGF1_FGFR1 | prob 0.005306 | p 0
+- 3M: Spiral ganglion neurons -> Fibrocytes | FGF1_FGFR2 | prob 0.008794 | p 0.01
+- 3M: Spiral ganglion neurons -> Glia/Schwann | FGF1_FGFR2 | prob 0.03602 | p 0
+- 3M: Spiral ganglion neurons -> Inner hair cells | FGF1_FGFR2 | prob 0.0193 | p 0
+- 3M: Spiral ganglion neurons -> Macrophages/Microglia | FGF1_FGFR2 | prob 0.01906 | p 0
+- 3M: Spiral ganglion neurons -> Outer hair cells | FGF1_FGFR2 | prob 0.008293 | p 0.01
+- 3M: Spiral ganglion neurons -> Spiral ganglion neurons | FGF1_FGFR2 | prob 0.01967 | p 0
+- 3M: Spiral ganglion neurons -> Supporting cells | FGF1_FGFR2 | prob 0.03589 | p 0
+- 3M: Spiral ganglion neurons -> Supporting cells | FGF1_FGFR4 | prob 0.003017 | p 0
+- 3M: Spiral ganglion neurons -> Fibrocytes | FGF10_FGFR1 | prob 0.005628 | p 0
+- 3M: Spiral ganglion neurons -> Glia/Schwann | FGF10_FGFR1 | prob 0.004177 | p 0
+- 3M: Spiral ganglion neurons -> Inner hair cells | FGF10_FGFR1 | prob 0.002188 | p 0
+- 3M: Spiral ganglion neurons -> Spiral ganglion neurons | FGF10_FGFR1 | prob 0.002141 | p 0
+- 3M: Spiral ganglion neurons -> Supporting cells | FGF10_FGFR1 | prob 0.005294 | p 0
+- 3M: Spiral ganglion neurons -> Fibrocytes | FGF10_FGFR2 | prob 0.008775 | p 0
+- 3M: Spiral ganglion neurons -> Glia/Schwann | FGF10_FGFR2 | prob 0.03594 | p 0
+- 3M: Spiral ganglion neurons -> Inner hair cells | FGF10_FGFR2 | prob 0.01926 | p 0
+- 3M: Spiral ganglion neurons -> Macrophages/Microglia | FGF10_FGFR2 | prob 0.01902 | p 0
+- 3M: Spiral ganglion neurons -> Outer hair cells | FGF10_FGFR2 | prob 0.008274 | p 0
+- 3M: Spiral ganglion neurons -> Spiral ganglion neurons | FGF10_FGFR2 | prob 0.01963 | p 0
+- 3M: Spiral ganglion neurons -> Supporting cells | FGF10_FGFR2 | prob 0.03581 | p 0
+- 3M: Spiral ganglion neurons -> Fibrocytes | PDGFA_PDGFRA | prob 0.004585 | p 0
+- 3M: Spiral ganglion neurons -> Inner hair cells | PDGFA_PDGFRA | prob 0.005163 | p 0
+- 3M: Spiral ganglion neurons -> Outer hair cells | PDGFA_PDGFRA | prob 0.005268 | p 0
+- 3M: Spiral ganglion neurons -> Supporting cells | PDGFA_PDGFRA | prob 0.005553 | p 0
+- 3M: Spiral ganglion neurons -> Macrophages/Microglia | VEGFA_VEGFR1 | prob 0.002309 | p 0
+- 3M: Spiral ganglion neurons -> Spiral ganglion neurons | VEGFA_VEGFR1 | prob 0.001478 | p 0
+- 3M: Spiral ganglion neurons -> Supporting cells | VEGFA_VEGFR1 | prob 0.003699 | p 0
+- 3M: Supporting cells -> Fibrocytes | IGF1_IGF1R | prob 0.009827 | p 0
+- 3M: Supporting cells -> Glia/Schwann | IGF1_IGF1R | prob 0.00768 | p 0
+- 3M: Supporting cells -> Inner hair cells | IGF1_IGF1R | prob 0.004728 | p 0
+- 3M: Supporting cells -> Macrophages/Microglia | IGF1_IGF1R | prob 0.006972 | p 0
+- 3M: Supporting cells -> Outer hair cells | IGF1_IGF1R | prob 0.0116 | p 0
+- 3M: Supporting cells -> Spiral ganglion neurons | IGF1_IGF1R | prob 0.005034 | p 0
+- 3M: Supporting cells -> Supporting cells | IGF1_IGF1R | prob 0.006837 | p 0
+- 3M: Inner hair cells -> Macrophages/Microglia | SPP1_ITGAV_ITGB1 | prob 0.004671 | p 0.03
+- 3M: Spiral ganglion neurons -> Macrophages/Microglia | SPP1_ITGAV_ITGB1 | prob 0.02058 | p 0
+- 3M: Supporting cells -> Macrophages/Microglia | SPP1_ITGAV_ITGB1 | prob 0.004505 | p 0.03
+- 3M: Inner hair cells -> Supporting cells | SPP1_ITGAV_ITGB1 | prob 0.003446 | p 0
+- 3M: Spiral ganglion neurons -> Supporting cells | SPP1_ITGAV_ITGB1 | prob 0.01525 | p 0
+- 3M: Supporting cells -> Supporting cells | SPP1_ITGAV_ITGB1 | prob 0.003323 | p 0
+- 3M: Glia/Schwann -> Macrophages/Microglia | SPP1_ITGAV_ITGB5 | prob 0.003553 | p 0.03
+- 3M: Inner hair cells -> Macrophages/Microglia | SPP1_ITGAV_ITGB5 | prob 0.00528 | p 0
+- 3M: Spiral ganglion neurons -> Macrophages/Microglia | SPP1_ITGAV_ITGB5 | prob 0.02322 | p 0
+- 3M: Supporting cells -> Macrophages/Microglia | SPP1_ITGAV_ITGB5 | prob 0.005093 | p 0
+- 3M: Glia/Schwann -> Macrophages/Microglia | SPP1_ITGA9_ITGB1 | prob 0.003387 | p 0
+- 3M: Inner hair cells -> Macrophages/Microglia | SPP1_ITGA9_ITGB1 | prob 0.005034 | p 0
+- 3M: Spiral ganglion neurons -> Macrophages/Microglia | SPP1_ITGA9_ITGB1 | prob 0.02215 | p 0
+- 3M: Supporting cells -> Macrophages/Microglia | SPP1_ITGA9_ITGB1 | prob 0.004855 | p 0
+- 3M: Spiral ganglion neurons -> Spiral ganglion neurons | SPP1_ITGA8_ITGB1 | prob 0.01637 | p 0
+- 3M: Spiral ganglion neurons -> Supporting cells | SPP1_ITGA8_ITGB1 | prob 0.02434 | p 0
+- 3M: Supporting cells -> Supporting cells | SPP1_ITGA8_ITGB1 | prob 0.005342 | p 0
+- 3M: Fibrocytes -> Glia/Schwann | PTN_PTPRZ1 | prob 0.183 | p 0
+- 3M: Glia/Schwann -> Glia/Schwann | PTN_PTPRZ1 | prob 0.1561 | p 0
+- 3M: Inner hair cells -> Glia/Schwann | PTN_PTPRZ1 | prob 0.1532 | p 0
+- 3M: Macrophages/Microglia -> Glia/Schwann | PTN_PTPRZ1 | prob 0.1575 | p 0
+- 3M: Outer hair cells -> Glia/Schwann | PTN_PTPRZ1 | prob 0.1634 | p 0
+- 3M: Spiral ganglion neurons -> Glia/Schwann | PTN_PTPRZ1 | prob 0.1515 | p 0
+- 3M: Supporting cells -> Glia/Schwann | PTN_PTPRZ1 | prob 0.2166 | p 0
+- 3M: Fibrocytes -> Inner hair cells | PTN_PTPRZ1 | prob 0.06218 | p 0
+- 3M: Glia/Schwann -> Inner hair cells | PTN_PTPRZ1 | prob 0.05193 | p 0
+- 3M: Inner hair cells -> Inner hair cells | PTN_PTPRZ1 | prob 0.05083 | p 0
+- 3M: Macrophages/Microglia -> Inner hair cells | PTN_PTPRZ1 | prob 0.05242 | p 0
+- 3M: Outer hair cells -> Inner hair cells | PTN_PTPRZ1 | prob 0.05468 | p 0
+- 3M: Spiral ganglion neurons -> Inner hair cells | PTN_PTPRZ1 | prob 0.05021 | p 0
+- 3M: Supporting cells -> Inner hair cells | PTN_PTPRZ1 | prob 0.07564 | p 0
+- 3M: Supporting cells -> Fibrocytes | PTN_SDC2 | prob 0.04655 | p 0
+- 3M: Supporting cells -> Supporting cells | PTN_SDC2 | prob 0.02294 | p 0.01
+- 3M: Fibrocytes -> Inner hair cells | PTN_ALK | prob 0.2736 | p 0
+- 3M: Glia/Schwann -> Inner hair cells | PTN_ALK | prob 0.2373 | p 0
+- 3M: Inner hair cells -> Inner hair cells | PTN_ALK | prob 0.2332 | p 0
+- 3M: Macrophages/Microglia -> Inner hair cells | PTN_ALK | prob 0.2391 | p 0
+- 3M: Outer hair cells -> Inner hair cells | PTN_ALK | prob 0.2473 | p 0
+- 3M: Spiral ganglion neurons -> Inner hair cells | PTN_ALK | prob 0.2309 | p 0
+- 3M: Supporting cells -> Inner hair cells | PTN_ALK | prob 0.3173 | p 0
+- 3M: Inner hair cells -> Inner hair cells | NTF3_NTRK2 | prob 0.002912 | p 0
+- 3M: Inner hair cells -> Spiral ganglion neurons | NTF3_NTRK2 | prob 0.03663 | p 0
+- 3M: Inner hair cells -> Spiral ganglion neurons | NTF3_NTRK3 | prob 0.02329 | p 0
+- 3M: Glia/Schwann -> Spiral ganglion neurons | SEMA3A_NRP1_PLXNA1 | prob 0.005695 | p 0
+- 3M: Inner hair cells -> Spiral ganglion neurons | SEMA3A_NRP1_PLXNA1 | prob 0.009676 | p 0
+- 3M: Outer hair cells -> Spiral ganglion neurons | SEMA3A_NRP1_PLXNA1 | prob 0.01807 | p 0
+- 3M: Spiral ganglion neurons -> Spiral ganglion neurons | SEMA3A_NRP1_PLXNA1 | prob 0.001783 | p 0
+- 3M: Glia/Schwann -> Spiral ganglion neurons | SEMA3A_NRP1_PLXNA2 | prob 0.006643 | p 0
+- 3M: Inner hair cells -> Spiral ganglion neurons | SEMA3A_NRP1_PLXNA2 | prob 0.01128 | p 0
+- 3M: Outer hair cells -> Spiral ganglion neurons | SEMA3A_NRP1_PLXNA2 | prob 0.02103 | p 0
+- 3M: Spiral ganglion neurons -> Spiral ganglion neurons | SEMA3A_NRP1_PLXNA2 | prob 0.002081 | p 0.04
+- 3M: Glia/Schwann -> Supporting cells | SEMA3A_NRP1_PLXNA2 | prob 0.007274 | p 0
+- 3M: Inner hair cells -> Supporting cells | SEMA3A_NRP1_PLXNA2 | prob 0.01234 | p 0
+- 3M: Outer hair cells -> Supporting cells | SEMA3A_NRP1_PLXNA2 | prob 0.023 | p 0
+- 3M: Spiral ganglion neurons -> Supporting cells | SEMA3A_NRP1_PLXNA2 | prob 0.00228 | p 0.03
+- 3M: Glia/Schwann -> Macrophages/Microglia | SEMA3A_NRP1_PLXNA4 | prob 0.01259 | p 0
+- 3M: Inner hair cells -> Macrophages/Microglia | SEMA3A_NRP1_PLXNA4 | prob 0.02129 | p 0
+- 3M: Outer hair cells -> Macrophages/Microglia | SEMA3A_NRP1_PLXNA4 | prob 0.03936 | p 0
+- 3M: Spiral ganglion neurons -> Macrophages/Microglia | SEMA3A_NRP1_PLXNA4 | prob 0.003962 | p 0
+- 3M: Glia/Schwann -> Spiral ganglion neurons | SEMA3A_NRP1_PLXNA4 | prob 0.01325 | p 0
+- 3M: Inner hair cells -> Spiral ganglion neurons | SEMA3A_NRP1_PLXNA4 | prob 0.02239 | p 0
+- 3M: Outer hair cells -> Spiral ganglion neurons | SEMA3A_NRP1_PLXNA4 | prob 0.04136 | p 0
+- 3M: Spiral ganglion neurons -> Spiral ganglion neurons | SEMA3A_NRP1_PLXNA4 | prob 0.004171 | p 0
+- 3M: Spiral ganglion neurons -> Macrophages/Microglia | GAS6_AXL | prob 0.00191 | p 0
+- 3M: Spiral ganglion neurons -> Fibrocytes | GAS6_MERTK | prob 0.002231 | p 0
+- 3M: Spiral ganglion neurons -> Macrophages/Microglia | GAS6_MERTK | prob 0.01757 | p 0
+- 3M: Spiral ganglion neurons -> Spiral ganglion neurons | GAS6_MERTK | prob 0.001427 | p 0
+- 3M: Spiral ganglion neurons -> Supporting cells | GAS6_MERTK | prob 0.004506 | p 0
+- 3M: Macrophages/Microglia -> Inner hair cells | GRN_SORT1 | prob 0.006611 | p 0
+- 3M: Macrophages/Microglia -> Spiral ganglion neurons | GRN_SORT1 | prob 0.002053 | p 0
+- 3M: Supporting cells -> Macrophages/Microglia | PROS1_AXL | prob 0.0006209 | p 0
+- 3M: Fibrocytes -> Spiral ganglion neurons | FN1_ITGA3_ITGB1 | prob 0.001974 | p 0
+- 3M: Glia/Schwann -> Spiral ganglion neurons | FN1_ITGA3_ITGB1 | prob 0.002663 | p 0
+- 3M: Inner hair cells -> Spiral ganglion neurons | FN1_ITGA3_ITGB1 | prob 0.003519 | p 0
+- 3M: Macrophages/Microglia -> Spiral ganglion neurons | FN1_ITGA3_ITGB1 | prob 0.004947 | p 0
+- 3M: Outer hair cells -> Spiral ganglion neurons | FN1_ITGA3_ITGB1 | prob 0.003799 | p 0
+- 3M: Spiral ganglion neurons -> Spiral ganglion neurons | FN1_ITGA3_ITGB1 | prob 0.003244 | p 0
+- 3M: Supporting cells -> Spiral ganglion neurons | FN1_ITGA3_ITGB1 | prob 0.01315 | p 0
+- 3M: Supporting cells -> Supporting cells | FN1_ITGA8_ITGB1 | prob 0.02549 | p 0
+- 3M: Fibrocytes -> Spiral ganglion neurons | LAMA2_ITGA3_ITGB1 | prob 0.005347 | p 0
+- 3M: Glia/Schwann -> Spiral ganglion neurons | LAMA2_ITGA3_ITGB1 | prob 0.004454 | p 0
+- 3M: Inner hair cells -> Spiral ganglion neurons | LAMA2_ITGA3_ITGB1 | prob 0.002905 | p 0
+- 3M: Spiral ganglion neurons -> Spiral ganglion neurons | LAMA2_ITGA3_ITGB1 | prob 0.003327 | p 0
+- 3M: Supporting cells -> Spiral ganglion neurons | LAMA2_ITGA3_ITGB1 | prob 0.01062 | p 0
+- 3M: Supporting cells -> Spiral ganglion neurons | LAMA4_ITGA3_ITGB1 | prob 0.001611 | p 0
+- 3M: Outer hair cells -> Spiral ganglion neurons | LAMA5_ITGA3_ITGB1 | prob 0.004431 | p 0
+- 3M: Glia/Schwann -> Spiral ganglion neurons | LAMB1_ITGA3_ITGB1 | prob 0.002529 | p 0
+- 3M: Fibrocytes -> Spiral ganglion neurons | LAMC1_ITGA3_ITGB1 | prob 0.00262 | p 0
+- 3M: Glia/Schwann -> Spiral ganglion neurons | LAMC1_ITGA3_ITGB1 | prob 0.003019 | p 0
+- 3M: Macrophages/Microglia -> Spiral ganglion neurons | LAMC1_ITGA3_ITGB1 | prob 0.00237 | p 0
+- 3M: Spiral ganglion neurons -> Spiral ganglion neurons | LAMC1_ITGA3_ITGB1 | prob 0.002896 | p 0
+- 3M: Supporting cells -> Spiral ganglion neurons | LAMC1_ITGA3_ITGB1 | prob 0.004004 | p 0
+- 3M: Supporting cells -> Spiral ganglion neurons | LAMC3_ITGA3_ITGB1 | prob 0.001167 | p 0
+- 3M: Spiral ganglion neurons -> Spiral ganglion neurons | COL1A2_ITGA3_ITGB1 | prob 0.001006 | p 0
+- 3M: Supporting cells -> Spiral ganglion neurons | COL1A2_ITGA3_ITGB1 | prob 0.001412 | p 0
+- 3M: Glia/Schwann -> Spiral ganglion neurons | COL4A3_ITGA3_ITGB1 | prob 0.001922 | p 0
+- 3M: Fibrocytes -> Spiral ganglion neurons | COL4A5_ITGA3_ITGB1 | prob 0.002828 | p 0
+- 3M: Fibrocytes -> Macrophages/Microglia | LAMA2_ITGA6_ITGB1 | prob 0.008554 | p 0
+- 3M: Glia/Schwann -> Macrophages/Microglia | LAMA2_ITGA6_ITGB1 | prob 0.007129 | p 0
+- 3M: Inner hair cells -> Macrophages/Microglia | LAMA2_ITGA6_ITGB1 | prob 0.004654 | p 0
+- 3M: Spiral ganglion neurons -> Macrophages/Microglia | LAMA2_ITGA6_ITGB1 | prob 0.005329 | p 0
+- 3M: Supporting cells -> Macrophages/Microglia | LAMA2_ITGA6_ITGB1 | prob 0.01693 | p 0
+- 3M: Supporting cells -> Macrophages/Microglia | LAMA4_ITGA6_ITGB1 | prob 0.002583 | p 0
+- 3M: Outer hair cells -> Macrophages/Microglia | LAMA5_ITGA6_ITGB1 | prob 0.007092 | p 0
+- 3M: Glia/Schwann -> Macrophages/Microglia | LAMB1_ITGA6_ITGB1 | prob 0.004054 | p 0
+- 3M: Fibrocytes -> Macrophages/Microglia | LAMC1_ITGA6_ITGB1 | prob 0.004198 | p 0
+- 3M: Glia/Schwann -> Macrophages/Microglia | LAMC1_ITGA6_ITGB1 | prob 0.004837 | p 0
+- 3M: Macrophages/Microglia -> Macrophages/Microglia | LAMC1_ITGA6_ITGB1 | prob 0.003798 | p 0
+- 3M: Spiral ganglion neurons -> Macrophages/Microglia | LAMC1_ITGA6_ITGB1 | prob 0.004641 | p 0
+- 3M: Supporting cells -> Macrophages/Microglia | LAMC1_ITGA6_ITGB1 | prob 0.006411 | p 0
+- 3M: Supporting cells -> Macrophages/Microglia | LAMC3_ITGA6_ITGB1 | prob 0.001872 | p 0
+- 3M: Spiral ganglion neurons -> Macrophages/Microglia | COL1A2_ITGA9_ITGB1 | prob 0.001793 | p 0
+- 3M: Supporting cells -> Macrophages/Microglia | COL1A2_ITGA9_ITGB1 | prob 0.002516 | p 0
+- 3M: Glia/Schwann -> Macrophages/Microglia | COL4A3_ITGA9_ITGB1 | prob 0.003424 | p 0
+- 3M: Fibrocytes -> Macrophages/Microglia | COL4A5_ITGA9_ITGB1 | prob 0.005032 | p 0
+- 3M: Fibrocytes -> Macrophages/Microglia | LAMA2_ITGA9_ITGB1 | prob 0.009497 | p 0
+- 3M: Glia/Schwann -> Macrophages/Microglia | LAMA2_ITGA9_ITGB1 | prob 0.007917 | p 0
+- 3M: Inner hair cells -> Macrophages/Microglia | LAMA2_ITGA9_ITGB1 | prob 0.00517 | p 0
+- 3M: Spiral ganglion neurons -> Macrophages/Microglia | LAMA2_ITGA9_ITGB1 | prob 0.005918 | p 0
+- 3M: Supporting cells -> Macrophages/Microglia | LAMA2_ITGA9_ITGB1 | prob 0.01878 | p 0
+- 3M: Supporting cells -> Macrophages/Microglia | LAMA4_ITGA9_ITGB1 | prob 0.00287 | p 0
+- 3M: Outer hair cells -> Macrophages/Microglia | LAMA5_ITGA9_ITGB1 | prob 0.007875 | p 0
+- 3M: Glia/Schwann -> Macrophages/Microglia | LAMB1_ITGA9_ITGB1 | prob 0.004503 | p 0
+- 3M: Fibrocytes -> Macrophages/Microglia | LAMC1_ITGA9_ITGB1 | prob 0.004663 | p 0
+- 3M: Glia/Schwann -> Macrophages/Microglia | LAMC1_ITGA9_ITGB1 | prob 0.005373 | p 0
+- 3M: Macrophages/Microglia -> Macrophages/Microglia | LAMC1_ITGA9_ITGB1 | prob 0.004219 | p 0
+- 3M: Spiral ganglion neurons -> Macrophages/Microglia | LAMC1_ITGA9_ITGB1 | prob 0.005154 | p 0
+- 3M: Supporting cells -> Macrophages/Microglia | LAMC1_ITGA9_ITGB1 | prob 0.00712 | p 0
+- 3M: Supporting cells -> Macrophages/Microglia | LAMC3_ITGA9_ITGB1 | prob 0.00208 | p 0
+- 3M: Spiral ganglion neurons -> Spiral ganglion neurons | COL1A2_ITGA10_ITGB1 | prob 0.0006011 | p 0.04
+- 3M: Supporting cells -> Spiral ganglion neurons | COL1A2_ITGA10_ITGB1 | prob 0.0008438 | p 0
+- 3M: Glia/Schwann -> Spiral ganglion neurons | COL4A3_ITGA10_ITGB1 | prob 0.001149 | p 0
+- 3M: Fibrocytes -> Spiral ganglion neurons | COL4A5_ITGA10_ITGB1 | prob 0.001691 | p 0
+- 3M: Supporting cells -> Macrophages/Microglia | FN1_ITGAV_ITGB1 | prob 0.02157 | p 0
+- 3M: Supporting cells -> Supporting cells | FN1_ITGAV_ITGB1 | prob 0.01598 | p 0
+- 3M: Supporting cells -> Supporting cells | FN1_ITGAV_ITGB8 | prob 0.01764 | p 0
+- 3M: Supporting cells -> Supporting cells | LAMA2_ITGAV_ITGB8 | prob 0.01426 | p 0
+- 3M: Supporting cells -> Supporting cells | LAMA4_ITGAV_ITGB8 | prob 0.00217 | p 0
+- 3M: Outer hair cells -> Supporting cells | LAMA5_ITGAV_ITGB8 | prob 0.005962 | p 0
+- 3M: Glia/Schwann -> Supporting cells | LAMB1_ITGAV_ITGB8 | prob 0.003406 | p 0
+- 3M: Glia/Schwann -> Supporting cells | LAMC1_ITGAV_ITGB8 | prob 0.004065 | p 0.01
+- 3M: Supporting cells -> Supporting cells | LAMC1_ITGAV_ITGB8 | prob 0.005389 | p 0
+- 3M: Supporting cells -> Supporting cells | LAMC3_ITGAV_ITGB8 | prob 0.001573 | p 0
+- 3M: Supporting cells -> Supporting cells | COL1A2_ITGAV_ITGB8 | prob 0.001902 | p 0
+- 3M: Glia/Schwann -> Supporting cells | COL4A3_ITGAV_ITGB8 | prob 0.002589 | p 0
+- 3M: Fibrocytes -> Supporting cells | COL4A5_ITGAV_ITGB8 | prob 0.003807 | p 0
+- 3M: Fibrocytes -> Spiral ganglion neurons | LAMA2_SV2A | prob 0.006276 | p 0
+- 3M: Glia/Schwann -> Spiral ganglion neurons | LAMA2_SV2A | prob 0.005229 | p 0
+- 3M: Inner hair cells -> Spiral ganglion neurons | LAMA2_SV2A | prob 0.003412 | p 0
+- 3M: Spiral ganglion neurons -> Spiral ganglion neurons | LAMA2_SV2A | prob 0.003906 | p 0
+- 3M: Supporting cells -> Spiral ganglion neurons | LAMA2_SV2A | prob 0.01245 | p 0
+- 3M: Supporting cells -> Spiral ganglion neurons | LAMA4_SV2A | prob 0.001892 | p 0
+- 3M: Outer hair cells -> Spiral ganglion neurons | LAMA5_SV2A | prob 0.005202 | p 0
+- 3M: Glia/Schwann -> Spiral ganglion neurons | LAMB1_SV2A | prob 0.002971 | p 0
+- 3M: Fibrocytes -> Spiral ganglion neurons | LAMC1_SV2A | prob 0.003077 | p 0
+- 3M: Glia/Schwann -> Spiral ganglion neurons | LAMC1_SV2A | prob 0.003546 | p 0
+- 3M: Macrophages/Microglia -> Spiral ganglion neurons | LAMC1_SV2A | prob 0.002783 | p 0
+- 3M: Spiral ganglion neurons -> Spiral ganglion neurons | LAMC1_SV2A | prob 0.003401 | p 0
+- 3M: Supporting cells -> Spiral ganglion neurons | LAMC1_SV2A | prob 0.004701 | p 0
+- 3M: Supporting cells -> Spiral ganglion neurons | LAMC3_SV2A | prob 0.001371 | p 0
+- 3M: Fibrocytes -> Spiral ganglion neurons | LAMA2_SV2B | prob 0.006002 | p 0
+- 3M: Glia/Schwann -> Spiral ganglion neurons | LAMA2_SV2B | prob 0.005 | p 0
+- 3M: Inner hair cells -> Spiral ganglion neurons | LAMA2_SV2B | prob 0.003262 | p 0
+- 3M: Spiral ganglion neurons -> Spiral ganglion neurons | LAMA2_SV2B | prob 0.003735 | p 0
+- 3M: Supporting cells -> Spiral ganglion neurons | LAMA2_SV2B | prob 0.01191 | p 0
+- 3M: Supporting cells -> Spiral ganglion neurons | LAMA4_SV2B | prob 0.001809 | p 0
+- 3M: Outer hair cells -> Spiral ganglion neurons | LAMA5_SV2B | prob 0.004974 | p 0
+- 3M: Glia/Schwann -> Spiral ganglion neurons | LAMB1_SV2B | prob 0.00284 | p 0
+- 3M: Fibrocytes -> Spiral ganglion neurons | LAMC1_SV2B | prob 0.002942 | p 0
+- 3M: Glia/Schwann -> Spiral ganglion neurons | LAMC1_SV2B | prob 0.00339 | p 0
+- 3M: Macrophages/Microglia -> Spiral ganglion neurons | LAMC1_SV2B | prob 0.002661 | p 0
+- 3M: Spiral ganglion neurons -> Spiral ganglion neurons | LAMC1_SV2B | prob 0.003252 | p 0
+- 3M: Supporting cells -> Spiral ganglion neurons | LAMC1_SV2B | prob 0.004496 | p 0
+- 3M: Supporting cells -> Spiral ganglion neurons | LAMC3_SV2B | prob 0.001311 | p 0
+- 3M: Fibrocytes -> Spiral ganglion neurons | LAMA2_SV2C | prob 0.01051 | p 0
+- 3M: Glia/Schwann -> Spiral ganglion neurons | LAMA2_SV2C | prob 0.008764 | p 0
+- 3M: Inner hair cells -> Spiral ganglion neurons | LAMA2_SV2C | prob 0.005725 | p 0
+- 3M: Spiral ganglion neurons -> Spiral ganglion neurons | LAMA2_SV2C | prob 0.006553 | p 0
+- 3M: Supporting cells -> Spiral ganglion neurons | LAMA2_SV2C | prob 0.02076 | p 0
+- 3M: Supporting cells -> Spiral ganglion neurons | LAMA4_SV2C | prob 0.003178 | p 0
+- 3M: Outer hair cells -> Spiral ganglion neurons | LAMA5_SV2C | prob 0.008718 | p 0
+- 3M: Glia/Schwann -> Spiral ganglion neurons | LAMB1_SV2C | prob 0.004986 | p 0
+- 3M: Fibrocytes -> Spiral ganglion neurons | LAMC1_SV2C | prob 0.005164 | p 0
+- 3M: Glia/Schwann -> Spiral ganglion neurons | LAMC1_SV2C | prob 0.005949 | p 0
+- 3M: Macrophages/Microglia -> Spiral ganglion neurons | LAMC1_SV2C | prob 0.004672 | p 0
+- 3M: Spiral ganglion neurons -> Spiral ganglion neurons | LAMC1_SV2C | prob 0.005708 | p 0
+- 3M: Supporting cells -> Spiral ganglion neurons | LAMC1_SV2C | prob 0.007882 | p 0
+- 3M: Supporting cells -> Spiral ganglion neurons | LAMC3_SV2C | prob 0.002304 | p 0
+- 3M: Glia/Schwann -> Spiral ganglion neurons | AGRN_DAG1 | prob 0.001441 | p 0
+- 3M: Spiral ganglion neurons -> Spiral ganglion neurons | AGRN_DAG1 | prob 0.001515 | p 0.01
+- 3M: Supporting cells -> Spiral ganglion neurons | LAMA4_DAG1 | prob 0.001106 | p 0.02
+- 3M: Outer hair cells -> Spiral ganglion neurons | LAMA5_DAG1 | prob 0.003045 | p 0
+- 3M: Glia/Schwann -> Spiral ganglion neurons | LAMB1_DAG1 | prob 0.001737 | p 0
+- 3M: Supporting cells -> Spiral ganglion neurons | LAMC3_DAG1 | prob 0.0008015 | p 0
+- 3M: Glia/Schwann -> Glia/Schwann | CADM1_CADM1 | prob 0.007094 | p 0.03
+- 3M: Spiral ganglion neurons -> Glia/Schwann | CADM1_CADM1 | prob 0.03717 | p 0
+- 3M: Glia/Schwann -> Spiral ganglion neurons | CADM1_CADM1 | prob 0.03717 | p 0
+- 3M: Spiral ganglion neurons -> Spiral ganglion neurons | CADM1_CADM1 | prob 0.1726 | p 0
+- 3M: Supporting cells -> Spiral ganglion neurons | CADM1_CADM1 | prob 0.02855 | p 0
+- 3M: Spiral ganglion neurons -> Supporting cells | CADM1_CADM1 | prob 0.02855 | p 0
+- 3M: Spiral ganglion neurons -> Spiral ganglion neurons | CADM3_CADM3 | prob 0.002677 | p 0
+- 3M: Macrophages/Microglia -> Macrophages/Microglia | PTPRC_MRC1 | prob 0.0643 | p 0
+- 3M: Spiral ganglion neurons -> Spiral ganglion neurons | CDH4_CDH4 | prob 0.007092 | p 0
+- 3M: Inner hair cells -> Inner hair cells | CDH2_CDH2 | prob 0.002005 | p 0
+- 3M: Spiral ganglion neurons -> Inner hair cells | CDH2_CDH2 | prob 0.01076 | p 0
+- 3M: Inner hair cells -> Spiral ganglion neurons | CDH2_CDH2 | prob 0.01076 | p 0
+- 3M: Spiral ganglion neurons -> Spiral ganglion neurons | CDH2_CDH2 | prob 0.05564 | p 0
+- 3M: Supporting cells -> Supporting cells | CLDN11_CLDN11 | prob 0.004017 | p 0
+- 3M: Glia/Schwann -> Spiral ganglion neurons | NFASC_CNTN1_CNTNAP1 | prob 0.008057 | p 0
+- 3M: Inner hair cells -> Spiral ganglion neurons | NFASC_CNTN1_CNTNAP1 | prob 0.06619 | p 0
+- 3M: Spiral ganglion neurons -> Spiral ganglion neurons | NFASC_CNTN1_CNTNAP1 | prob 0.04585 | p 0
+- 3M: Spiral ganglion neurons -> Spiral ganglion neurons | CNTN2_CNTN2_CNTNAP2 | prob 0.00816 | p 0
+- 3M: Spiral ganglion neurons -> Spiral ganglion neurons | CNTN2_CNTN2 | prob 0.002281 | p 0
+- 3M: Spiral ganglion neurons -> Spiral ganglion neurons | CNTN1_NRCAM | prob 0.0161 | p 0
+- 3M: Glia/Schwann -> Fibrocytes | EFNA5_EPHA3 | prob 0.04029 | p 0.01
+- 3M: Glia/Schwann -> Macrophages/Microglia | EFNA5_EPHA3 | prob 0.04369 | p 0.04
+- 3M: Glia/Schwann -> Spiral ganglion neurons | EFNA5_EPHA3 | prob 0.04708 | p 0
+- 3M: Fibrocytes -> Supporting cells | EFNA5_EPHA3 | prob 0.08597 | p 0
+- 3M: Glia/Schwann -> Supporting cells | EFNA5_EPHA3 | prob 0.165 | p 0
+- 3M: Outer hair cells -> Supporting cells | EFNA5_EPHA3 | prob 0.06261 | p 0
+- 3M: Fibrocytes -> Glia/Schwann | EFNA5_EPHA4 | prob 0.007243 | p 0
+- 3M: Glia/Schwann -> Glia/Schwann | EFNA5_EPHA4 | prob 0.0151 | p 0
+- 3M: Fibrocytes -> Inner hair cells | EFNA5_EPHA4 | prob 0.01232 | p 0
+- 3M: Glia/Schwann -> Inner hair cells | EFNA5_EPHA4 | prob 0.02553 | p 0
+- 3M: Outer hair cells -> Inner hair cells | EFNA5_EPHA4 | prob 0.008776 | p 0
+- 3M: Fibrocytes -> Spiral ganglion neurons | EFNA5_EPHA4 | prob 0.02351 | p 0
+- 3M: Glia/Schwann -> Spiral ganglion neurons | EFNA5_EPHA4 | prob 0.04816 | p 0
+- 3M: Inner hair cells -> Spiral ganglion neurons | EFNA5_EPHA4 | prob 0.007583 | p 0.02
+- 3M: Outer hair cells -> Spiral ganglion neurons | EFNA5_EPHA4 | prob 0.01681 | p 0
+- 3M: Supporting cells -> Spiral ganglion neurons | EFNA5_EPHA4 | prob 0.00686 | p 0
+- 3M: Fibrocytes -> Supporting cells | EFNA5_EPHA4 | prob 0.01169 | p 0
+- 3M: Glia/Schwann -> Supporting cells | EFNA5_EPHA4 | prob 0.02425 | p 0
+- 3M: Outer hair cells -> Supporting cells | EFNA5_EPHA4 | prob 0.008329 | p 0
+- 3M: Fibrocytes -> Glia/Schwann | EFNA5_EPHA5 | prob 0.04951 | p 0
+- 3M: Glia/Schwann -> Glia/Schwann | EFNA5_EPHA5 | prob 0.09864 | p 0
+- 3M: Outer hair cells -> Glia/Schwann | EFNA5_EPHA5 | prob 0.03567 | p 0
+- 3M: Glia/Schwann -> Inner hair cells | EFNA5_EPHA5 | prob 0.02672 | p 0.02
+- 3M: Fibrocytes -> Spiral ganglion neurons | EFNA5_EPHA5 | prob 0.03961 | p 0
+- 3M: Glia/Schwann -> Spiral ganglion neurons | EFNA5_EPHA5 | prob 0.07974 | p 0
+- 3M: Outer hair cells -> Spiral ganglion neurons | EFNA5_EPHA5 | prob 0.02845 | p 0.03
+- 3M: Fibrocytes -> Supporting cells | EFNA5_EPHA5 | prob 0.04723 | p 0
+- 3M: Glia/Schwann -> Supporting cells | EFNA5_EPHA5 | prob 0.09434 | p 0
+- 3M: Outer hair cells -> Supporting cells | EFNA5_EPHA5 | prob 0.03401 | p 0
+- 3M: Fibrocytes -> Fibrocytes | EFNA5_EPHA7 | prob 0.07677 | p 0
+- 3M: Glia/Schwann -> Fibrocytes | EFNA5_EPHA7 | prob 0.1487 | p 0
+- 3M: Outer hair cells -> Fibrocytes | EFNA5_EPHA7 | prob 0.05575 | p 0
+- 3M: Supporting cells -> Fibrocytes | EFNA5_EPHA7 | prob 0.0233 | p 0
+- 3M: Fibrocytes -> Glia/Schwann | EFNA5_EPHA7 | prob 0.05754 | p 0
+- 3M: Glia/Schwann -> Glia/Schwann | EFNA5_EPHA7 | prob 0.1137 | p 0
+- 3M: Outer hair cells -> Glia/Schwann | EFNA5_EPHA7 | prob 0.04155 | p 0
+- 3M: Glia/Schwann -> Inner hair cells | EFNA5_EPHA7 | prob 0.03052 | p 0.01
+- 3M: Fibrocytes -> Spiral ganglion neurons | EFNA5_EPHA7 | prob 0.03329 | p 0
+- 3M: Glia/Schwann -> Spiral ganglion neurons | EFNA5_EPHA7 | prob 0.06748 | p 0
+- 3M: Fibrocytes -> Supporting cells | EFNA5_EPHA7 | prob 0.046 | p 0
+- 3M: Glia/Schwann -> Supporting cells | EFNA5_EPHA7 | prob 0.09198 | p 0
+- 3M: Outer hair cells -> Supporting cells | EFNA5_EPHA7 | prob 0.0331 | p 0
+- 3M: Fibrocytes -> Spiral ganglion neurons | EFNA5_EPHB2 | prob 0.01079 | p 0
+- 3M: Glia/Schwann -> Spiral ganglion neurons | EFNA5_EPHB2 | prob 0.02239 | p 0
+- 3M: Inner hair cells -> Spiral ganglion neurons | EFNA5_EPHB2 | prob 0.003448 | p 0
+- 3M: Outer hair cells -> Spiral ganglion neurons | EFNA5_EPHB2 | prob 0.007682 | p 0
+- 3M: Spiral ganglion neurons -> Spiral ganglion neurons | EFNA5_EPHB2 | prob 0.003041 | p 0
+- 3M: Supporting cells -> Spiral ganglion neurons | EFNA5_EPHB2 | prob 0.003118 | p 0
+- 3M: Spiral ganglion neurons -> Glia/Schwann | EFNB2_EPHA4 | prob 0.001929 | p 0
+- 3M: Spiral ganglion neurons -> Inner hair cells | EFNB2_EPHA4 | prob 0.003292 | p 0
+- 3M: Spiral ganglion neurons -> Spiral ganglion neurons | EFNB2_EPHA4 | prob 0.006338 | p 0
+- 3M: Spiral ganglion neurons -> Supporting cells | EFNB2_EPHA4 | prob 0.003123 | p 0
+- 3M: Spiral ganglion neurons -> Spiral ganglion neurons | EFNB2_EPHB2 | prob 0.00288 | p 0
+- 3M: Glia/Schwann -> Fibrocytes | MPZ_MPZL1 | prob 0.006177 | p 0
+- 3M: Glia/Schwann -> Glia/Schwann | MPZ_MPZL1 | prob 0.006685 | p 0
+- 3M: Glia/Schwann -> Inner hair cells | MPZ_MPZL1 | prob 0.002557 | p 0
+- 3M: Glia/Schwann -> Spiral ganglion neurons | MPZ_MPZL1 | prob 0.003332 | p 0
+- 3M: Glia/Schwann -> Supporting cells | MPZ_MPZL1 | prob 0.004658 | p 0
+- 3M: Glia/Schwann -> Glia/Schwann | MPZ_MPZ | prob 0.004661 | p 0
+- 3M: Fibrocytes -> Fibrocytes | MPZL1_MPZL1 | prob 0.008181 | p 0
+- 3M: Glia/Schwann -> Fibrocytes | MPZL1_MPZL1 | prob 0.008853 | p 0
+- 3M: Supporting cells -> Fibrocytes | MPZL1_MPZL1 | prob 0.006173 | p 0
+- 3M: Fibrocytes -> Glia/Schwann | MPZL1_MPZL1 | prob 0.008853 | p 0
+- 3M: Glia/Schwann -> Glia/Schwann | MPZL1_MPZL1 | prob 0.009579 | p 0
+- 3M: Supporting cells -> Glia/Schwann | MPZL1_MPZL1 | prob 0.006681 | p 0
+- 3M: Fibrocytes -> Supporting cells | MPZL1_MPZL1 | prob 0.006173 | p 0
+- 3M: Glia/Schwann -> Supporting cells | MPZL1_MPZL1 | prob 0.006681 | p 0
+- 3M: Spiral ganglion neurons -> Fibrocytes | NCAM1_FGFR1 | prob 0.02171 | p 0
+- 3M: Spiral ganglion neurons -> Glia/Schwann | NCAM1_FGFR1 | prob 0.01618 | p 0
+- 3M: Spiral ganglion neurons -> Inner hair cells | NCAM1_FGFR1 | prob 0.008523 | p 0
+- 3M: Spiral ganglion neurons -> Spiral ganglion neurons | NCAM1_FGFR1 | prob 0.00834 | p 0
+- 3M: Spiral ganglion neurons -> Supporting cells | NCAM1_FGFR1 | prob 0.02044 | p 0
+- 3M: Spiral ganglion neurons -> Spiral ganglion neurons | NCAM1_NCAM1 | prob 0.06247 | p 0
+- 3M: Spiral ganglion neurons -> Spiral ganglion neurons | NCAM1_NCAM2 | prob 0.01774 | p 0
+- 3M: Supporting cells -> Fibrocytes | NEGR1_NEGR1 | prob 0.02501 | p 0.04
+- 3M: Supporting cells -> Outer hair cells | NEGR1_NEGR1 | prob 0.03081 | p 0.02
+- 3M: Fibrocytes -> Supporting cells | NEGR1_NEGR1 | prob 0.02501 | p 0.04
+- 3M: Outer hair cells -> Supporting cells | NEGR1_NEGR1 | prob 0.03081 | p 0.02
+- 3M: Supporting cells -> Supporting cells | NEGR1_NEGR1 | prob 0.0559 | p 0
+- 3M: Fibrocytes -> Spiral ganglion neurons | LRRC4C_NTNG1 | prob 0.04213 | p 0
+- 3M: Spiral ganglion neurons -> Spiral ganglion neurons | LRRC4C_NTNG1 | prob 0.0414 | p 0
+- 3M: Supporting cells -> Spiral ganglion neurons | LRRC4C_NTNG1 | prob 0.02942 | p 0
+- 3M: Inner hair cells -> Glia/Schwann | NRXN1_NLGN1 | prob 0.08599 | p 0
+- 3M: Spiral ganglion neurons -> Glia/Schwann | NRXN1_NLGN1 | prob 0.08577 | p 0
+- 3M: Supporting cells -> Glia/Schwann | NRXN1_NLGN1 | prob 0.01449 | p 0
+- 3M: Inner hair cells -> Spiral ganglion neurons | NRXN1_NLGN1 | prob 0.04317 | p 0
+- 3M: Spiral ganglion neurons -> Spiral ganglion neurons | NRXN1_NLGN1 | prob 0.04305 | p 0
+- 3M: Supporting cells -> Spiral ganglion neurons | NRXN1_NLGN1 | prob 0.007002 | p 0
+- 3M: Inner hair cells -> Spiral ganglion neurons | NRXN1_NLGN2 | prob 0.0256 | p 0
+- 3M: Spiral ganglion neurons -> Spiral ganglion neurons | NRXN1_NLGN2 | prob 0.02553 | p 0
+- 3M: Spiral ganglion neurons -> Glia/Schwann | NRXN2_NLGN1 | prob 0.01061 | p 0
+- 3M: Spiral ganglion neurons -> Spiral ganglion neurons | NRXN2_NLGN1 | prob 0.005116 | p 0
+- 3M: Spiral ganglion neurons -> Spiral ganglion neurons | NRXN2_NLGN2 | prob 0.002986 | p 0
+- 3M: Fibrocytes -> Glia/Schwann | NRXN3_NLGN1 | prob 0.02594 | p 0
+- 3M: Glia/Schwann -> Glia/Schwann | NRXN3_NLGN1 | prob 0.01244 | p 0
+- 3M: Spiral ganglion neurons -> Glia/Schwann | NRXN3_NLGN1 | prob 0.009126 | p 0
+- 3M: Supporting cells -> Glia/Schwann | NRXN3_NLGN1 | prob 0.01299 | p 0
+- 3M: Fibrocytes -> Spiral ganglion neurons | NRXN3_NLGN1 | prob 0.01261 | p 0
+- 3M: Glia/Schwann -> Spiral ganglion neurons | NRXN3_NLGN1 | prob 0.006004 | p 0
+- 3M: Spiral ganglion neurons -> Spiral ganglion neurons | NRXN3_NLGN1 | prob 0.004397 | p 0.01
+- 3M: Supporting cells -> Spiral ganglion neurons | NRXN3_NLGN1 | prob 0.006274 | p 0
+- 3M: Fibrocytes -> Spiral ganglion neurons | NRXN3_NLGN2 | prob 0.007383 | p 0
+- 3M: Glia/Schwann -> Spiral ganglion neurons | NRXN3_NLGN2 | prob 0.003505 | p 0.03
+- 3M: Supporting cells -> Spiral ganglion neurons | NRXN3_NLGN2 | prob 0.003663 | p 0.04
+- 3M: Inner hair cells -> Inner hair cells | PTPRM_PTPRM | prob 0.1319 | p 0
+- 3M: Spiral ganglion neurons -> Inner hair cells | PTPRM_PTPRM | prob 0.07998 | p 0
+- 3M: Supporting cells -> Inner hair cells | PTPRM_PTPRM | prob 0.08814 | p 0
+- 3M: Inner hair cells -> Spiral ganglion neurons | PTPRM_PTPRM | prob 0.07998 | p 0
+- 3M: Inner hair cells -> Supporting cells | PTPRM_PTPRM | prob 0.08814 | p 0
+- 3M: Supporting cells -> Supporting cells | PTPRM_PTPRM | prob 0.05793 | p 0
+- 3M: Glia/Schwann -> Spiral ganglion neurons | SEMA5A_PLXNA1 | prob 0.005512 | p 0
+- 3M: Inner hair cells -> Spiral ganglion neurons | SEMA5A_PLXNA1 | prob 0.003448 | p 0
+- 3M: Spiral ganglion neurons -> Spiral ganglion neurons | SEMA5A_PLXNA1 | prob 0.002123 | p 0
+- 3M: Supporting cells -> Spiral ganglion neurons | SEMA5A_PLXNA1 | prob 0.0134 | p 0
+- 3M: Inner hair cells -> Spiral ganglion neurons | SEMA5B_PLXNA1 | prob 0.01725 | p 0
+- 3M: Spiral ganglion neurons -> Spiral ganglion neurons | SEMA6A_PLXNA2 | prob 0.004214 | p 0
+- 3M: Spiral ganglion neurons -> Supporting cells | SEMA6A_PLXNA2 | prob 0.003288 | p 0
+- 3M: Spiral ganglion neurons -> Macrophages/Microglia | SEMA6A_PLXNA4 | prob 0.006302 | p 0
+- 3M: Spiral ganglion neurons -> Spiral ganglion neurons | SEMA6A_PLXNA4 | prob 0.01678 | p 0
+- 12M: Macrophages/Microglia -> Glia/Schwann | TGFB1_TGFBR1_TGFBR2 | prob 0.001638 | p 0
+- 12M: Macrophages/Microglia -> Macrophages/Microglia | TGFB1_TGFBR1_TGFBR2 | prob 0.01371 | p 0
+- 12M: Macrophages/Microglia -> Supporting cells | TGFB1_TGFBR1_TGFBR2 | prob 0.002779 | p 0
+- 12M: Fibrocytes -> Glia/Schwann | TGFB2_TGFBR1_TGFBR2 | prob 0.002321 | p 0.02
+- 12M: Fibrocytes -> Macrophages/Microglia | TGFB2_TGFBR1_TGFBR2 | prob 0.01929 | p 0
+- 12M: Glia/Schwann -> Macrophages/Microglia | TGFB2_TGFBR1_TGFBR2 | prob 0.007118 | p 0
+- 12M: Spiral ganglion neurons -> Macrophages/Microglia | TGFB2_TGFBR1_TGFBR2 | prob 0.01045 | p 0.01
+- 12M: Fibrocytes -> Supporting cells | TGFB2_TGFBR1_TGFBR2 | prob 0.003935 | p 0
+- 12M: Macrophages/Microglia -> Glia/Schwann | TGFB1_ACVR1_TGFBR1 | prob 0.002296 | p 0
+- 12M: Macrophages/Microglia -> Macrophages/Microglia | TGFB1_ACVR1_TGFBR1 | prob 0.007918 | p 0
+- 12M: Macrophages/Microglia -> Supporting cells | TGFB1_ACVR1_TGFBR1 | prob 0.002768 | p 0
+- 12M: Fibrocytes -> Glia/Schwann | TGFB2_ACVR1_TGFBR1 | prob 0.003645 | p 0
+- 12M: Fibrocytes -> Macrophages/Microglia | TGFB2_ACVR1_TGFBR1 | prob 0.01253 | p 0
+- 12M: Glia/Schwann -> Macrophages/Microglia | TGFB2_ACVR1_TGFBR1 | prob 0.004653 | p 0
+- 12M: Spiral ganglion neurons -> Macrophages/Microglia | TGFB2_ACVR1_TGFBR1 | prob 0.006026 | p 0.03
+- 12M: Fibrocytes -> Supporting cells | TGFB2_ACVR1_TGFBR1 | prob 0.004392 | p 0
+- 12M: Glia/Schwann -> Fibrocytes | BMP5_ACVR1_ACVR2A | prob 0.004453 | p 0
+- 12M: Supporting cells -> Fibrocytes | BMP5_ACVR1_ACVR2A | prob 0.00242 | p 0
+- 12M: Glia/Schwann -> Macrophages/Microglia | BMP5_ACVR1_ACVR2A | prob 0.004911 | p 0
+- 12M: Glia/Schwann -> Fibrocytes | BMP5_ACVR1_BMPR2 | prob 0.005771 | p 0.01
+- 12M: Glia/Schwann -> Glia/Schwann | BMP5_ACVR1_BMPR2 | prob 0.007572 | p 0
+- 12M: Glia/Schwann -> Macrophages/Microglia | BMP5_ACVR1_BMPR2 | prob 0.007091 | p 0.03
+- 12M: Glia/Schwann -> Supporting cells | BMP5_ACVR1_BMPR2 | prob 0.01013 | p 0
+- 12M: Supporting cells -> Supporting cells | BMP5_ACVR1_BMPR2 | prob 0.005518 | p 0
+- 12M: Glia/Schwann -> Fibrocytes | BMP5_BMPR1A_ACVR2A | prob 0.006184 | p 0
+- 12M: Supporting cells -> Fibrocytes | BMP5_BMPR1A_ACVR2A | prob 0.003364 | p 0
+- 12M: Glia/Schwann -> Outer hair cells | BMP5_BMPR1A_ACVR2A | prob 0.004208 | p 0.03
+- 12M: Glia/Schwann -> Fibrocytes | BMP5_BMPR1A_BMPR2 | prob 0.00801 | p 0
+- 12M: Glia/Schwann -> Supporting cells | BMP5_BMPR1A_BMPR2 | prob 0.01211 | p 0
+- 12M: Supporting cells -> Supporting cells | BMP5_BMPR1A_BMPR2 | prob 0.006603 | p 0
+- 12M: Glia/Schwann -> Fibrocytes | BMP5_BMPR1B_ACVR2A | prob 0.004343 | p 0
+- 12M: Supporting cells -> Fibrocytes | BMP5_BMPR1B_ACVR2A | prob 0.002361 | p 0
+- 12M: Glia/Schwann -> Outer hair cells | BMP5_BMPR1B_ACVR2A | prob 0.005575 | p 0
+- 12M: Supporting cells -> Outer hair cells | BMP5_BMPR1B_ACVR2A | prob 0.003031 | p 0
+- 12M: Glia/Schwann -> Fibrocytes | BMP5_BMPR1B_BMPR2 | prob 0.005629 | p 0
+- 12M: Glia/Schwann -> Glia/Schwann | BMP5_BMPR1B_BMPR2 | prob 0.008155 | p 0
+- 12M: Supporting cells -> Glia/Schwann | BMP5_BMPR1B_BMPR2 | prob 0.00444 | p 0
+- 12M: Glia/Schwann -> Inner hair cells | BMP5_BMPR1B_BMPR2 | prob 0.009962 | p 0
+- 12M: Supporting cells -> Inner hair cells | BMP5_BMPR1B_BMPR2 | prob 0.005428 | p 0
+- 12M: Glia/Schwann -> Outer hair cells | BMP5_BMPR1B_BMPR2 | prob 0.008477 | p 0
+- 12M: Supporting cells -> Outer hair cells | BMP5_BMPR1B_BMPR2 | prob 0.004616 | p 0
+- 12M: Fibrocytes -> Fibrocytes | BMP6_ACVR1_ACVR2A | prob 0.005702 | p 0
+- 12M: Fibrocytes -> Macrophages/Microglia | BMP6_ACVR1_ACVR2A | prob 0.006288 | p 0
+- 12M: Fibrocytes -> Fibrocytes | BMP6_ACVR1_BMPR2 | prob 0.007387 | p 0
+- 12M: Fibrocytes -> Glia/Schwann | BMP6_ACVR1_BMPR2 | prob 0.009687 | p 0
+- 12M: Fibrocytes -> Macrophages/Microglia | BMP6_ACVR1_BMPR2 | prob 0.009073 | p 0
+- 12M: Fibrocytes -> Supporting cells | BMP6_ACVR1_BMPR2 | prob 0.01295 | p 0
+- 12M: Fibrocytes -> Fibrocytes | BMP6_BMPR1A_ACVR2A | prob 0.007916 | p 0
+- 12M: Fibrocytes -> Outer hair cells | BMP6_BMPR1A_ACVR2A | prob 0.005389 | p 0
+- 12M: Fibrocytes -> Fibrocytes | BMP6_BMPR1A_BMPR2 | prob 0.01025 | p 0
+- 12M: Fibrocytes -> Glia/Schwann | BMP6_BMPR1A_BMPR2 | prob 0.01027 | p 0
+- 12M: Fibrocytes -> Inner hair cells | BMP6_BMPR1A_BMPR2 | prob 0.008031 | p 0
+- 12M: Fibrocytes -> Outer hair cells | BMP6_BMPR1A_BMPR2 | prob 0.008196 | p 0
+- 12M: Fibrocytes -> Supporting cells | BMP6_BMPR1A_BMPR2 | prob 0.01547 | p 0
+- 12M: Fibrocytes -> Fibrocytes | BMP6_BMPR1B_ACVR2A | prob 0.005562 | p 0
+- 12M: Fibrocytes -> Outer hair cells | BMP6_BMPR1B_ACVR2A | prob 0.007136 | p 0
+- 12M: Fibrocytes -> Fibrocytes | BMP6_BMPR1B_BMPR2 | prob 0.007206 | p 0
+- 12M: Fibrocytes -> Glia/Schwann | BMP6_BMPR1B_BMPR2 | prob 0.01043 | p 0
+- 12M: Fibrocytes -> Inner hair cells | BMP6_BMPR1B_BMPR2 | prob 0.01274 | p 0
+- 12M: Fibrocytes -> Outer hair cells | BMP6_BMPR1B_BMPR2 | prob 0.01084 | p 0
+- 12M: Fibrocytes -> Glia/Schwann | WNT5A_FZD3 | prob 0.0005363 | p 0
+- 12M: Supporting cells -> Glia/Schwann | WNT5A_FZD3 | prob 0.001463 | p 0
+- 12M: Fibrocytes -> Glia/Schwann | WNT5A_FZD6 | prob 0.0003499 | p 0
+- 12M: Supporting cells -> Glia/Schwann | WNT5A_FZD6 | prob 0.000955 | p 0
+- 12M: Spiral ganglion neurons -> Fibrocytes | NRG3_ERBB4 | prob 0.1804 | p 0
+- 12M: Spiral ganglion neurons -> Glia/Schwann | NRG3_ERBB4 | prob 0.1595 | p 0
+- 12M: Spiral ganglion neurons -> Inner hair cells | NRG3_ERBB4 | prob 0.1405 | p 0
+- 12M: Spiral ganglion neurons -> Macrophages/Microglia | NRG3_ERBB4 | prob 0.08473 | p 0
+- 12M: Spiral ganglion neurons -> Outer hair cells | NRG3_ERBB4 | prob 0.1306 | p 0
+- 12M: Spiral ganglion neurons -> Spiral ganglion neurons | NRG3_ERBB4 | prob 0.05692 | p 0
+- 12M: Spiral ganglion neurons -> Supporting cells | NRG3_ERBB4 | prob 0.2357 | p 0
+- 12M: Fibrocytes -> Fibrocytes | PDGFC_PDGFRA | prob 0.005996 | p 0
+- 12M: Fibrocytes -> Inner hair cells | PDGFC_PDGFRA | prob 0.003587 | p 0
+- 12M: Fibrocytes -> Outer hair cells | PDGFC_PDGFRA | prob 0.005885 | p 0
+- 12M: Fibrocytes -> Supporting cells | PDGFC_PDGFRA | prob 0.006312 | p 0
+- 12M: Spiral ganglion neurons -> Macrophages/Microglia | SPP1_ITGAV_ITGB1 | prob 0.006404 | p 0
+- 12M: Spiral ganglion neurons -> Supporting cells | SPP1_ITGAV_ITGB1 | prob 0.004614 | p 0.01
+- 12M: Spiral ganglion neurons -> Macrophages/Microglia | SPP1_ITGAV_ITGB5 | prob 0.007745 | p 0
+- 12M: Spiral ganglion neurons -> Macrophages/Microglia | SPP1_ITGA4_ITGB1 | prob 0.006887 | p 0
+- 12M: Spiral ganglion neurons -> Macrophages/Microglia | SPP1_ITGA9_ITGB1 | prob 0.007079 | p 0
+- 12M: Spiral ganglion neurons -> Fibrocytes | SPP1_ITGA8_ITGB1 | prob 0.00642 | p 0.01
+- 12M: Spiral ganglion neurons -> Supporting cells | SPP1_ITGA8_ITGB1 | prob 0.00649 | p 0.01
+- 12M: Macrophages/Microglia -> Fibrocytes | NAMPT_INSR | prob 0.003616 | p 0.01
+- 12M: Macrophages/Microglia -> Glia/Schwann | NAMPT_INSR | prob 0.007934 | p 0
+- 12M: Macrophages/Microglia -> Inner hair cells | NAMPT_INSR | prob 0.003521 | p 0.02
+- 12M: Macrophages/Microglia -> Macrophages/Microglia | NAMPT_INSR | prob 0.003522 | p 0.02
+- 12M: Macrophages/Microglia -> Outer hair cells | NAMPT_INSR | prob 0.003218 | p 0.02
+- 12M: Macrophages/Microglia -> Spiral ganglion neurons | NAMPT_INSR | prob 0.00224 | p 0.02
+- 12M: Macrophages/Microglia -> Supporting cells | NAMPT_INSR | prob 0.006685 | p 0.01
+- 12M: Supporting cells -> Fibrocytes | MDK_SDC2 | prob 0.002109 | p 0
+- 12M: Supporting cells -> Glia/Schwann | MDK_SDC2 | prob 0.001736 | p 0
+- 12M: Supporting cells -> Supporting cells | MDK_SDC2 | prob 0.0004816 | p 0
+- 12M: Supporting cells -> Glia/Schwann | MDK_PTPRZ1 | prob 0.01172 | p 0
+- 12M: Supporting cells -> Inner hair cells | MDK_PTPRZ1 | prob 0.004757 | p 0
+- 12M: Supporting cells -> Macrophages/Microglia | MDK_ITGA4_ITGB1 | prob 0.001884 | p 0
+- 12M: Supporting cells -> Macrophages/Microglia | MDK_ITGA6_ITGB1 | prob 0.001561 | p 0
+- 12M: Supporting cells -> Fibrocytes | MDK_LRP1 | prob 0.002098 | p 0
+- 12M: Supporting cells -> Glia/Schwann | MDK_LRP1 | prob 0.0009913 | p 0
+- 12M: Supporting cells -> Inner hair cells | MDK_LRP1 | prob 0.001093 | p 0
+- 12M: Supporting cells -> Macrophages/Microglia | MDK_LRP1 | prob 0.002418 | p 0
+- 12M: Supporting cells -> Supporting cells | MDK_LRP1 | prob 0.002155 | p 0
+- 12M: Supporting cells -> Fibrocytes | MDK_NCL | prob 0.0008464 | p 0
+- 12M: Supporting cells -> Glia/Schwann | MDK_NCL | prob 0.001356 | p 0
+- 12M: Supporting cells -> Inner hair cells | MDK_NCL | prob 0.001175 | p 0
+- 12M: Supporting cells -> Macrophages/Microglia | MDK_NCL | prob 0.001813 | p 0
+- 12M: Supporting cells -> Spiral ganglion neurons | MDK_NCL | prob 0.002081 | p 0
+- 12M: Supporting cells -> Supporting cells | MDK_NCL | prob 0.001362 | p 0
+- 12M: Supporting cells -> Inner hair cells | MDK_ALK | prob 0.008228 | p 0
+- 12M: Fibrocytes -> Glia/Schwann | PTN_PTPRZ1 | prob 0.2266 | p 0
+- 12M: Glia/Schwann -> Glia/Schwann | PTN_PTPRZ1 | prob 0.1975 | p 0
+- 12M: Inner hair cells -> Glia/Schwann | PTN_PTPRZ1 | prob 0.2207 | p 0
+- 12M: Macrophages/Microglia -> Glia/Schwann | PTN_PTPRZ1 | prob 0.2046 | p 0
+- 12M: Outer hair cells -> Glia/Schwann | PTN_PTPRZ1 | prob 0.2169 | p 0
+- 12M: Spiral ganglion neurons -> Glia/Schwann | PTN_PTPRZ1 | prob 0.2285 | p 0
+- 12M: Supporting cells -> Glia/Schwann | PTN_PTPRZ1 | prob 0.2755 | p 0
+- 12M: Fibrocytes -> Inner hair cells | PTN_PTPRZ1 | prob 0.1057 | p 0
+- 12M: Glia/Schwann -> Inner hair cells | PTN_PTPRZ1 | prob 0.09027 | p 0
+- 12M: Inner hair cells -> Inner hair cells | PTN_PTPRZ1 | prob 0.1024 | p 0
+- 12M: Macrophages/Microglia -> Inner hair cells | PTN_PTPRZ1 | prob 0.09394 | p 0
+- 12M: Outer hair cells -> Inner hair cells | PTN_PTPRZ1 | prob 0.1004 | p 0
+- 12M: Spiral ganglion neurons -> Inner hair cells | PTN_PTPRZ1 | prob 0.1066 | p 0
+- 12M: Supporting cells -> Inner hair cells | PTN_PTPRZ1 | prob 0.1329 | p 0
+- 12M: Fibrocytes -> Fibrocytes | PTN_SDC2 | prob 0.04963 | p 0
+- 12M: Glia/Schwann -> Fibrocytes | PTN_SDC2 | prob 0.04202 | p 0
+- 12M: Inner hair cells -> Fibrocytes | PTN_SDC2 | prob 0.04803 | p 0
+- 12M: Macrophages/Microglia -> Fibrocytes | PTN_SDC2 | prob 0.04383 | p 0
+- 12M: Outer hair cells -> Fibrocytes | PTN_SDC2 | prob 0.04704 | p 0
+- 12M: Spiral ganglion neurons -> Fibrocytes | PTN_SDC2 | prob 0.05012 | p 0
+- 12M: Supporting cells -> Fibrocytes | PTN_SDC2 | prob 0.06346 | p 0
+- 12M: Fibrocytes -> Glia/Schwann | PTN_SDC2 | prob 0.04121 | p 0.03
+- 12M: Inner hair cells -> Glia/Schwann | PTN_SDC2 | prob 0.03987 | p 0.03
+- 12M: Outer hair cells -> Glia/Schwann | PTN_SDC2 | prob 0.03904 | p 0.03
+- 12M: Spiral ganglion neurons -> Glia/Schwann | PTN_SDC2 | prob 0.04162 | p 0.03
+- 12M: Supporting cells -> Glia/Schwann | PTN_SDC2 | prob 0.05283 | p 0
+- 12M: Fibrocytes -> Macrophages/Microglia | PTN_SDC3 | prob 0.01848 | p 0.03
+- 12M: Glia/Schwann -> Macrophages/Microglia | PTN_SDC3 | prob 0.01557 | p 0.03
+- 12M: Inner hair cells -> Macrophages/Microglia | PTN_SDC3 | prob 0.01786 | p 0.03
+- 12M: Macrophages/Microglia -> Macrophages/Microglia | PTN_SDC3 | prob 0.01626 | p 0.03
+- 12M: Outer hair cells -> Macrophages/Microglia | PTN_SDC3 | prob 0.01748 | p 0.03
+- 12M: Spiral ganglion neurons -> Macrophages/Microglia | PTN_SDC3 | prob 0.01867 | p 0.02
+- 12M: Supporting cells -> Macrophages/Microglia | PTN_SDC3 | prob 0.02385 | p 0.02
+- 12M: Supporting cells -> Macrophages/Microglia | PTN_NCL | prob 0.05505 | p 0.02
+- 12M: Supporting cells -> Supporting cells | PTN_NCL | prob 0.04189 | p 0
+- 12M: Fibrocytes -> Inner hair cells | PTN_ALK | prob 0.1702 | p 0
+- 12M: Glia/Schwann -> Inner hair cells | PTN_ALK | prob 0.1469 | p 0
+- 12M: Inner hair cells -> Inner hair cells | PTN_ALK | prob 0.1654 | p 0
+- 12M: Macrophages/Microglia -> Inner hair cells | PTN_ALK | prob 0.1525 | p 0
+- 12M: Outer hair cells -> Inner hair cells | PTN_ALK | prob 0.1623 | p 0
+- 12M: Spiral ganglion neurons -> Inner hair cells | PTN_ALK | prob 0.1716 | p 0
+- 12M: Supporting cells -> Inner hair cells | PTN_ALK | prob 0.2102 | p 0
+- 12M: Glia/Schwann -> Supporting cells | SEMA3A_NRP1_PLXNA2 | prob 0.008154 | p 0
+- 12M: Inner hair cells -> Supporting cells | SEMA3A_NRP1_PLXNA2 | prob 0.01265 | p 0
+- 12M: Outer hair cells -> Supporting cells | SEMA3A_NRP1_PLXNA2 | prob 0.01414 | p 0
+- 12M: Glia/Schwann -> Macrophages/Microglia | SEMA3A_NRP1_PLXNA4 | prob 0.01025 | p 0
+- 12M: Inner hair cells -> Macrophages/Microglia | SEMA3A_NRP1_PLXNA4 | prob 0.01588 | p 0
+- 12M: Outer hair cells -> Macrophages/Microglia | SEMA3A_NRP1_PLXNA4 | prob 0.01774 | p 0
+- 12M: Macrophages/Microglia -> Glia/Schwann | GRN_SORT1 | prob 0.006895 | p 0
+- 12M: Macrophages/Microglia -> Inner hair cells | GRN_SORT1 | prob 0.005994 | p 0
+- 12M: Macrophages/Microglia -> Outer hair cells | GRN_SORT1 | prob 0.00538 | p 0
+- 12M: Fibrocytes -> Macrophages/Microglia | FN1_ITGA4_ITGB1 | prob 0.00164 | p 0
+- 12M: Glia/Schwann -> Macrophages/Microglia | FN1_ITGA4_ITGB1 | prob 0.003925 | p 0
+- 12M: Inner hair cells -> Macrophages/Microglia | FN1_ITGA4_ITGB1 | prob 0.005629 | p 0
+- 12M: Outer hair cells -> Macrophages/Microglia | FN1_ITGA4_ITGB1 | prob 0.00313 | p 0
+- 12M: Spiral ganglion neurons -> Macrophages/Microglia | FN1_ITGA4_ITGB1 | prob 0.005888 | p 0
+- 12M: Supporting cells -> Macrophages/Microglia | FN1_ITGA4_ITGB1 | prob 0.0169 | p 0
+- 12M: Supporting cells -> Fibrocytes | FN1_ITGA8_ITGB1 | prob 0.01577 | p 0
+- 12M: Supporting cells -> Supporting cells | FN1_ITGA8_ITGB1 | prob 0.01594 | p 0
+- 12M: Fibrocytes -> Macrophages/Microglia | LAMA2_ITGA6_ITGB1 | prob 0.006927 | p 0
+- 12M: Glia/Schwann -> Macrophages/Microglia | LAMA2_ITGA6_ITGB1 | prob 0.002602 | p 0
+- 12M: Spiral ganglion neurons -> Macrophages/Microglia | LAMA2_ITGA6_ITGB1 | prob 0.002046 | p 0
+- 12M: Supporting cells -> Macrophages/Microglia | LAMA2_ITGA6_ITGB1 | prob 0.006171 | p 0
+- 12M: Supporting cells -> Macrophages/Microglia | LAMA4_ITGA6_ITGB1 | prob 0.002726 | p 0
+- 12M: Inner hair cells -> Macrophages/Microglia | LAMA5_ITGA6_ITGB1 | prob 0.00278 | p 0
+- 12M: Outer hair cells -> Macrophages/Microglia | LAMA5_ITGA6_ITGB1 | prob 0.004298 | p 0
+- 12M: Glia/Schwann -> Macrophages/Microglia | LAMB1_ITGA6_ITGB1 | prob 0.00315 | p 0
+- 12M: Supporting cells -> Macrophages/Microglia | LAMB2_ITGA6_ITGB1 | prob 0.001931 | p 0
+- 12M: Fibrocytes -> Macrophages/Microglia | LAMC1_ITGA6_ITGB1 | prob 0.003538 | p 0
+- 12M: Glia/Schwann -> Macrophages/Microglia | LAMC1_ITGA6_ITGB1 | prob 0.003385 | p 0
+- 12M: Supporting cells -> Macrophages/Microglia | LAMC1_ITGA6_ITGB1 | prob 0.004217 | p 0
+- 12M: Supporting cells -> Macrophages/Microglia | LAMC3_ITGA6_ITGB1 | prob 0.002968 | p 0
+- 12M: Glia/Schwann -> Macrophages/Microglia | COL4A3_ITGA9_ITGB1 | prob 0.004976 | p 0
+- 12M: Glia/Schwann -> Macrophages/Microglia | COL4A4_ITGA9_ITGB1 | prob 0.004946 | p 0
+- 12M: Fibrocytes -> Macrophages/Microglia | COL4A5_ITGA9_ITGB1 | prob 0.006735 | p 0
+- 12M: Glia/Schwann -> Macrophages/Microglia | COL4A5_ITGA9_ITGB1 | prob 0.001882 | p 0
+- 12M: Glia/Schwann -> Macrophages/Microglia | COL9A3_ITGA9_ITGB1 | prob 0.004055 | p 0
+- 12M: Fibrocytes -> Macrophages/Microglia | LAMA2_ITGA9_ITGB1 | prob 0.008585 | p 0
+- 12M: Glia/Schwann -> Macrophages/Microglia | LAMA2_ITGA9_ITGB1 | prob 0.003229 | p 0
+- 12M: Spiral ganglion neurons -> Macrophages/Microglia | LAMA2_ITGA9_ITGB1 | prob 0.002539 | p 0
+- 12M: Supporting cells -> Macrophages/Microglia | LAMA2_ITGA9_ITGB1 | prob 0.00765 | p 0
+- 12M: Supporting cells -> Macrophages/Microglia | LAMA4_ITGA9_ITGB1 | prob 0.003382 | p 0
+- 12M: Inner hair cells -> Macrophages/Microglia | LAMA5_ITGA9_ITGB1 | prob 0.003449 | p 0
+- 12M: Outer hair cells -> Macrophages/Microglia | LAMA5_ITGA9_ITGB1 | prob 0.00533 | p 0
+- 12M: Glia/Schwann -> Macrophages/Microglia | LAMB1_ITGA9_ITGB1 | prob 0.003908 | p 0
+- 12M: Supporting cells -> Macrophages/Microglia | LAMB2_ITGA9_ITGB1 | prob 0.002396 | p 0
+- 12M: Fibrocytes -> Macrophages/Microglia | LAMC1_ITGA9_ITGB1 | prob 0.004389 | p 0
+- 12M: Glia/Schwann -> Macrophages/Microglia | LAMC1_ITGA9_ITGB1 | prob 0.004199 | p 0
+- 12M: Supporting cells -> Macrophages/Microglia | LAMC1_ITGA9_ITGB1 | prob 0.00523 | p 0
+- 12M: Supporting cells -> Macrophages/Microglia | LAMC3_ITGA9_ITGB1 | prob 0.003682 | p 0
+- 12M: Supporting cells -> Macrophages/Microglia | FN1_ITGAV_ITGB1 | prob 0.01573 | p 0
+- 12M: Supporting cells -> Supporting cells | FN1_ITGAV_ITGB1 | prob 0.01136 | p 0
+- 12M: Supporting cells -> Supporting cells | FN1_ITGAV_ITGB8 | prob 0.01222 | p 0
+- 12M: Fibrocytes -> Supporting cells | LAMA2_ITGAV_ITGB8 | prob 0.006024 | p 0
+- 12M: Supporting cells -> Supporting cells | LAMA2_ITGAV_ITGB8 | prob 0.005366 | p 0
+- 12M: Supporting cells -> Supporting cells | LAMA4_ITGAV_ITGB8 | prob 0.002369 | p 0
+- 12M: Inner hair cells -> Supporting cells | LAMA5_ITGAV_ITGB8 | prob 0.002416 | p 0
+- 12M: Outer hair cells -> Supporting cells | LAMA5_ITGAV_ITGB8 | prob 0.003737 | p 0
+- 12M: Glia/Schwann -> Supporting cells | LAMB1_ITGAV_ITGB8 | prob 0.002738 | p 0
+- 12M: Supporting cells -> Supporting cells | LAMB2_ITGAV_ITGB8 | prob 0.001678 | p 0
+- 12M: Supporting cells -> Supporting cells | LAMC1_ITGAV_ITGB8 | prob 0.003666 | p 0
+- 12M: Supporting cells -> Supporting cells | LAMC3_ITGAV_ITGB8 | prob 0.00258 | p 0
+- 12M: Glia/Schwann -> Supporting cells | COL4A3_ITGAV_ITGB8 | prob 0.003488 | p 0
+- 12M: Glia/Schwann -> Supporting cells | COL4A4_ITGAV_ITGB8 | prob 0.003467 | p 0
+- 12M: Fibrocytes -> Supporting cells | COL4A5_ITGAV_ITGB8 | prob 0.004723 | p 0
+- 12M: Glia/Schwann -> Supporting cells | COL9A3_ITGAV_ITGB8 | prob 0.002841 | p 0
+- 12M: Glia/Schwann -> Fibrocytes | AGRN_DAG1 | prob 0.00275 | p 0
+- 12M: Glia/Schwann -> Glia/Schwann | AGRN_DAG1 | prob 0.002772 | p 0
+- 12M: Glia/Schwann -> Supporting cells | AGRN_DAG1 | prob 0.001611 | p 0
+- 12M: Fibrocytes -> Fibrocytes | LAMA2_DAG1 | prob 0.004632 | p 0.01
+- 12M: Supporting cells -> Fibrocytes | LAMA2_DAG1 | prob 0.004126 | p 0.01
+- 12M: Fibrocytes -> Glia/Schwann | LAMA2_DAG1 | prob 0.004668 | p 0.01
+- 12M: Supporting cells -> Fibrocytes | LAMA4_DAG1 | prob 0.00182 | p 0
+- 12M: Supporting cells -> Glia/Schwann | LAMA4_DAG1 | prob 0.001835 | p 0
+- 12M: Supporting cells -> Supporting cells | LAMA4_DAG1 | prob 0.001066 | p 0
+- 12M: Inner hair cells -> Fibrocytes | LAMA5_DAG1 | prob 0.001856 | p 0
+- 12M: Outer hair cells -> Fibrocytes | LAMA5_DAG1 | prob 0.002872 | p 0
+- 12M: Inner hair cells -> Glia/Schwann | LAMA5_DAG1 | prob 0.001871 | p 0
+- 12M: Outer hair cells -> Glia/Schwann | LAMA5_DAG1 | prob 0.002894 | p 0
+- 12M: Inner hair cells -> Supporting cells | LAMA5_DAG1 | prob 0.001087 | p 0
+- 12M: Outer hair cells -> Supporting cells | LAMA5_DAG1 | prob 0.001682 | p 0
+- 12M: Glia/Schwann -> Fibrocytes | LAMB1_DAG1 | prob 0.002104 | p 0
+- 12M: Glia/Schwann -> Glia/Schwann | LAMB1_DAG1 | prob 0.00212 | p 0
+- 12M: Glia/Schwann -> Supporting cells | LAMB1_DAG1 | prob 0.001232 | p 0
+- 12M: Supporting cells -> Fibrocytes | LAMB2_DAG1 | prob 0.001289 | p 0
+- 12M: Supporting cells -> Glia/Schwann | LAMB2_DAG1 | prob 0.001299 | p 0
+- 12M: Supporting cells -> Supporting cells | LAMB2_DAG1 | prob 0.0007545 | p 0
+- 12M: Supporting cells -> Fibrocytes | LAMC1_DAG1 | prob 0.002817 | p 0.01
+- 12M: Supporting cells -> Fibrocytes | LAMC3_DAG1 | prob 0.001982 | p 0
+- 12M: Supporting cells -> Glia/Schwann | LAMC3_DAG1 | prob 0.001997 | p 0
+- 12M: Supporting cells -> Supporting cells | LAMC3_DAG1 | prob 0.00116 | p 0
+- 12M: Fibrocytes -> Macrophages/Microglia | APP_CD74 | prob 0.1437 | p 0
+- 12M: Glia/Schwann -> Macrophages/Microglia | APP_CD74 | prob 0.1143 | p 0
+- 12M: Inner hair cells -> Macrophages/Microglia | APP_CD74 | prob 0.148 | p 0
+- 12M: Macrophages/Microglia -> Macrophages/Microglia | APP_CD74 | prob 0.138 | p 0
+- 12M: Outer hair cells -> Macrophages/Microglia | APP_CD74 | prob 0.1514 | p 0
+- 12M: Spiral ganglion neurons -> Macrophages/Microglia | APP_CD74 | prob 0.1216 | p 0
+- 12M: Supporting cells -> Macrophages/Microglia | APP_CD74 | prob 0.1518 | p 0
+- 12M: Fibrocytes -> Fibrocytes | CADM1_CADM1 | prob 0.003893 | p 0
+- 12M: Glia/Schwann -> Fibrocytes | CADM1_CADM1 | prob 0.00285 | p 0
+- 12M: Macrophages/Microglia -> Fibrocytes | CADM1_CADM1 | prob 0.003232 | p 0
+- 12M: Spiral ganglion neurons -> Fibrocytes | CADM1_CADM1 | prob 0.006208 | p 0
+- 12M: Fibrocytes -> Glia/Schwann | CADM1_CADM1 | prob 0.00285 | p 0
+- 12M: Glia/Schwann -> Glia/Schwann | CADM1_CADM1 | prob 0.002085 | p 0
+- 12M: Macrophages/Microglia -> Glia/Schwann | CADM1_CADM1 | prob 0.002365 | p 0
+- 12M: Spiral ganglion neurons -> Glia/Schwann | CADM1_CADM1 | prob 0.004547 | p 0
+- 12M: Fibrocytes -> Macrophages/Microglia | CADM1_CADM1 | prob 0.003232 | p 0
+- 12M: Glia/Schwann -> Macrophages/Microglia | CADM1_CADM1 | prob 0.002365 | p 0
+- 12M: Spiral ganglion neurons -> Macrophages/Microglia | CADM1_CADM1 | prob 0.005156 | p 0
+- 12M: Fibrocytes -> Spiral ganglion neurons | CADM1_CADM1 | prob 0.006208 | p 0
+- 12M: Glia/Schwann -> Spiral ganglion neurons | CADM1_CADM1 | prob 0.004547 | p 0
+- 12M: Macrophages/Microglia -> Spiral ganglion neurons | CADM1_CADM1 | prob 0.005156 | p 0
+- 12M: Spiral ganglion neurons -> Spiral ganglion neurons | CADM1_CADM1 | prob 0.009885 | p 0
+- 12M: Macrophages/Microglia -> Macrophages/Microglia | PTPRC_MRC1 | prob 0.08828 | p 0
+- 12M: Glia/Schwann -> Glia/Schwann | CDH1_CDH1 | prob 0.005327 | p 0
+- 12M: Supporting cells -> Fibrocytes | CLDN11_CLDN11 | prob 0.003449 | p 0.04
+- 12M: Fibrocytes -> Supporting cells | CLDN11_CLDN11 | prob 0.003449 | p 0.04
+- 12M: Supporting cells -> Supporting cells | CLDN11_CLDN11 | prob 0.003788 | p 0
+- 12M: Inner hair cells -> Spiral ganglion neurons | NFASC_CNTN1_CNTNAP1 | prob 0.01977 | p 0
+- 12M: Outer hair cells -> Spiral ganglion neurons | NFASC_CNTN1_CNTNAP1 | prob 0.001507 | p 0
+- 12M: Spiral ganglion neurons -> Spiral ganglion neurons | NFASC_CNTN1_CNTNAP1 | prob 0.009304 | p 0
+- 12M: Glia/Schwann -> Fibrocytes | EFNA5_EPHA3 | prob 0.03387 | p 0
+- 12M: Glia/Schwann -> Glia/Schwann | EFNA5_EPHA3 | prob 0.03358 | p 0
+- 12M: Fibrocytes -> Inner hair cells | EFNA5_EPHA3 | prob 0.01594 | p 0.04
+- 12M: Glia/Schwann -> Inner hair cells | EFNA5_EPHA3 | prob 0.03907 | p 0
+- 12M: Glia/Schwann -> Macrophages/Microglia | EFNA5_EPHA3 | prob 0.02704 | p 0
+- 12M: Glia/Schwann -> Outer hair cells | EFNA5_EPHA3 | prob 0.03988 | p 0
+- 12M: Glia/Schwann -> Spiral ganglion neurons | EFNA5_EPHA3 | prob 0.03223 | p 0
+- 12M: Fibrocytes -> Supporting cells | EFNA5_EPHA3 | prob 0.05589 | p 0
+- 12M: Glia/Schwann -> Supporting cells | EFNA5_EPHA3 | prob 0.1294 | p 0
+- 12M: Outer hair cells -> Supporting cells | EFNA5_EPHA3 | prob 0.02479 | p 0.04
+- 12M: Fibrocytes -> Glia/Schwann | EFNA5_EPHA4 | prob 0.007413 | p 0
+- 12M: Glia/Schwann -> Glia/Schwann | EFNA5_EPHA4 | prob 0.0184 | p 0
+- 12M: Fibrocytes -> Inner hair cells | EFNA5_EPHA4 | prob 0.006049 | p 0
+- 12M: Glia/Schwann -> Inner hair cells | EFNA5_EPHA4 | prob 0.01505 | p 0
+- 12M: Fibrocytes -> Supporting cells | EFNA5_EPHA4 | prob 0.008942 | p 0
+- 12M: Glia/Schwann -> Supporting cells | EFNA5_EPHA4 | prob 0.02215 | p 0
+- 12M: Fibrocytes -> Glia/Schwann | EFNA5_EPHA5 | prob 0.03638 | p 0
+- 12M: Glia/Schwann -> Glia/Schwann | EFNA5_EPHA5 | prob 0.08659 | p 0
+- 12M: Outer hair cells -> Glia/Schwann | EFNA5_EPHA5 | prob 0.01595 | p 0
+- 12M: Fibrocytes -> Inner hair cells | EFNA5_EPHA5 | prob 0.006392 | p 0.03
+- 12M: Glia/Schwann -> Inner hair cells | EFNA5_EPHA5 | prob 0.01589 | p 0
+- 12M: Fibrocytes -> Spiral ganglion neurons | EFNA5_EPHA5 | prob 0.00919 | p 0.01
+- 12M: Glia/Schwann -> Spiral ganglion neurons | EFNA5_EPHA5 | prob 0.02276 | p 0
+- 12M: Fibrocytes -> Supporting cells | EFNA5_EPHA5 | prob 0.01557 | p 0
+- 12M: Glia/Schwann -> Supporting cells | EFNA5_EPHA5 | prob 0.03819 | p 0
+- 12M: Fibrocytes -> Fibrocytes | EFNA5_EPHA7 | prob 0.06366 | p 0
+- 12M: Glia/Schwann -> Fibrocytes | EFNA5_EPHA7 | prob 0.1458 | p 0
+- 12M: Outer hair cells -> Fibrocytes | EFNA5_EPHA7 | prob 0.02836 | p 0
+- 12M: Fibrocytes -> Glia/Schwann | EFNA5_EPHA7 | prob 0.05672 | p 0
+- 12M: Glia/Schwann -> Glia/Schwann | EFNA5_EPHA7 | prob 0.1312 | p 0
+- 12M: Outer hair cells -> Glia/Schwann | EFNA5_EPHA7 | prob 0.02517 | p 0.01
+- 12M: Fibrocytes -> Inner hair cells | EFNA5_EPHA7 | prob 0.01252 | p 0.02
+- 12M: Glia/Schwann -> Inner hair cells | EFNA5_EPHA7 | prob 0.03086 | p 0
+- 12M: Glia/Schwann -> Outer hair cells | EFNA5_EPHA7 | prob 0.02603 | p 0
+- 12M: Fibrocytes -> Spiral ganglion neurons | EFNA5_EPHA7 | prob 0.01421 | p 0.03
+- 12M: Glia/Schwann -> Spiral ganglion neurons | EFNA5_EPHA7 | prob 0.03492 | p 0
+- 12M: Fibrocytes -> Supporting cells | EFNA5_EPHA7 | prob 0.03295 | p 0
+- 12M: Glia/Schwann -> Supporting cells | EFNA5_EPHA7 | prob 0.0788 | p 0
+- 12M: Fibrocytes -> Spiral ganglion neurons | EFNA5_EPHB2 | prob 0.008042 | p 0
+- 12M: Glia/Schwann -> Spiral ganglion neurons | EFNA5_EPHB2 | prob 0.01995 | p 0
+- 12M: Outer hair cells -> Spiral ganglion neurons | EFNA5_EPHB2 | prob 0.003469 | p 0
+- 12M: Glia/Schwann -> Glia/Schwann | EFNB2_EPHA4 | prob 0.002033 | p 0
+- 12M: Glia/Schwann -> Inner hair cells | EFNB2_EPHA4 | prob 0.001658 | p 0
+- 12M: Glia/Schwann -> Supporting cells | EFNB2_EPHA4 | prob 0.002455 | p 0
+- 12M: Glia/Schwann -> Spiral ganglion neurons | EFNB2_EPHB2 | prob 0.002207 | p 0
+- 12M: Glia/Schwann -> Glia/Schwann | F11R_F11R | prob 0.001034 | p 0
+- 12M: Macrophages/Microglia -> Glia/Schwann | F11R_F11R | prob 0.00196 | p 0
+- 12M: Glia/Schwann -> Macrophages/Microglia | F11R_F11R | prob 0.00196 | p 0
+- 12M: Macrophages/Microglia -> Macrophages/Microglia | F11R_F11R | prob 0.003713 | p 0
+- 12M: Spiral ganglion neurons -> Spiral ganglion neurons | L1CAM_L1CAM | prob 0.001131 | p 0
+- 12M: Fibrocytes -> Fibrocytes | MPZL1_MPZL1 | prob 0.007883 | p 0
+- 12M: Glia/Schwann -> Fibrocytes | MPZL1_MPZL1 | prob 0.005003 | p 0
+- 12M: Supporting cells -> Fibrocytes | MPZL1_MPZL1 | prob 0.002222 | p 0
+- 12M: Fibrocytes -> Glia/Schwann | MPZL1_MPZL1 | prob 0.005003 | p 0
+- 12M: Glia/Schwann -> Glia/Schwann | MPZL1_MPZL1 | prob 0.003172 | p 0.02
+- 12M: Fibrocytes -> Supporting cells | MPZL1_MPZL1 | prob 0.002222 | p 0
+- 12M: Spiral ganglion neurons -> Fibrocytes | NCAM1_FGFR1 | prob 0.02138 | p 0
+- 12M: Spiral ganglion neurons -> Glia/Schwann | NCAM1_FGFR1 | prob 0.00785 | p 0
+- 12M: Spiral ganglion neurons -> Inner hair cells | NCAM1_FGFR1 | prob 0.00383 | p 0
+- 12M: Spiral ganglion neurons -> Supporting cells | NCAM1_FGFR1 | prob 0.00809 | p 0
+- 12M: Spiral ganglion neurons -> Spiral ganglion neurons | NCAM1_NCAM1 | prob 0.01269 | p 0
+- 12M: Spiral ganglion neurons -> Spiral ganglion neurons | NCAM1_L1CAM | prob 0.003799 | p 0
+- 12M: Outer hair cells -> Outer hair cells | NEGR1_NEGR1 | prob 0.0141 | p 0
+- 12M: Supporting cells -> Outer hair cells | NEGR1_NEGR1 | prob 0.01286 | p 0
+- 12M: Outer hair cells -> Supporting cells | NEGR1_NEGR1 | prob 0.01286 | p 0
+- 12M: Supporting cells -> Supporting cells | NEGR1_NEGR1 | prob 0.01172 | p 0
+- 12M: Fibrocytes -> Spiral ganglion neurons | LRRC4C_NTNG1 | prob 0.02521 | p 0
+- 12M: Spiral ganglion neurons -> Spiral ganglion neurons | LRRC4C_NTNG1 | prob 0.04483 | p 0
+- 12M: Supporting cells -> Spiral ganglion neurons | LRRC4C_NTNG1 | prob 0.0111 | p 0
+- 12M: Inner hair cells -> Glia/Schwann | NRXN1_NLGN1 | prob 0.06498 | p 0
+- 12M: Spiral ganglion neurons -> Glia/Schwann | NRXN1_NLGN1 | prob 0.07606 | p 0
+- 12M: Supporting cells -> Glia/Schwann | NRXN1_NLGN1 | prob 0.007552 | p 0
+- 12M: Inner hair cells -> Supporting cells | NRXN1_NLGN2 | prob 0.008971 | p 0
+- 12M: Spiral ganglion neurons -> Supporting cells | NRXN1_NLGN2 | prob 0.01061 | p 0
+- 12M: Supporting cells -> Supporting cells | NRXN1_NLGN2 | prob 0.0009902 | p 0
+- 12M: Spiral ganglion neurons -> Glia/Schwann | NRXN2_NLGN1 | prob 0.009392 | p 0
+- 12M: Spiral ganglion neurons -> Supporting cells | NRXN2_NLGN2 | prob 0.001233 | p 0
+- 12M: Fibrocytes -> Glia/Schwann | NRXN3_NLGN1 | prob 0.01736 | p 0
+- 12M: Glia/Schwann -> Glia/Schwann | NRXN3_NLGN1 | prob 0.008918 | p 0
+- 12M: Supporting cells -> Glia/Schwann | NRXN3_NLGN1 | prob 0.006873 | p 0
+- 12M: Fibrocytes -> Supporting cells | NRXN3_NLGN2 | prob 0.002295 | p 0
+- 12M: Glia/Schwann -> Supporting cells | NRXN3_NLGN2 | prob 0.001171 | p 0
+- 12M: Supporting cells -> Supporting cells | NRXN3_NLGN2 | prob 0.0009006 | p 0
+- 12M: Glia/Schwann -> Glia/Schwann | OCLN_OCLN | prob 0.001676 | p 0
+- 12M: Fibrocytes -> Fibrocytes | PTPRM_PTPRM | prob 0.01069 | p 0
+- 12M: Supporting cells -> Fibrocytes | PTPRM_PTPRM | prob 0.009599 | p 0
+- 12M: Fibrocytes -> Supporting cells | PTPRM_PTPRM | prob 0.009599 | p 0
+- 12M: Macrophages/Microglia -> Glia/Schwann | SEMA4D_PLXNB1 | prob 0.001163 | p 0
+- 12M: Macrophages/Microglia -> Macrophages/Microglia | SEMA4D_PLXNB2 | prob 0.001733 | p 0
+- 12M: Macrophages/Microglia -> Macrophages/Microglia | ITGA4_ITGB1_VCAM1 | prob 0.002725 | p 0
+- 12M: Macrophages/Microglia -> Macrophages/Microglia | ITGA9_ITGB1_VCAM1 | prob 0.002802 | p 0
+- 24M: Spiral ganglion neurons -> Fibrocytes | TGFB2_TGFBR1_TGFBR2 | prob 0.002577 | p 0.01
+- 24M: Spiral ganglion neurons -> Macrophages/Microglia | TGFB2_TGFBR1_TGFBR2 | prob 0.008683 | p 0
+- 24M: Spiral ganglion neurons -> Supporting cells | TGFB2_TGFBR1_TGFBR2 | prob 0.003011 | p 0.01
+- 24M: Spiral ganglion neurons -> Fibrocytes | TGFB2_ACVR1_TGFBR1 | prob 0.002757 | p 0
+- 24M: Spiral ganglion neurons -> Macrophages/Microglia | TGFB2_ACVR1_TGFBR1 | prob 0.005368 | p 0.01
+- 24M: Spiral ganglion neurons -> Supporting cells | TGFB2_ACVR1_TGFBR1 | prob 0.002951 | p 0.02
+- 24M: Fibrocytes -> Fibrocytes | BMP5_ACVR1_ACVR2A | prob 0.004244 | p 0
+- 24M: Glia/Schwann -> Fibrocytes | BMP5_ACVR1_ACVR2A | prob 0.005241 | p 0
+- 24M: Macrophages/Microglia -> Fibrocytes | BMP5_ACVR1_ACVR2A | prob 0.003694 | p 0.04
+- 24M: Supporting cells -> Fibrocytes | BMP5_ACVR1_ACVR2A | prob 0.00362 | p 0.01
+- 24M: Glia/Schwann -> Glia/Schwann | BMP5_ACVR1_BMPR2 | prob 0.007069 | p 0.04
+- 24M: Glia/Schwann -> Supporting cells | BMP5_ACVR1_BMPR2 | prob 0.007665 | p 0
+- 24M: Fibrocytes -> Fibrocytes | BMP5_BMPR1A_ACVR2A | prob 0.005793 | p 0
+- 24M: Glia/Schwann -> Fibrocytes | BMP5_BMPR1A_ACVR2A | prob 0.00715 | p 0
+- 24M: Macrophages/Microglia -> Fibrocytes | BMP5_BMPR1A_ACVR2A | prob 0.005044 | p 0.03
+- 24M: Supporting cells -> Fibrocytes | BMP5_BMPR1A_ACVR2A | prob 0.004942 | p 0
+- 24M: Glia/Schwann -> Fibrocytes | BMP5_BMPR1A_BMPR2 | prob 0.008635 | p 0.01
+- 24M: Glia/Schwann -> Supporting cells | BMP5_BMPR1A_BMPR2 | prob 0.009585 | p 0
+- 24M: Glia/Schwann -> Inner hair cells | BMP5_BMPR1B_ACVR2A | prob 0.004 | p 0.01
+- 24M: Macrophages/Microglia -> Inner hair cells | BMP5_BMPR1B_ACVR2A | prob 0.002819 | p 0.03
+- 24M: Fibrocytes -> Outer hair cells | BMP5_BMPR1B_ACVR2A | prob 0.004963 | p 0.01
+- 24M: Glia/Schwann -> Outer hair cells | BMP5_BMPR1B_ACVR2A | prob 0.006127 | p 0
+- 24M: Macrophages/Microglia -> Outer hair cells | BMP5_BMPR1B_ACVR2A | prob 0.004321 | p 0.02
+- 24M: Supporting cells -> Outer hair cells | BMP5_BMPR1B_ACVR2A | prob 0.004234 | p 0.03
+- 24M: Fibrocytes -> Glia/Schwann | BMP5_BMPR1B_BMPR2 | prob 0.005121 | p 0
+- 24M: Glia/Schwann -> Glia/Schwann | BMP5_BMPR1B_BMPR2 | prob 0.006321 | p 0
+- 24M: Macrophages/Microglia -> Glia/Schwann | BMP5_BMPR1B_BMPR2 | prob 0.004458 | p 0
+- 24M: Supporting cells -> Glia/Schwann | BMP5_BMPR1B_BMPR2 | prob 0.004368 | p 0
+- 24M: Fibrocytes -> Inner hair cells | BMP5_BMPR1B_BMPR2 | prob 0.00657 | p 0.02
+- 24M: Glia/Schwann -> Inner hair cells | BMP5_BMPR1B_BMPR2 | prob 0.008108 | p 0.01
+- 24M: Macrophages/Microglia -> Inner hair cells | BMP5_BMPR1B_BMPR2 | prob 0.005721 | p 0.03
+- 24M: Supporting cells -> Inner hair cells | BMP5_BMPR1B_BMPR2 | prob 0.005606 | p 0.04
+- 24M: Outer hair cells -> Fibrocytes | BMP6_ACVR1_ACVR2A | prob 0.002817 | p 0
+- 24M: Outer hair cells -> Fibrocytes | BMP6_BMPR1A_ACVR2A | prob 0.003847 | p 0
+- 24M: Outer hair cells -> Inner hair cells | BMP6_BMPR1B_ACVR2A | prob 0.002149 | p 0.01
+- 24M: Outer hair cells -> Outer hair cells | BMP6_BMPR1B_ACVR2A | prob 0.003295 | p 0
+- 24M: Outer hair cells -> Glia/Schwann | BMP6_BMPR1B_BMPR2 | prob 0.0034 | p 0
+- 24M: Outer hair cells -> Inner hair cells | BMP6_BMPR1B_BMPR2 | prob 0.004364 | p 0.02
+- 24M: Spiral ganglion neurons -> Fibrocytes | NRG1_ERBB4 | prob 0.02653 | p 0
+- 24M: Spiral ganglion neurons -> Glia/Schwann | NRG1_ERBB4 | prob 0.02849 | p 0
+- 24M: Spiral ganglion neurons -> Inner hair cells | NRG1_ERBB4 | prob 0.01609 | p 0
+- 24M: Spiral ganglion neurons -> Macrophages/Microglia | NRG1_ERBB4 | prob 0.009811 | p 0
+- 24M: Spiral ganglion neurons -> Outer hair cells | NRG1_ERBB4 | prob 0.02731 | p 0
+- 24M: Spiral ganglion neurons -> Spiral ganglion neurons | NRG1_ERBB4 | prob 0.008729 | p 0
+- 24M: Spiral ganglion neurons -> Supporting cells | NRG1_ERBB4 | prob 0.04298 | p 0
+- 24M: Spiral ganglion neurons -> Fibrocytes | NRG2_ERBB4 | prob 0.01091 | p 0
+- 24M: Spiral ganglion neurons -> Glia/Schwann | NRG2_ERBB4 | prob 0.01173 | p 0
+- 24M: Spiral ganglion neurons -> Inner hair cells | NRG2_ERBB4 | prob 0.006573 | p 0
+- 24M: Spiral ganglion neurons -> Macrophages/Microglia | NRG2_ERBB4 | prob 0.003993 | p 0
+- 24M: Spiral ganglion neurons -> Outer hair cells | NRG2_ERBB4 | prob 0.01123 | p 0
+- 24M: Spiral ganglion neurons -> Spiral ganglion neurons | NRG2_ERBB4 | prob 0.00355 | p 0
+- 24M: Spiral ganglion neurons -> Supporting cells | NRG2_ERBB4 | prob 0.01785 | p 0
+- 24M: Spiral ganglion neurons -> Fibrocytes | NRG3_ERBB4 | prob 0.1934 | p 0
+- 24M: Spiral ganglion neurons -> Glia/Schwann | NRG3_ERBB4 | prob 0.2051 | p 0
+- 24M: Spiral ganglion neurons -> Inner hair cells | NRG3_ERBB4 | prob 0.1258 | p 0
+- 24M: Spiral ganglion neurons -> Macrophages/Microglia | NRG3_ERBB4 | prob 0.08018 | p 0
+- 24M: Spiral ganglion neurons -> Outer hair cells | NRG3_ERBB4 | prob 0.1981 | p 0
+- 24M: Spiral ganglion neurons -> Spiral ganglion neurons | NRG3_ERBB4 | prob 0.0719 | p 0
+- 24M: Spiral ganglion neurons -> Supporting cells | NRG3_ERBB4 | prob 0.2832 | p 0
+- 24M: Spiral ganglion neurons -> Fibrocytes | FGF10_FGFR1 | prob 0.005185 | p 0
+- 24M: Spiral ganglion neurons -> Glia/Schwann | FGF10_FGFR1 | prob 0.003196 | p 0
+- 24M: Spiral ganglion neurons -> Inner hair cells | FGF10_FGFR1 | prob 0.002177 | p 0
+- 24M: Spiral ganglion neurons -> Outer hair cells | FGF10_FGFR1 | prob 0.003245 | p 0
+- 24M: Spiral ganglion neurons -> Spiral ganglion neurons | FGF10_FGFR1 | prob 0.0009611 | p 0
+- 24M: Spiral ganglion neurons -> Supporting cells | FGF10_FGFR1 | prob 0.004114 | p 0
+- 24M: Spiral ganglion neurons -> Fibrocytes | FGF10_FGFR2 | prob 0.00572 | p 0
+- 24M: Spiral ganglion neurons -> Glia/Schwann | FGF10_FGFR2 | prob 0.03089 | p 0
+- 24M: Spiral ganglion neurons -> Inner hair cells | FGF10_FGFR2 | prob 0.01031 | p 0
+- 24M: Spiral ganglion neurons -> Macrophages/Microglia | FGF10_FGFR2 | prob 0.006609 | p 0
+- 24M: Spiral ganglion neurons -> Outer hair cells | FGF10_FGFR2 | prob 0.007725 | p 0
+- 24M: Spiral ganglion neurons -> Spiral ganglion neurons | FGF10_FGFR2 | prob 0.006911 | p 0
+- 24M: Spiral ganglion neurons -> Supporting cells | FGF10_FGFR2 | prob 0.02184 | p 0
+- 24M: Glia/Schwann -> Inner hair cells | PDGFD_PDGFRB | prob 0.009963 | p 0.01
+- 24M: Spiral ganglion neurons -> Macrophages/Microglia | SPP1_ITGA4_ITGB1 | prob 0.006877 | p 0
+- 24M: Spiral ganglion neurons -> Macrophages/Microglia | SPP1_ITGA9_ITGB1 | prob 0.004104 | p 0
+- 24M: Spiral ganglion neurons -> Macrophages/Microglia | SPP1_ITGA8_ITGB1 | prob 0.005282 | p 0
+- 24M: Fibrocytes -> Glia/Schwann | PTN_PTPRZ1 | prob 0.2056 | p 0
+- 24M: Glia/Schwann -> Glia/Schwann | PTN_PTPRZ1 | prob 0.06918 | p 0
+- 24M: Inner hair cells -> Glia/Schwann | PTN_PTPRZ1 | prob 0.1146 | p 0
+- 24M: Macrophages/Microglia -> Glia/Schwann | PTN_PTPRZ1 | prob 0.1407 | p 0
+- 24M: Outer hair cells -> Glia/Schwann | PTN_PTPRZ1 | prob 0.06792 | p 0
+- 24M: Spiral ganglion neurons -> Glia/Schwann | PTN_PTPRZ1 | prob 0.07145 | p 0
+- 24M: Supporting cells -> Glia/Schwann | PTN_PTPRZ1 | prob 0.2737 | p 0
+- 24M: Fibrocytes -> Inner hair cells | PTN_PTPRZ1 | prob 0.1364 | p 0
+- 24M: Inner hair cells -> Inner hair cells | PTN_PTPRZ1 | prob 0.07314 | p 0
+- 24M: Macrophages/Microglia -> Inner hair cells | PTN_PTPRZ1 | prob 0.0908 | p 0
+- 24M: Outer hair cells -> Inner hair cells | PTN_PTPRZ1 | prob 0.04256 | p 0.04
+- 24M: Spiral ganglion neurons -> Inner hair cells | PTN_PTPRZ1 | prob 0.04483 | p 0.02
+- 24M: Supporting cells -> Inner hair cells | PTN_PTPRZ1 | prob 0.1869 | p 0
+- 24M: Fibrocytes -> Fibrocytes | PTN_SDC2 | prob 0.04902 | p 0
+- 24M: Supporting cells -> Fibrocytes | PTN_SDC2 | prob 0.0698 | p 0
+- 24M: Fibrocytes -> Inner hair cells | PTN_ALK | prob 0.1682 | p 0
+- 24M: Glia/Schwann -> Inner hair cells | PTN_ALK | prob 0.05487 | p 0
+- 24M: Inner hair cells -> Inner hair cells | PTN_ALK | prob 0.09179 | p 0
+- 24M: Macrophages/Microglia -> Inner hair cells | PTN_ALK | prob 0.1134 | p 0
+- 24M: Outer hair cells -> Inner hair cells | PTN_ALK | prob 0.05386 | p 0
+- 24M: Spiral ganglion neurons -> Inner hair cells | PTN_ALK | prob 0.0567 | p 0
+- 24M: Supporting cells -> Inner hair cells | PTN_ALK | prob 0.2274 | p 0
+- 24M: Glia/Schwann -> Supporting cells | SEMA3A_NRP1_PLXNA2 | prob 0.01446 | p 0
+- 24M: Inner hair cells -> Supporting cells | SEMA3A_NRP1_PLXNA2 | prob 0.00586 | p 0
+- 24M: Outer hair cells -> Supporting cells | SEMA3A_NRP1_PLXNA2 | prob 0.02304 | p 0
+- 24M: Glia/Schwann -> Macrophages/Microglia | SEMA3A_NRP1_PLXNA4 | prob 0.03307 | p 0
+- 24M: Inner hair cells -> Macrophages/Microglia | SEMA3A_NRP1_PLXNA4 | prob 0.01356 | p 0
+- 24M: Outer hair cells -> Macrophages/Microglia | SEMA3A_NRP1_PLXNA4 | prob 0.0521 | p 0
+- 24M: Macrophages/Microglia -> Glia/Schwann | GRN_SORT1 | prob 0.001647 | p 0
+- 24M: Macrophages/Microglia -> Inner hair cells | GRN_SORT1 | prob 0.001564 | p 0
+- 24M: Macrophages/Microglia -> Outer hair cells | GRN_SORT1 | prob 0.00234 | p 0
+- 24M: Supporting cells -> Macrophages/Microglia | FN1_ITGA4_ITGB1 | prob 0.003537 | p 0
+- 24M: Supporting cells -> Macrophages/Microglia | FN1_ITGA8_ITGB1 | prob 0.002714 | p 0
+- 24M: Glia/Schwann -> Macrophages/Microglia | COL4A3_ITGA9_ITGB1 | prob 0.003177 | p 0
+- 24M: Glia/Schwann -> Macrophages/Microglia | COL4A4_ITGA9_ITGB1 | prob 0.002341 | p 0
+- 24M: Fibrocytes -> Macrophages/Microglia | COL4A5_ITGA9_ITGB1 | prob 0.003245 | p 0
+- 24M: Spiral ganglion neurons -> Macrophages/Microglia | COL4A5_ITGA9_ITGB1 | prob 0.0006372 | p 0
+- 24M: Fibrocytes -> Macrophages/Microglia | LAMA2_ITGA9_ITGB1 | prob 0.01106 | p 0
+- 24M: Glia/Schwann -> Macrophages/Microglia | LAMA2_ITGA9_ITGB1 | prob 0.002904 | p 0
+- 24M: Inner hair cells -> Macrophages/Microglia | LAMA2_ITGA9_ITGB1 | prob 0.003561 | p 0
+- 24M: Macrophages/Microglia -> Macrophages/Microglia | LAMA2_ITGA9_ITGB1 | prob 0.002863 | p 0
+- 24M: Spiral ganglion neurons -> Macrophages/Microglia | LAMA2_ITGA9_ITGB1 | prob 0.002377 | p 0
+- 24M: Supporting cells -> Macrophages/Microglia | LAMA2_ITGA9_ITGB1 | prob 0.005297 | p 0
+- 24M: Fibrocytes -> Macrophages/Microglia | LAMA4_ITGA9_ITGB1 | prob 0.00293 | p 0
+- 24M: Supporting cells -> Macrophages/Microglia | LAMA4_ITGA9_ITGB1 | prob 0.002571 | p 0
+- 24M: Glia/Schwann -> Macrophages/Microglia | LAMB1_ITGA9_ITGB1 | prob 0.002319 | p 0
+- 24M: Fibrocytes -> Macrophages/Microglia | LAMC1_ITGA9_ITGB1 | prob 0.002644 | p 0
+- 24M: Inner hair cells -> Macrophages/Microglia | LAMC1_ITGA9_ITGB1 | prob 0.001444 | p 0
+- 24M: Spiral ganglion neurons -> Macrophages/Microglia | LAMC1_ITGA9_ITGB1 | prob 0.001159 | p 0
+- 24M: Supporting cells -> Macrophages/Microglia | LAMC1_ITGA9_ITGB1 | prob 0.002348 | p 0
+- 24M: Spiral ganglion neurons -> Macrophages/Microglia | AGRN_DAG1 | prob 0.000687 | p 0
+- 24M: Spiral ganglion neurons -> Spiral ganglion neurons | AGRN_DAG1 | prob 0.002011 | p 0
+- 24M: Fibrocytes -> Spiral ganglion neurons | LAMA2_DAG1 | prob 0.01963 | p 0
+- 24M: Supporting cells -> Spiral ganglion neurons | LAMA2_DAG1 | prob 0.009445 | p 0.04
+- 24M: Fibrocytes -> Spiral ganglion neurons | LAMA4_DAG1 | prob 0.005233 | p 0.02
+- 24M: Supporting cells -> Spiral ganglion neurons | LAMA4_DAG1 | prob 0.004593 | p 0.01
+- 24M: Glia/Schwann -> Macrophages/Microglia | LAMB1_DAG1 | prob 0.001418 | p 0
+- 24M: Glia/Schwann -> Spiral ganglion neurons | LAMB1_DAG1 | prob 0.004145 | p 0
+- 24M: Fibrocytes -> Spiral ganglion neurons | LAMC1_DAG1 | prob 0.004723 | p 0.02
+- 24M: Supporting cells -> Spiral ganglion neurons | LAMC1_DAG1 | prob 0.004196 | p 0.04
+- 24M: Fibrocytes -> Macrophages/Microglia | APP_CD74 | prob 0.03538 | p 0
+- 24M: Glia/Schwann -> Macrophages/Microglia | APP_CD74 | prob 0.02608 | p 0
+- 24M: Inner hair cells -> Macrophages/Microglia | APP_CD74 | prob 0.03841 | p 0
+- 24M: Macrophages/Microglia -> Macrophages/Microglia | APP_CD74 | prob 0.02627 | p 0
+- 24M: Outer hair cells -> Macrophages/Microglia | APP_CD74 | prob 0.03157 | p 0
+- 24M: Spiral ganglion neurons -> Macrophages/Microglia | APP_CD74 | prob 0.02377 | p 0
+- 24M: Supporting cells -> Macrophages/Microglia | APP_CD74 | prob 0.03808 | p 0
+- 24M: Spiral ganglion neurons -> Macrophages/Microglia | CADM1_CADM1 | prob 0.01212 | p 0
+- 24M: Macrophages/Microglia -> Spiral ganglion neurons | CADM1_CADM1 | prob 0.01212 | p 0
+- 24M: Spiral ganglion neurons -> Spiral ganglion neurons | CADM1_CADM1 | prob 0.05073 | p 0
+- 24M: Macrophages/Microglia -> Macrophages/Microglia | PTPRC_MRC1 | prob 0.04473 | p 0
+- 24M: Spiral ganglion neurons -> Spiral ganglion neurons | CDH2_CDH2 | prob 0.005323 | p 0
+- 24M: Glia/Schwann -> Glia/Schwann | CDH1_CDH1 | prob 0.003487 | p 0
+- 24M: Spiral ganglion neurons -> Glia/Schwann | CDH1_CDH1 | prob 0.001302 | p 0
+- 24M: Glia/Schwann -> Spiral ganglion neurons | CDH1_CDH1 | prob 0.001302 | p 0
+- 24M: Spiral ganglion neurons -> Inner hair cells | CNTN1_NRCAM | prob 0.004032 | p 0
+- 24M: Glia/Schwann -> Fibrocytes | EFNA5_EPHA3 | prob 0.03488 | p 0
+- 24M: Glia/Schwann -> Glia/Schwann | EFNA5_EPHA3 | prob 0.03456 | p 0
+- 24M: Glia/Schwann -> Inner hair cells | EFNA5_EPHA3 | prob 0.04454 | p 0
+- 24M: Glia/Schwann -> Macrophages/Microglia | EFNA5_EPHA3 | prob 0.04153 | p 0
+- 24M: Glia/Schwann -> Outer hair cells | EFNA5_EPHA3 | prob 0.02474 | p 0.02
+- 24M: Glia/Schwann -> Spiral ganglion neurons | EFNA5_EPHA3 | prob 0.02673 | p 0
+- 24M: Glia/Schwann -> Supporting cells | EFNA5_EPHA3 | prob 0.1373 | p 0
+- 24M: Outer hair cells -> Supporting cells | EFNA5_EPHA3 | prob 0.04066 | p 0.02
+- 24M: Glia/Schwann -> Outer hair cells | EFNA5_EPHA4 | prob 0.01747 | p 0
+- 24M: Outer hair cells -> Outer hair cells | EFNA5_EPHA4 | prob 0.004712 | p 0.03
+- 24M: Glia/Schwann -> Spiral ganglion neurons | EFNA5_EPHA4 | prob 0.01575 | p 0
+- 24M: Glia/Schwann -> Supporting cells | EFNA5_EPHA4 | prob 0.02202 | p 0
+- 24M: Outer hair cells -> Supporting cells | EFNA5_EPHA4 | prob 0.00596 | p 0.02
+- 24M: Glia/Schwann -> Glia/Schwann | EFNA5_EPHA5 | prob 0.1228 | p 0
+- 24M: Outer hair cells -> Glia/Schwann | EFNA5_EPHA5 | prob 0.03594 | p 0
+- 24M: Spiral ganglion neurons -> Glia/Schwann | EFNA5_EPHA5 | prob 0.03317 | p 0
+- 24M: Glia/Schwann -> Inner hair cells | EFNA5_EPHA5 | prob 0.01178 | p 0.01
+- 24M: Glia/Schwann -> Macrophages/Microglia | EFNA5_EPHA5 | prob 0.01765 | p 0
+- 24M: Glia/Schwann -> Spiral ganglion neurons | EFNA5_EPHA5 | prob 0.03383 | p 0
+- 24M: Glia/Schwann -> Supporting cells | EFNA5_EPHA5 | prob 0.04272 | p 0
+- 24M: Outer hair cells -> Supporting cells | EFNA5_EPHA5 | prob 0.01175 | p 0.03
+- 24M: Glia/Schwann -> Fibrocytes | EFNA5_EPHA7 | prob 0.1232 | p 0
+- 24M: Outer hair cells -> Fibrocytes | EFNA5_EPHA7 | prob 0.03607 | p 0.02
+- 24M: Spiral ganglion neurons -> Fibrocytes | EFNA5_EPHA7 | prob 0.03329 | p 0.03
+- 24M: Glia/Schwann -> Glia/Schwann | EFNA5_EPHA7 | prob 0.1592 | p 0
+- 24M: Outer hair cells -> Glia/Schwann | EFNA5_EPHA7 | prob 0.048 | p 0.01
+- 24M: Spiral ganglion neurons -> Glia/Schwann | EFNA5_EPHA7 | prob 0.04434 | p 0
+- 24M: Glia/Schwann -> Inner hair cells | EFNA5_EPHA7 | prob 0.07501 | p 0
+- 24M: Glia/Schwann -> Macrophages/Microglia | EFNA5_EPHA7 | prob 0.02655 | p 0
+- 24M: Glia/Schwann -> Outer hair cells | EFNA5_EPHA7 | prob 0.02504 | p 0
+- 24M: Glia/Schwann -> Spiral ganglion neurons | EFNA5_EPHA7 | prob 0.02743 | p 0
+- 24M: Glia/Schwann -> Supporting cells | EFNA5_EPHA7 | prob 0.08375 | p 0
+- 24M: Glia/Schwann -> Spiral ganglion neurons | EFNA5_EPHB2 | prob 0.02432 | p 0
+- 24M: Outer hair cells -> Spiral ganglion neurons | EFNA5_EPHB2 | prob 0.006594 | p 0
+- 24M: Spiral ganglion neurons -> Spiral ganglion neurons | EFNA5_EPHB2 | prob 0.006072 | p 0
+- 24M: Fibrocytes -> Fibrocytes | MPZL1_MPZL1 | prob 0.003952 | p 0
+- 24M: Glia/Schwann -> Fibrocytes | MPZL1_MPZL1 | prob 0.00334 | p 0
+- 24M: Spiral ganglion neurons -> Fibrocytes | MPZL1_MPZL1 | prob 0.0007578 | p 0
+- 24M: Fibrocytes -> Glia/Schwann | MPZL1_MPZL1 | prob 0.00334 | p 0
+- 24M: Glia/Schwann -> Glia/Schwann | MPZL1_MPZL1 | prob 0.002822 | p 0
+- 24M: Spiral ganglion neurons -> Glia/Schwann | MPZL1_MPZL1 | prob 0.00064 | p 0.03
+- 24M: Fibrocytes -> Spiral ganglion neurons | MPZL1_MPZL1 | prob 0.0007578 | p 0
+- 24M: Glia/Schwann -> Spiral ganglion neurons | MPZL1_MPZL1 | prob 0.00064 | p 0.03
+- 24M: Spiral ganglion neurons -> Fibrocytes | NCAM1_FGFR1 | prob 0.009547 | p 0
+- 24M: Spiral ganglion neurons -> Glia/Schwann | NCAM1_FGFR1 | prob 0.005895 | p 0
+- 24M: Spiral ganglion neurons -> Inner hair cells | NCAM1_FGFR1 | prob 0.00402 | p 0
+- 24M: Spiral ganglion neurons -> Outer hair cells | NCAM1_FGFR1 | prob 0.005985 | p 0
+- 24M: Spiral ganglion neurons -> Spiral ganglion neurons | NCAM1_FGFR1 | prob 0.001776 | p 0
+- 24M: Spiral ganglion neurons -> Supporting cells | NCAM1_FGFR1 | prob 0.007583 | p 0
+- 24M: Spiral ganglion neurons -> Spiral ganglion neurons | NCAM1_NCAM1 | prob 0.01299 | p 0
+- 24M: Spiral ganglion neurons -> Spiral ganglion neurons | NCAM1_NCAM2 | prob 0.003177 | p 0
+- 24M: Inner hair cells -> Inner hair cells | NECTIN3_NECTIN2 | prob 0.0005082 | p 0.02
+- 24M: Outer hair cells -> Inner hair cells | NEGR1_NEGR1 | prob 0.06129 | p 0.02
+- 24M: Inner hair cells -> Outer hair cells | NEGR1_NEGR1 | prob 0.06129 | p 0.02
+- 24M: Supporting cells -> Supporting cells | NEGR1_NEGR1 | prob 0.01686 | p 0
+- 24M: Fibrocytes -> Spiral ganglion neurons | LRRC4C_NTNG1 | prob 0.03105 | p 0
+- 24M: Inner hair cells -> Spiral ganglion neurons | LRRC4C_NTNG1 | prob 0.00918 | p 0
+- 24M: Macrophages/Microglia -> Spiral ganglion neurons | LRRC4C_NTNG1 | prob 0.01551 | p 0
+- 24M: Outer hair cells -> Spiral ganglion neurons | LRRC4C_NTNG1 | prob 0.00872 | p 0
+- 24M: Spiral ganglion neurons -> Spiral ganglion neurons | LRRC4C_NTNG1 | prob 0.03078 | p 0
+- 24M: Supporting cells -> Spiral ganglion neurons | LRRC4C_NTNG1 | prob 0.0278 | p 0
+- 24M: Inner hair cells -> Glia/Schwann | NRXN1_NLGN1 | prob 0.06964 | p 0
+- 24M: Spiral ganglion neurons -> Glia/Schwann | NRXN1_NLGN1 | prob 0.07948 | p 0
+- 24M: Inner hair cells -> Spiral ganglion neurons | NRXN1_NLGN1 | prob 0.05175 | p 0
+- 24M: Spiral ganglion neurons -> Spiral ganglion neurons | NRXN1_NLGN1 | prob 0.05922 | p 0
+- 24M: Fibrocytes -> Glia/Schwann | NRXN3_NLGN1 | prob 0.05668 | p 0
+- 24M: Glia/Schwann -> Glia/Schwann | NRXN3_NLGN1 | prob 0.01213 | p 0
+- 24M: Inner hair cells -> Glia/Schwann | NRXN3_NLGN1 | prob 0.01306 | p 0
+- 24M: Macrophages/Microglia -> Glia/Schwann | NRXN3_NLGN1 | prob 0.00999 | p 0
+- 24M: Spiral ganglion neurons -> Glia/Schwann | NRXN3_NLGN1 | prob 0.01104 | p 0
+- 24M: Supporting cells -> Glia/Schwann | NRXN3_NLGN1 | prob 0.01027 | p 0
+- 24M: Fibrocytes -> Spiral ganglion neurons | NRXN3_NLGN1 | prob 0.04197 | p 0
+- 24M: Glia/Schwann -> Spiral ganglion neurons | NRXN3_NLGN1 | prob 0.008875 | p 0
+- 24M: Inner hair cells -> Spiral ganglion neurons | NRXN3_NLGN1 | prob 0.009556 | p 0
+- 24M: Macrophages/Microglia -> Spiral ganglion neurons | NRXN3_NLGN1 | prob 0.007304 | p 0
+- 24M: Spiral ganglion neurons -> Spiral ganglion neurons | NRXN3_NLGN1 | prob 0.008076 | p 0
+- 24M: Supporting cells -> Spiral ganglion neurons | NRXN3_NLGN1 | prob 0.007509 | p 0
+- 24M: Inner hair cells -> Fibrocytes | PTPRM_PTPRM | prob 0.03106 | p 0
+- 24M: Inner hair cells -> Glia/Schwann | PTPRM_PTPRM | prob 0.02644 | p 0
+- 24M: Fibrocytes -> Inner hair cells | PTPRM_PTPRM | prob 0.03106 | p 0
+- 24M: Glia/Schwann -> Inner hair cells | PTPRM_PTPRM | prob 0.02644 | p 0
+- 24M: Inner hair cells -> Inner hair cells | PTPRM_PTPRM | prob 0.106 | p 0
+- 24M: Macrophages/Microglia -> Inner hair cells | PTPRM_PTPRM | prob 0.02555 | p 0.03
+- 24M: Outer hair cells -> Inner hair cells | PTPRM_PTPRM | prob 0.03489 | p 0.04
+- 24M: Supporting cells -> Inner hair cells | PTPRM_PTPRM | prob 0.03385 | p 0
+- 24M: Inner hair cells -> Macrophages/Microglia | PTPRM_PTPRM | prob 0.02555 | p 0.03
+- 24M: Inner hair cells -> Outer hair cells | PTPRM_PTPRM | prob 0.03489 | p 0.04
+- 24M: Inner hair cells -> Supporting cells | PTPRM_PTPRM | prob 0.03385 | p 0
+- 24M: Supporting cells -> Supporting cells | PTPRM_PTPRM | prob 0.01024 | p 0
+- 24M: Fibrocytes -> Outer hair cells | SEMA5A_PLXNA1 | prob 0.00437 | p 0
+- 24M: Inner hair cells -> Outer hair cells | SEMA5A_PLXNA1 | prob 0.001827 | p 0
+- 24M: Supporting cells -> Outer hair cells | SEMA5A_PLXNA1 | prob 0.005427 | p 0
+- 24M: Inner hair cells -> Outer hair cells | SEMA5B_PLXNA1 | prob 0.01752 | p 0
+
+## Controlled subset run for comparison
+
+- 3M: Macrophages/Microglia -> Macrophages/Microglia | PTPRC_MRC1 | prob 0.06944 | p 0
+- 12M: Macrophages/Microglia -> Macrophages/Microglia | PTPRC_MRC1 | prob 0.1082 | p 0
+- 24M: Macrophages/Microglia -> Macrophages/Microglia | PTPRC_MRC1 | prob 0.04473 | p 0

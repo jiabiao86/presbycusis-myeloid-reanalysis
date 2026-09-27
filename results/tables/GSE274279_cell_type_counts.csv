@@ -1,0 +1,49 @@
+﻿cluster,cell_type,age_months,cells
+0,Glia/Schwann,3,150
+0,Glia/Schwann,12,372
+0,Glia/Schwann,24,235
+1,Supporting cells,3,1079
+1,Supporting cells,12,2003
+1,Supporting cells,24,1153
+10,Supporting cells,3,381
+10,Supporting cells,12,288
+10,Supporting cells,24,328
+11,Glia/Schwann,3,55
+11,Glia/Schwann,12,38
+11,Glia/Schwann,24,15
+12,Supporting cells,3,23
+12,Supporting cells,12,48
+12,Supporting cells,24,5
+13,Outer hair cells,3,102
+13,Outer hair cells,12,163
+13,Outer hair cells,24,18
+14,Supporting cells,3,166
+14,Supporting cells,12,917
+14,Supporting cells,24,252
+15,Supporting cells,3,151
+15,Supporting cells,12,173
+15,Supporting cells,24,167
+2,Inner hair cells,3,107
+2,Inner hair cells,12,113
+2,Inner hair cells,24,41
+3,Supporting cells,3,107
+3,Supporting cells,12,332
+3,Supporting cells,24,142
+4,Spiral ganglion neurons,3,78
+4,Spiral ganglion neurons,12,17
+4,Spiral ganglion neurons,24,33
+5,Macrophages/Microglia,3,9
+5,Macrophages/Microglia,12,24
+5,Macrophages/Microglia,24,4
+6,Supporting cells,3,218
+6,Supporting cells,12,287
+6,Supporting cells,24,167
+7,Macrophages/Microglia,3,44
+7,Macrophages/Microglia,12,37
+7,Macrophages/Microglia,24,29
+8,Fibrocytes,3,152
+8,Fibrocytes,12,433
+8,Fibrocytes,24,124
+9,Fibrocytes,3,94
+9,Fibrocytes,12,288
+9,Fibrocytes,24,241

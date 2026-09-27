@@ -1,0 +1,601 @@
+﻿gene,disease_id,disease_name,association_score,is_presbycusis
+APOE,MONDO_0018473,hyperlipoproteinemia type 3,0.803398362916027,False
+APOE,MONDO_0005010,coronary artery disorder,0.7749114975458468,False
+APOE,MONDO_0012725,lipoprotein glomerulopathy,0.7591150623470895,False
+APOE,MONDO_0004975,Alzheimer disease,0.6769813809889567,False
+APOE,MONDO_0005439,familial hypercholesterolemia,0.6391080897325032,False
+APOE,MONDO_0001627,dementia,0.6251904885052055,False
+APOE,EFO_1001870,late-onset Alzheimers disease,0.6097653692611007,False
+APOE,HP_0003124,Hypercholesterolemia,0.607846833536569,False
+APOE,EFO_0000195,metabolic syndrome,0.5966698613672072,False
+APOE,Orphanet_158029,Sea-blue histiocytosis,0.5956286247280776,False
+APOE,MONDO_0005015,diabetes mellitus,0.5916103318052444,False
+APOE,MONDO_0005044,hypertensive disorder,0.5903491053131529,False
+APOE,MONDO_0005068,myocardial infarction,0.5879847381007081,False
+APOE,MONDO_0005148,type 2 diabetes mellitus,0.5871322628705564,False
+APOE,MONDO_0024644,myocardial ischemia,0.5848381014518786,False
+APOE,MONDO_0015140,early-onset autosomal dominant Alzheimer disease,0.5780046534837331,False
+APOE,MONDO_0021187,hyperlipidemia,0.5756929527644338,False
+APOE,MONDO_0021661,coronary atherosclerosis,0.573883692924682,False
+APOE,MONDO_0010017,sea-blue histiocyte syndrome,0.5692341625562751,False
+APOE,MONDO_0007488,Lewy body dementia,0.5674911094002691,False
+APOE,MONDO_0005066,metabolic disease,0.5666221442548924,False
+APOE,EFO_0003913,angina pectoris,0.5634654796873352,False
+APOE,MONDO_0005559,neurodegenerative disease,0.5622794329354047,False
+APOE,MONDO_0005150,age-related macular degeneration,0.5598904568305069,False
+APOE,MONDO_0004995,cardiovascular disorder,0.5552106222883293,False
+APOE,MONDO_0004648,vascular dementia,0.5495733654989676,False
+APOE,MONDO_0005267,heart disorder,0.5481096415159061,False
+APOE,EFO_0001072,memory impairment,0.5412951587752561,False
+APOE,EFO_0004566,body weight gain,0.5412231196957142,False
+APOE,GO_0036273,response to statin,0.5349989762255439,False
+APOE,MONDO_0004979,asthma,0.5329621724489982,False
+APOE,MONDO_0007186,gastroesophageal reflux disease,0.5326260514224935,False
+APOE,MONDO_0011122,obesity disorder,0.5321624054654206,False
+APOE,MONDO_0005084,mental disorder,0.5320212113862548,False
+APOE,MONDO_0001336,familial hyperlipidemia,0.5280247596218012,False
+APOE,MONDO_0005620,cerebral amyloid angiopathy,0.5266941361095383,False
+APOE,MONDO_0003004,macular degeneration,0.5251218738171191,False
+APOE,HP_0003233,Decreased HDL cholesterol concentration,0.5238549951285311,False
+APOE,MONDO_0005154,liver disorder,0.5237502463065528,False
+APOE,MONDO_0045057,delirium,0.5214550070294771,False
+APOE,MONDO_0007147,obstructive sleep apnea syndrome,0.5199919289099573,False
+APOE,MONDO_0043510,brain injury,0.5130882345017483,False
+APOE,MONDO_0011057,cerebrovascular disorder,0.5107275386821246,False
+APOE,MONDO_0002039,cognitive disorder,0.5102266846545973,False
+APOE,MONDO_0100096,COVID-19,0.5081029016793274,False
+APOE,MONDO_0005350,abdominal aortic aneurysm,0.5063701285825591,False
+APOE,MONDO_0005071,nervous system disorder,0.5051386531753921,False
+APOE,Orphanet_309005,Disorder of lipid metabolism,0.5035987903868487,False
+APOE,MONDO_0100081,sleep disorder,0.4972549327801104,False
+APOE,MONDO_0013209,metabolic dysfunction-associated steatotic liver disease,0.49501513872063013,False
+APOE,MONDO_0005416,"osteoarthritis, knee",0.49354486520583984,False
+APOE,MONDO_0005180,Parkinson disease,0.49319079819155304,False
+APOE,MONDO_0001134,essential hypertension,0.4836302226132658,False
+APOE,MONDO_0012672,cholelithiasis,0.482633134135274,False
+APOE,EFO_0022597,aging,0.47982667048332167,False
+APOE,MONDO_0005560,brain disorder,0.4774046207824764,False
+APOE,EFO_0010130,health study participation,0.47460602871715124,False
+APOE,MONDO_0006629,"osteoarthritis, hip",0.4684071017842001,False
+APOE,MONDO_0002175,degeneration of macula and posterior pole,0.4652691670708927,False
+APOE,MONDO_0005178,osteoarthritis,0.4638178893347199,False
+APOE,MONDO_0005002,chronic obstructive pulmonary disease,0.46230284444466707,False
+APOE,MONDO_0013600,insomnia,0.4611286754098776,False
+APOE,MONDO_0017276,frontotemporal dementia,0.45710749226730435,False
+APOE,HP_0100543,Cognitive impairment,0.45566751585066867,False
+APOE,HP_0003419,Low back pain,0.45356395633491475,False
+APOE,MONDO_0003916,overnutrition,0.4533794049487614,False
+APOE,HP_0001626,Abnormality of the cardiovascular system,0.45189298686212387,False
+APOE,EFO_0009659,aneurysm,0.4510039626049614,False
+APOE,MONDO_0005266,diabetic retinopathy,0.45037604906585266,False
+APOE,MONDO_0005252,heart failure,0.4481256647504547,False
+APOE,MONDO_0009387,familial lipoprotein lipase deficiency,0.44419892515987924,False
+APOE,MONDO_0005113,bacterial infectious disease,0.4411697638985848,False
+APOE,EFO_0009486,diabetic eye disease,0.44111416989971614,False
+APOE,MONDO_0005283,retinal disorder,0.4408378678064778,False
+APOE,MONDO_0003718,occlusion precerebral artery,0.43943556725714783,False
+APOE,EFO_0009727,shortness of breath,0.43943556725714783,False
+APOE,MONDO_0024355,respiratory tract infectious disorder,0.4376709972905694,False
+APOE,MONDO_0005417,wet macular degeneration,0.43707603022825076,False
+APOE,MONDO_0004359,delusional disorder,0.4353165407909418,False
+APOE,EFO_0003765,sign or symptom,0.43491310211233986,False
+APOE,MONDO_0006626,diabetic neuropathy,0.4322635571459063,False
+APOE,HP_0001268,Mental deterioration,0.43065332121566896,False
+APOE,EFO_1001454,amnesia,0.4296738499164057,False
+APOE,MONDO_0003749,esophageal disorder,0.4277008695474447,False
+APOE,MONDO_0000270,lower respiratory tract disorder,0.4276650564275114,False
+APOE,MONDO_0004781,acute myocardial infarction,0.42750853212608375,False
+APOE,HP_0012531,Pain,0.4206580485149785,False
+APOE,EFO_0003776,coronary artery bypass,0.4134170850494695,False
+APOE,MONDO_0002691,liver cancer,0.400557893929,False
+APOE,MONDO_0006805,intermediate coronary syndrome,0.39283966815761334,False
+APOE,EFO_0004335,short-term memory,0.39024036261879624,False
+APOE,EFO_0004723,coronary artery calcification,0.3893188497942186,False
+APOE,MONDO_0001487,intrahepatic bile duct cancer,0.38652875651437096,False
+APOE,MONDO_0007256,hepatocellular carcinoma,0.3855601119721717,False
+APOE,MONDO_0019438,AL amyloidosis,0.3813499443505782,False
+APOE,EFO_0000544,infection,0.37941243041885564,False
+APOE,HP_0000741,Apathy,0.3762518550786652,False
+APOE,MONDO_0005090,schizophrenia,0.3762394032217312,False
+APOE,MONDO_0002009,major depressive disorder,0.3759085815184573,False
+APOE,HP_0000739,Anxiety,0.37454132673153107,False
+CD74,MONDO_0005233,non-small cell lung carcinoma,0.6262145034050299,False
+CD74,MONDO_0005070,neoplasm,0.3997244863379611,False
+CD74,MONDO_0004992,cancer,0.39412796256418614,False
+CD74,MONDO_0005061,lung adenocarcinoma,0.37653434770431515,False
+CD74,MONDO_0005097,squamous cell lung carcinoma,0.3764388974739022,False
+CD74,MONDO_0005157,lymphoid neoplasm,0.37050380432141355,False
+CD74,MONDO_0003892,acinar lung adenocarcinoma,0.3695798546847018,False
+CD74,MONDO_0004989,breast carcinoma,0.30483735165133224,False
+CD74,MONDO_0004948,B-cell chronic lymphocytic leukemia,0.301801434973374,False
+CD74,MONDO_0018874,acute myeloid leukemia,0.3008437673257679,False
+CD74,MONDO_0018905,diffuse large B-cell lymphoma,0.28789814817217363,False
+CD74,MONDO_0010150,head and neck squamous cell carcinoma,0.28707871552991593,False
+CD74,MONDO_0008433,small cell lung carcinoma,0.28646151481767423,False
+CD74,MONDO_0005159,prostate carcinoma,0.28579795091709476,False
+CD74,MONDO_0005138,lung carcinoma,0.28542813991226956,False
+CD74,MONDO_0002271,colon adenocarcinoma,0.28429417016266956,False
+CD74,MONDO_0004950,gastric carcinoma,0.28340425267091,False
+CD74,MONDO_0005611,bladder transitional cell carcinoma,0.28313371418076266,False
+CD74,MONDO_0006143,cervical squamous cell carcinoma,0.2815223212525343,False
+CD74,MONDO_0005005,clear cell renal carcinoma,0.281233321704416,False
+CD74,MONDO_0004986,urinary bladder carcinoma,0.28114807137510966,False
+CD74,MONDO_0005184,pancreatic ductal adenocarcinoma,0.28050097694007503,False
+CD74,MONDO_0005012,cutaneous melanoma,0.27951273079268624,False
+CD74,MONDO_0005082,prostate adenocarcinoma,0.2785862146292058,False
+CD74,MONDO_0044925,oral cavity carcinoma,0.27829363057758044,False
+CD74,MONDO_0005192,exocrine pancreatic carcinoma,0.27824743309574484,False
+CD74,MONDO_0016684,anaplastic astrocytoma,0.2777392607955534,False
+CD74,MONDO_0005028,esophageal adenocarcinoma,0.2776224857645184,False
+CD74,MONDO_0003175,salivary gland adenoid cystic carcinoma,0.27718489101352634,False
+CD74,MONDO_0003050,lung large cell carcinoma,0.27718489101352634,False
+CD74,MONDO_0006244,HER2 positive breast carcinoma,0.27718489101352634,False
+CD74,MONDO_0005496,bile duct carcinoma,0.27718489101352634,False
+CD74,MONDO_0002514,hepatobiliary neoplasm,0.27718489101352634,False
+CD74,MONDO_0019086,carcinoma of esophagus,0.27718489101352634,False
+CD74,MONDO_0006186,duodenal adenocarcinoma,0.27718489101352634,False
+CD74,MONDO_0006060,nasopharyngeal squamous cell carcinoma,0.27718489101352634,False
+CD74,MONDO_0005341,skin basal cell carcinoma,0.27718489101352634,False
+CD74,MONDO_0003960,pulmonary large cell neuroendocrine carcinoma,0.27718489101352634,False
+CD74,MONDO_0005036,gastric adenocarcinoma,0.27718489101352634,False
+CD74,MONDO_0005008,colorectal adenocarcinoma,0.27718489101352634,False
+CD74,MONDO_0006409,signet ring cell gastric adenocarcinoma,0.27718489101352634,False
+CD74,MONDO_0005017,diffuse gastric adenocarcinoma,0.27718489101352634,False
+CD74,MONDO_0004973,adenosquamous lung carcinoma,0.27718489101352634,False
+CD74,MONDO_0002501,brain glioblastoma,0.27718489101352634,False
+CD74,MONDO_0018531,carcinoma of liver and intrahepatic biliary tract,0.27718489101352634,False
+CD74,MONDO_0000930,nodular malignant melanoma,0.27718489101352634,False
+CD74,MONDO_0006192,endometrial endometrioid adenocarcinoma,0.27718489101352634,False
+CD74,MONDO_0007256,hepatocellular carcinoma,0.20733137325084683,False
+CD74,MONDO_0021042,glioma,0.20557607290282678,False
+CD74,MONDO_0019781,astrocytoma (excluding glioblastoma),0.18942503825534726,False
+CD74,MONDO_0015075,thyroid gland carcinoma,0.18836945908389252,False
+CD74,MONDO_0004952,Hodgkins lymphoma,0.18748734697619548,False
+CD74,MONDO_0005075,thyroid gland papillary carcinoma,0.1870317884747612,False
+CD74,MONDO_0005211,ovarian serous adenocarcinoma,0.18571387697906264,False
+CD74,MONDO_0002169,rectum adenocarcinoma,0.18571387697906264,False
+CD74,MONDO_0018078,soft tissue sarcoma,0.18571387697906264,False
+CD74,MONDO_0005590,breast ductal adenocarcinoma,0.18571387697906264,False
+CD74,MONDO_0004947,B-cell acute lymphoblastic leukemia,0.18515950719703558,False
+CD74,MONDO_0006336,ovarian endometrioid adenocarcinoma with squamous differentiation,0.1847899273423509,False
+CD74,MONDO_0006215,gallbladder adenocarcinoma,0.1847899273423509,False
+CD74,MONDO_0005037,gastric intestinal type adenocarcinoma,0.1847899273423509,False
+CD74,EFO_1000592,Thyroid Gland Oncocytic Follicular Carcinoma,0.1847899273423509,False
+CD74,MONDO_0004949,neoplasm of mature B-cells,0.1847899273423509,False
+CD74,MONDO_0044903,myelofibrosis,0.1847899273423509,False
+CD74,MONDO_0019954,pancreatic neuroendocrine tumor,0.1847899273423509,False
+CD74,MONDO_0006417,small intestinal diffuse large B-cell lymphoma,0.1847899273423509,False
+CD74,MONDO_0020638,superficial spreading melanoma,0.1847899273423509,False
+CD74,MONDO_0006028,cecum adenocarcinoma,0.1847899273423509,False
+CD74,MONDO_0002656,skin carcinoma,0.1847899273423509,False
+CD74,MONDO_0002529,skin squamous cell carcinoma,0.1847899273423509,False
+CD74,MONDO_0004991,minimally invasive lung adenocarcinoma,0.1847899273423509,False
+CD74,MONDO_0006387,primary pulmonary diffuse large B-cell lymphoma,0.1847899273423509,False
+CD74,MONDO_0006041,lung carcinoid tumor,0.1847899273423509,False
+CD74,MONDO_0021163,kidney neoplasm,0.1847899273423509,False
+CD74,MONDO_0012004,parathyroid gland carcinoma,0.1847899273423509,False
+CD74,MONDO_0023619,lentigo maligna melanoma,0.1847899273423509,False
+CD74,MONDO_0002083,Richter syndrome,0.1847899273423509,False
+CD74,MONDO_0006485,uterine carcinosarcoma,0.1847899273423509,False
+CD74,MONDO_0000540,small intestinal neuroendocrine tumor G1,0.1847899273423509,False
+CD74,MONDO_0007254,breast cancer,0.1102489061200298,False
+CD74,MONDO_0005105,melanoma,0.11023094373618592,False
+CD74,EFO_0000544,infection,0.09804760421650634,False
+CD74,MONDO_0100096,COVID-19,0.09566903693741662,False
+CD74,MONDO_0020325,anaplastic large cell lymphoma,0.09236683453779113,False
+CD74,HP_0100806,Sepsis,0.0913777821819702,False
+CD74,MONDO_0009693,plasma cell myeloma,0.08610468104840903,False
+CD74,MONDO_0021040,pancreatic neoplasm,0.08317215928345134,False
+CD74,MONDO_0015278,familial pancreatic carcinoma,0.08317051670631943,False
+CD74,MONDO_0002714,central nervous system cancer,0.0831449928861866,False
+CD74,MONDO_0018876,mantle cell lymphoma,0.08013144856155935,False
+CD74,MONDO_0018908,non-Hodgkin lymphoma,0.0767020817191927,False
+CD74,OTAR_0000003,cyst,0.07629011085900658,False
+CD74,MONDO_0008742,autosomal dominant severe congenital neutropenia,0.07362913590527674,False
+CD74,MONDO_0004975,Alzheimer disease,0.07028063040878006,False
+CD74,MONDO_0016642,meningioma,0.06892664289869688,False
+CD74,MONDO_0013139,"neutropenia, severe congenital, 2, autosomal dominant",0.06741506129303645,False
+CD74,MONDO_0019091,bronchopulmonary dysplasia,0.06549776313578881,False
+CD74,MONDO_0009685,Miyoshi myopathy,0.0641477719774064,False
+CD74,MONDO_0007915,systemic lupus erythematosus,0.06377334510788107,False
+CD74,MONDO_0005062,lymphoma,0.0629854094480022,False
+CTSS,MONDO_0020804,basal cell carcinoma,0.5151624903677648,False
+CTSS,MONDO_0005096,squamous cell carcinoma,0.4541157048531953,False
+CTSS,MONDO_0002898,skin cancer,0.44353142274822605,False
+CTSS,MONDO_0005012,cutaneous melanoma,0.4160450742177869,False
+CTSS,MONDO_0002531,skin neoplasm,0.3763048733163176,False
+CTSS,MONDO_0004981,atrial fibrillation,0.33500337701931815,False
+CTSS,MONDO_0006314,nasal cavity polyp,0.31724194245325266,False
+CTSS,MONDO_0005010,coronary artery disorder,0.30323456139771976,False
+CTSS,MONDO_0005559,neurodegenerative disease,0.30123348373474657,False
+CTSS,MONDO_0005105,melanoma,0.300412907943914,False
+CTSS,MONDO_0005173,actinic keratosis,0.27113578906054214,False
+CTSS,MONDO_0004980,atopic eczema,0.23362113564639728,False
+CTSS,MONDO_0000568,autoimmune disorder of central nervous system,0.22752025952384972,False
+CTSS,MONDO_0004867,upper respiratory tract disorder,0.2012041105990666,False
+CTSS,MONDO_0005310,atrial flutter,0.19951678010697038,False
+CTSS,MONDO_0004992,cancer,0.19210634997761306,False
+CTSS,EFO_0009260,non-melanoma skin carcinoma,0.18782471264343342,False
+CTSS,EFO_0004875,mathematical ability,0.1832428451693043,False
+CTSS,EFO_0000195,metabolic syndrome,0.17933363144794842,False
+CTSS,EFO_1001927,cutaneous squamous cell carcinoma,0.1663152037655158,False
+CTSS,MONDO_0008315,prostate cancer,0.13777728708991288,False
+CTSS,MONDO_0005159,prostate carcinoma,0.12394063965293603,False
+CTSS,MONDO_0005070,neoplasm,0.11285244117895601,False
+CTSS,MONDO_0008383,rheumatoid arthritis,0.10876070273425621,False
+CTSS,MONDO_0007256,hepatocellular carcinoma,0.10645744659946933,False
+CTSS,EFO_0000544,infection,0.10390027544389305,False
+CTSS,MONDO_0005002,chronic obstructive pulmonary disease,0.10173090665005188,False
+CTSS,MONDO_0007254,breast cancer,0.10109753379420887,False
+CTSS,MONDO_0004975,Alzheimer disease,0.10095172443423661,False
+CTSS,MONDO_0010030,Sjogren syndrome,0.09863694021153327,False
+CTSS,MONDO_0005180,Parkinson disease,0.098224170097623,False
+CTSS,MONDO_0004989,breast carcinoma,0.09632058886625525,False
+CTSS,MONDO_0024331,colorectal carcinoma,0.09447193639686675,False
+CTSS,MONDO_0018177,glioblastoma,0.09258151674174557,False
+CTSS,MONDO_0005138,lung carcinoma,0.09222335269414722,False
+CTSS,MONDO_0005265,inflammatory bowel disease,0.09177409717443101,False
+CTSS,MONDO_0010434,synovial sarcoma,0.09059501705365458,False
+CTSS,MONDO_0008903,lung cancer,0.08421221302147866,False
+CTSS,MONDO_0005150,age-related macular degeneration,0.08398189188606381,False
+CTSS,MONDO_0023644,lip and oral cavity carcinoma,0.08325953199496498,False
+CTSS,MONDO_0005292,colitis,0.08289538013156486,False
+CTSS,Orphanet_552,MODY,0.08178754458414132,False
+CTSS,MONDO_0015924,pulmonary arterial hypertension,0.08107019076004322,False
+CTSS,MONDO_0007179,autoimmune disease,0.07963935337580405,False
+CTSS,MONDO_0021042,glioma,0.07917602782647254,False
+CTSS,MONDO_0002714,central nervous system cancer,0.07917602782647254,False
+CTSS,MONDO_0006861,myeloid sarcoma,0.07911156091428699,False
+CTSS,MONDO_0007763,nonpapillary renal cell carcinoma,0.07905496624558778,False
+CTSS,MONDO_0005133,endometriosis,0.07853202332195229,False
+CTSS,MONDO_0018905,diffuse large B-cell lymphoma,0.07743621905281214,False
+CTSS,MONDO_0007191,Behcet disease,0.07729105629877764,False
+CTSS,MONDO_0005100,systemic sclerosis,0.0770311226915654,False
+CTSS,EFO_1002029,chronic rhinosinusitis with nasal polyps,0.07699154968913063,False
+CTSS,MONDO_0005015,diabetes mellitus,0.07678382638285183,False
+CTSS,Orphanet_411,Hyperlipoproteinemia type 1,0.07562072387340125,False
+CTSS,MONDO_0008170,ovarian cancer,0.0752294444242252,False
+CTSS,MONDO_0007027,metabolic dysfunction-associated steatohepatitis,0.07405793862703838,False
+CTSS,MONDO_0012672,cholelithiasis,0.06980728803552881,False
+CTSS,MONDO_0010894,maturity-onset diabetes of the young type 3,0.06889153281250184,False
+CTSS,MONDO_0005812,influenza,0.06842821082948292,False
+CTSS,MONDO_0005300,chronic kidney disease,0.06750518785569394,False
+CTSS,MONDO_0005311,atherosclerosis,0.0673654779131604,False
+CTSS,MONDO_0005140,ovarian carcinoma,0.06716284190966239,False
+CTSS,MONDO_0009279,triple-A syndrome,0.06618287253527798,False
+CTSS,MONDO_0012522,"diabetes mellitus, transient neonatal, 3",0.06578890993242377,False
+CTSS,MONDO_0020525,transient neonatal diabetes mellitus,0.06578890993242377,False
+CTSS,MONDO_0005003,chronic pancreatitis,0.06415167117617054,False
+CTSS,HP_0100806,Sepsis,0.06327242410344354,False
+CTSS,MONDO_0005016,diabetic kidney disease,0.06271226815157466,False
+CTSS,MONDO_0004979,asthma,0.06241555866932987,False
+CTSS,EFO_0010176,keratinocyte carcinoma,0.062241858694715185,False
+CTSS,MONDO_0002974,cervical cancer,0.06116330800637679,False
+CTSS,MONDO_0005131,cervical carcinoma,0.06102471556087003,False
+CTSS,MONDO_0024644,myocardial ischemia,0.0594667264394945,False
+CTSS,EFO_0004743,facial morphology,0.05822832205048685,False
+CTSS,MONDO_0021223,digestive system neoplasm,0.05667671329303096,False
+CTSS,MONDO_0004994,cardiomyopathy,0.05647652420507674,False
+CTSS,MONDO_0008185,hereditary chronic pancreatitis,0.05582170056532497,False
+CTSS,MONDO_0002656,skin carcinoma,0.055738859882905036,False
+CTSS,MONDO_0005147,type 1 diabetes mellitus,0.05543286655113286,False
+CTSS,MONDO_0007915,systemic lupus erythematosus,0.055021029954238715,False
+CTSS,MONDO_0008661,vitiligo,0.054882608420678214,False
+CTSS,MONDO_0014589,maturity-onset diabetes of the young type 13,0.05440030671031467,False
+CTSS,MONDO_0002009,major depressive disorder,0.05405646964290045,False
+CTSS,MONDO_0005093,skin disorder,0.05390320380613263,False
+CTSS,MONDO_0017287,immunoglobulin G4-related sclerosing disease,0.05371843187842141,False
+CTSS,MONDO_0005098,stroke disorder,0.05360373281605658,False
+CTSS,HP_0001297,Stroke,0.05360373281605658,False
+CTSS,MONDO_0009414,glycogen storage disorder due to hepatic glycogen synthase deficiency,0.05317514949203489,False
+CTSS,Orphanet_2089,Glycogen storage disease due to hepatic glycogen synthase deficiency,0.05317514949203489,False
+CTSS,MONDO_0002050,depressive disorder,0.05309978369536416,False
+CTSS,MONDO_0005052,irritable bowel syndrome,0.05306181166993157,False
+CTSS,MONDO_0005068,myocardial infarction,0.0528309940433812,False
+CTSS,MONDO_0009113,hemolytic anemia due to diphosphoglycerate mutase deficiency,0.052310332632072694,False
+CTSS,MONDO_0009469,benign recurrent intrahepatic cholestasis type 1,0.05067863757363973,False
+CTSS,MONDO_0013240,maturity-onset diabetes of the young type 10,0.05020742325891673,False
+CTSS,MONDO_0009061,cystic fibrosis,0.049307382009140664,False
+CTSS,MONDO_0021124,female infertility,0.048784540818380635,False
+CTSS,MONDO_0019338,sarcoidosis,0.04829306972002616,False
+CTSS,Orphanet_93372,Familial hypocalciuric hypercalcemia type 1,0.04806570800101889,False
+NFATC2,MONDO_0005044,hypertensive disorder,0.5288752507916479,False
+NFATC2,HP_0002619,Varicose veins,0.4934773018267443,False
+NFATC2,MONDO_0005148,type 2 diabetes mellitus,0.48529827451304913,False
+NFATC2,MONDO_0004634,vein disorder,0.44441529753834524,False
+NFATC2,MONDO_0005271,allergic disease,0.4436920268088482,False
+NFATC2,MONDO_0005015,diabetes mellitus,0.4366048263495258,False
+NFATC2,MONDO_0011786,allergic rhinitis,0.43172516964750757,False
+NFATC2,MONDO_0001134,essential hypertension,0.4279687951544658,False
+NFATC2,MONDO_0004979,asthma,0.4199902710483203,False
+NFATC2,MONDO_0859369,"joint contractures, osteochondromas, and B-cell lymphoma",0.40838573942659545,False
+NFATC2,MONDO_0005087,respiratory system disorder,0.4032269114328177,False
+NFATC2,HP_0001977,Abnormal thrombosis,0.4032269114328177,False
+NFATC2,HP_0000964,Eczematoid dermatitis,0.4011282174459449,False
+NFATC2,HP_0000924,Abnormality of the skeletal system,0.3937730738457941,False
+NFATC2,MONDO_0005833,lymphatic system disorder,0.38963031148124694,False
+NFATC2,MONDO_0005559,neurodegenerative disease,0.37305904509425275,False
+NFATC2,MONDO_0004950,gastric carcinoma,0.37050380432141355,False
+NFATC2,MONDO_0005590,breast ductal adenocarcinoma,0.37013422446672883,False
+NFATC2,MONDO_0005184,pancreatic ductal adenocarcinoma,0.36994943453938645,False
+NFATC2,MONDO_0005008,colorectal adenocarcinoma,0.3695798546847018,False
+NFATC2,MONDO_0006244,HER2 positive breast carcinoma,0.3695798546847018,False
+NFATC2,MONDO_0018531,carcinoma of liver and intrahepatic biliary tract,0.3695798546847018,False
+NFATC2,MONDO_0005496,bile duct carcinoma,0.3695798546847018,False
+NFATC2,MONDO_0005028,esophageal adenocarcinoma,0.3695798546847018,False
+NFATC2,MONDO_0002529,skin squamous cell carcinoma,0.3695798546847018,False
+NFATC2,MONDO_0006336,ovarian endometrioid adenocarcinoma with squamous differentiation,0.3695798546847018,False
+NFATC2,MONDO_0002514,hepatobiliary neoplasm,0.3695798546847018,False
+NFATC2,MONDO_0021163,kidney neoplasm,0.3695798546847018,False
+NFATC2,MONDO_0005341,skin basal cell carcinoma,0.3695798546847018,False
+NFATC2,MONDO_0006485,uterine carcinosarcoma,0.3695798546847018,False
+NFATC2,MONDO_0005157,lymphoid neoplasm,0.3695798546847018,False
+NFATC2,EFO_0004229,Dupuytren Contracture,0.33985799798397853,False
+NFATC2,MONDO_0005083,psoriasis,0.33893219615232806,False
+NFATC2,MONDO_0004981,atrial fibrillation,0.3344776170817157,False
+NFATC2,MONDO_0013662,Barrett esophagus,0.3205492428059141,False
+NFATC2,EFO_0003907,deep vein thrombosis,0.3160835675877172,False
+NFATC2,GO_0009410,response to xenobiotic stimulus,0.3140723054157083,False
+NFATC2,MONDO_0004995,cardiovascular disorder,0.3129162577525107,False
+NFATC2,MONDO_0006629,"osteoarthritis, hip",0.3123755246216276,False
+NFATC2,EFO_0010690,renal dialysis,0.3117664537601582,False
+NFATC2,MONDO_0005488,adolescent idiopathic scoliosis,0.31122029679721525,False
+NFATC2,HP_0000689,Dental malocclusion,0.3105138151306746,False
+NFATC2,HP_0100790,Hernia,0.30608569880498027,False
+NFATC2,MONDO_0005105,melanoma,0.30403686965642734,False
+NFATC2,MONDO_0002428,protozoa infectious disease,0.3020467410687003,False
+NFATC2,MONDO_0004989,breast carcinoma,0.3016730670323494,False
+NFATC2,MONDO_0004975,Alzheimer disease,0.30013054221150925,False
+NFATC2,MONDO_0021042,glioma,0.29851938984186865,False
+NFATC2,MONDO_0005580,esophageal squamous cell carcinoma,0.29648773884049606,False
+NFATC2,MONDO_0004948,B-cell chronic lymphocytic leukemia,0.2949939144573888,False
+NFATC2,MONDO_0010138,thyrotoxicosis,0.29493606069995587,False
+NFATC2,MONDO_0005138,lung carcinoma,0.2946281520881654,False
+NFATC2,MONDO_0018874,acute myeloid leukemia,0.2931732716982483,False
+NFATC2,HP_0001822,Hallux valgus,0.2929975151872732,False
+NFATC2,MONDO_0007256,hepatocellular carcinoma,0.2894685828918442,False
+NFATC2,MONDO_0005159,prostate carcinoma,0.2887078231040204,False
+NFATC2,MONDO_0005233,non-small cell lung carcinoma,0.28545170279343357,False
+NFATC2,MONDO_0007179,autoimmune disease,0.2852300159446697,False
+NFATC2,MONDO_0005192,exocrine pancreatic carcinoma,0.28484956655540405,False
+NFATC2,MONDO_0010150,head and neck squamous cell carcinoma,0.28411518058582436,False
+NFATC2,MONDO_0005611,bladder transitional cell carcinoma,0.2841145132888645,False
+NFATC2,MONDO_0005061,lung adenocarcinoma,0.2837174212783764,False
+NFATC2,MONDO_0007243,Burkitt lymphoma,0.28218735103485626,False
+NFATC2,MONDO_0005036,gastric adenocarcinoma,0.2796333575508125,False
+NFATC2,MONDO_0016982,angiosarcoma,0.2795871600689769,False
+NFATC2,MONDO_0005012,cutaneous melanoma,0.2793664387668735,False
+NFATC2,MONDO_0004986,urinary bladder carcinoma,0.279125185250621,False
+NFATC2,MONDO_0006143,cervical squamous cell carcinoma,0.27903279028694983,False
+NFATC2,MONDO_0004963,T-cell acute lymphoblastic leukemia,0.27903279028694983,False
+NFATC2,MONDO_0000930,nodular malignant melanoma,0.27903279028694983,False
+NFATC2,MONDO_0005097,squamous cell lung carcinoma,0.27824743309574484,False
+NFATC2,MONDO_0004952,Hodgkins lymphoma,0.27820123561390925,False
+NFATC2,MONDO_0006486,uveal melanoma,0.27810884065023805,False
+NFATC2,MONDO_0005075,thyroid gland papillary carcinoma,0.2779240507228957,False
+NFATC2,MONDO_0006394,rectal tubular adenoma,0.27718489101352634,False
+NFATC2,MONDO_0003193,bile duct adenocarcinoma,0.27718489101352634,False
+NFATC2,MONDO_0044791,combined hepatocellular carcinoma and cholangiocarcinoma,0.27718489101352634,False
+NFATC2,MONDO_0005082,prostate adenocarcinoma,0.27718489101352634,False
+NFATC2,MONDO_0021123,Ewing sarcoma/peripheral primitive neuroectodermal tumor of bone,0.27718489101352634,False
+NFATC2,MONDO_0003050,lung large cell carcinoma,0.27718489101352634,False
+NFATC2,EFO_1000592,Thyroid Gland Oncocytic Follicular Carcinoma,0.27718489101352634,False
+NFATC2,MONDO_0015075,thyroid gland carcinoma,0.27718489101352634,False
+NFATC2,MONDO_0019004,kidney Wilms tumor,0.27718489101352634,False
+NFATC2,MONDO_0019954,pancreatic neuroendocrine tumor,0.27718489101352634,False
+NFATC2,MONDO_0006028,cecum adenocarcinoma,0.27718489101352634,False
+NFATC2,MONDO_0017884,papillary renal cell carcinoma,0.27718489101352634,False
+NFATC2,MONDO_0019468,T-cell prolymphocytic leukemia,0.27718489101352634,False
+NFATC2,MONDO_0005037,gastric intestinal type adenocarcinoma,0.27718489101352634,False
+NFATC2,MONDO_0002169,rectum adenocarcinoma,0.27718489101352634,False
+NFATC2,MONDO_0004379,female breast carcinoma,0.27718489101352634,False
+NFATC2,MONDO_0044925,oral cavity carcinoma,0.27718489101352634,False
+NFATC2,MONDO_0005017,diffuse gastric adenocarcinoma,0.27718489101352634,False
+NFATC2,MONDO_0008433,small cell lung carcinoma,0.27718489101352634,False
+NFATC2,MONDO_0020638,superficial spreading melanoma,0.27718489101352634,False
+NFATC2,MONDO_0006221,gastric adenoma,0.27718489101352634,False
+NFATC2,MONDO_0000640,central nervous system primitive neuroectodermal neoplasm,0.27718489101352634,False
+NFATC2,MONDO_0006215,gallbladder adenocarcinoma,0.27718489101352634,False
+NFATC2,MONDO_0006060,nasopharyngeal squamous cell carcinoma,0.27718489101352634,False
+NFATC2,MONDO_0006417,small intestinal diffuse large B-cell lymphoma,0.27718489101352634,False
+NFATC2,MONDO_0005005,clear cell renal carcinoma,0.27718489101352634,False
+SETD1A,MONDO_0033630,neurodevelopmental disorder with speech impairment and dysmorphic facies,0.7561663159260442,False
+SETD1A,EFO_0010739,"epilepsy, early-onset, with or without developmental delay",0.7322966995905185,False
+SETD1A,MONDO_0005090,schizophrenia,0.5849942835040796,False
+SETD1A,MONDO_0003847,hereditary disease,0.533977294780309,False
+SETD1A,HP_0001249,Intellectual disability,0.4923358974514596,False
+SETD1A,MONDO_0700092,neurodevelopmental disorder,0.38575544180378935,False
+SETD1A,MONDO_0100038,complex neurodevelopmental disorder,0.3695798546847018,False
+SETD1A,MONDO_0060596,neurodevelopmental disorder with dysmorphic facies and distal limb anomalies,0.3400134663099256,False
+SETD1A,MONDO_0005258,autism spectrum disorder,0.26750138551543345,False
+SETD1A,MONDO_0005287,developmental disability,0.1491152052582026,False
+SETD1A,MONDO_0005364,Graves disease,0.1276758377503248,False
+SETD1A,HP_0001250,Seizure,0.11826555349910459,False
+SETD1A,MONDO_0007254,breast cancer,0.10106334252606071,False
+SETD1A,MONDO_0001056,gastric cancer,0.09965414998236562,False
+SETD1A,MONDO_0005233,non-small cell lung carcinoma,0.09669386062433911,False
+SETD1A,MONDO_0004989,breast carcinoma,0.09060815192637794,False
+SETD1A,MONDO_0007915,systemic lupus erythematosus,0.0873851034187828,False
+SETD1A,MONDO_0007256,hepatocellular carcinoma,0.08701130365032324,False
+SETD1A,MONDO_0008903,lung cancer,0.08302607898481179,False
+SETD1A,MONDO_0005138,lung carcinoma,0.08302607898481179,False
+SETD1A,MONDO_0005059,leukemia,0.08274657238582657,False
+SETD1A,MONDO_0005159,prostate carcinoma,0.07832956222220035,False
+SETD1A,MONDO_0008315,prostate cancer,0.07770509890638293,False
+SETD1A,Orphanet_1331,Familial prostate cancer,0.07770509890638293,False
+SETD1A,MONDO_0015459,nasopharyngeal carcinoma,0.07428555079162505,False
+SETD1A,MONDO_0004992,cancer,0.07118460230987511,False
+SETD1A,MONDO_0018874,acute myeloid leukemia,0.05683028792254159,False
+SETD1A,MONDO_0005070,neoplasm,0.05448634157211739,False
+SETD1A,OTAR_0000003,cyst,0.05059137566350585,False
+SETD1A,MONDO_0011601,neonatal intrahepatic cholestasis due to citrin deficiency,0.039641135213481116,False
+SETD1A,MONDO_0007762,hyperlipoproteinemia type V,0.03797063427030626,False
+SETD1A,Orphanet_70470,Hyperlipoproteinemia type 5,0.03797063427030626,False
+SETD1A,MONDO_0018328,homozygous familial hypercholesterolemia,0.03677319554112783,False
+SETD1A,MONDO_0018177,glioblastoma,0.036742397219904105,False
+SETD1A,MONDO_0958023,"lipodystrophy, congenital generalized, type 5",0.03666971318181611,False
+SETD1A,MONDO_0958022,"lipodystrophy, familial partial, type 8",0.03386829788330607,False
+SETD1A,MONDO_0012586,"coronary artery disease, autosomal dominant 2",0.03351350122280876,False
+SETD1A,HP_0000737,Irritability,0.03319016963680894,False
+SETD1A,MONDO_0005439,familial hypercholesterolemia,0.03316609615940514,False
+SETD1A,MONDO_0011369,"hypercholesterolemia, autosomal dominant, 3",0.03316609615940514,False
+SETD1A,MONDO_0014449,congenital analbuminemia,0.03229388770234924,False
+SETD1A,MONDO_0011448,PPARG-related familial partial lipodystrophy,0.03218301374594383,False
+SETD1A,MONDO_0031003,"hypercholanemia, familial, 2",0.03170995153194742,False
+SETD1A,Orphanet_93160,Hypocalcemic vitamin D-resistant rickets,0.03141428764819965,False
+SETD1A,Orphanet_79211,Combined hyperlipidemia,0.03130341369179424,False
+SETD1A,MONDO_0859149,hypertriglyceridemia 2,0.03105949098770234,False
+SETD1A,MONDO_0957262,"osteopetrosis, autosomal recessive 9",0.031052099390608646,False
+SETD1A,MONDO_0013534,apolipoprotein c-III deficiency,0.030830351477797825,False
+SETD1A,Orphanet_79292,Fish-eye disease,0.030475554817300507,False
+SETD1A,MONDO_0018999,LCAT deficiency,0.030475554817300507,False
+SETD1A,MONDO_0007620,fish eye disease,0.030475554817300507,False
+SETD1A,MONDO_0004975,Alzheimer disease,0.030395846288793597,False
+SETD1A,MONDO_0015278,familial pancreatic carcinoma,0.029176276305942293,False
+SETD1A,MONDO_0021040,pancreatic neoplasm,0.029176276305942293,False
+SETD1A,MONDO_0002025,psychiatric disorder,0.023515429633207505,False
+SETD1A,MONDO_0005180,Parkinson disease,0.02282767482282404,False
+SETD1A,MONDO_0005083,psoriasis,0.02280158328715256,False
+SETD1A,MONDO_0007743,attention deficit-hyperactivity disorder,0.022174791281082105,False
+SETD1A,MONDO_0007191,Behcet disease,0.01847899273423509,False
+SETD1A,MONDO_0024331,colorectal carcinoma,0.018391639522862765,False
+SETD1A,MONDO_0002009,major depressive disorder,0.01796568738050634,False
+SETD1A,MONDO_0005100,systemic sclerosis,0.017739833024865686,False
+SETD1A,HP_0001263,Global developmental delay,0.017177340447506358,False
+SETD1A,HP_0000739,Anxiety,0.01607672367878453,False
+SETD1A,MONDO_0021085,gastric neoplasm,0.014783194187388075,False
+SETD1A,MONDO_0043209,albinism,0.014783194187388075,False
+SETD1A,HP_0012758,Neurodevelopmental delay,0.013887579006202149,False
+SETD1A,EFO_0000544,infection,0.013157605401208791,False
+SETD1A,MONDO_0005140,ovarian carcinoma,0.012787245079205836,False
+SETD1A,HP_0000750,Delayed speech and language development,0.012565715059279862,False
+SETD1A,MONDO_0005260,autism,0.012450324015761639,False
+SETD1A,MONDO_0008170,ovarian cancer,0.01186329544249408,False
+SETD1A,MONDO_0005485,psychotic disorder,0.011826555349910457,False
+SETD1A,MONDO_0018097,infantile spasms,0.011826555349910457,False
+SETD1A,MONDO_0011385,intervertebral disk degenerative disorder,0.011087395640541052,False
+SETD1A,MONDO_0002691,liver cancer,0.010304707637175451,False
+SETD1A,MONDO_0004976,amyotrophic lateral sclerosis,0.00997865607648695,False
+SETD1A,MONDO_0021259,prostate neoplasm,0.009793866149144598,False
+SETD1A,MONDO_0005494,triple-negative breast carcinoma,0.00968360815916366,False
+SETD1A,EFO_1001283,"Candidiasis, Invasive",0.009609076221802246,False
+SETD1A,MONDO_0005575,colorectal cancer,0.009573686780165283,False
+SETD1A,HP_0100543,Cognitive impairment,0.009159796840342812,False
+SETD1A,HP_0100806,Sepsis,0.008869916512432843,False
+SETD1A,MONDO_0007763,nonpapillary renal cell carcinoma,0.008315546730405791,False
+SETD1A,MONDO_0957599,"epilepsy, early-onset",0.008295014516256641,False
+SETD1A,MONDO_0005044,hypertensive disorder,0.00825395008795834,False
+SETD1A,MONDO_0005081,preeclampsia,0.00813075680306344,False
+SETD1A,MONDO_0019087,cholangiocarcinoma,0.00811022458891429,False
+SETD1A,MONDO_0005184,pancreatic ductal adenocarcinoma,0.00794596687572109,False
+SETD1A,MONDO_0004948,B-cell chronic lymphocytic leukemia,0.007761176948378739,False
+SETD1A,MONDO_0005148,type 2 diabetes mellitus,0.0073915970936940375,False
+SETD1A,MONDO_0018905,diffuse large B-cell lymphoma,0.0073915970936940375,False
+SETD1A,MONDO_0005002,chronic obstructive pulmonary disease,0.0073915970936940375,False
+SETD1A,MONDO_0005086,renal cell carcinoma,0.0073915970936940375,False
+SETD1A,MONDO_0018906,follicular lymphoma,0.0073915970936940375,False
+SETD1A,HP_0004326,Cachexia,0.0073915970936940375,False
+SETD1A,MONDO_0005178,osteoarthritis,0.0073915970936940375,False
+SETD1A,MONDO_0006047,pancreatic adenocarcinoma,0.0073915970936940375,False
+SETD1A,MONDO_0042491,cervical squamous intraepithelial neoplasia,0.0073915970936940375,False
+SETD1A,MONDO_0002142,undifferentiated pleomorphic sarcoma,0.0073915970936940375,False
+TYROBP,Orphanet_2770,Nasu-Hakola disease,0.6967494889913295,False
+TYROBP,MONDO_0001627,dementia,0.4081332184603554,False
+TYROBP,MONDO_0005559,neurodegenerative disease,0.3977218128751909,False
+TYROBP,MONDO_0003847,hereditary disease,0.19187016189079314,False
+TYROBP,MONDO_0005180,Parkinson disease,0.1310453754575681,False
+TYROBP,EFO_0010673,cardiac transplant,0.1288703316896262,False
+TYROBP,MONDO_0021095,parkinsonian disorder,0.11826555349910459,False
+TYROBP,HP_0002067,Bradykinesia,0.11826555349910459,False
+TYROBP,EFO_0001072,memory impairment,0.11826555349910459,False
+TYROBP,HP_0001272,Cerebellar atrophy,0.11826555349910459,False
+TYROBP,HP_0002345,Action tremor,0.11826555349910459,False
+TYROBP,HP_0002120,Cerebral cortical atrophy,0.11826555349910459,False
+TYROBP,HP_0006892,Frontotemporal cerebral atrophy,0.11826555349910459,False
+TYROBP,HP_0002340,Caudate atrophy,0.11826555349910459,False
+TYROBP,MONDO_0004975,Alzheimer disease,0.10967420967846556,False
+TYROBP,MONDO_0005574,tauopathy,0.10576304985295235,False
+TYROBP,MONDO_0007763,nonpapillary renal cell carcinoma,0.09933899927916216,False
+TYROBP,MONDO_0005070,neoplasm,0.09608185999517455,False
+TYROBP,MONDO_0008383,rheumatoid arthritis,0.09542088009880334,False
+TYROBP,HP_0001513,Obesity,0.08997528807417217,False
+TYROBP,MONDO_0011122,obesity disorder,0.08997528807417217,False
+TYROBP,MONDO_0019115,obesity due to melanocortin 4 receptor deficiency,0.08997528807417217,False
+TYROBP,MONDO_0004992,cancer,0.08865521984055803,False
+TYROBP,MONDO_0009807,osteosarcoma,0.07813101497374567,False
+TYROBP,MONDO_0007739,Huntington disease,0.0779762162849348,False
+TYROBP,MONDO_0009685,Miyoshi myopathy,0.07391597093694036,False
+TYROBP,MONDO_0004981,atrial fibrillation,0.0547700670121139,False
+TYROBP,MONDO_0014080,osteosclerotic metaphyseal dysplasia,0.05465716470932054,False
+TYROBP,MONDO_0005382,bone Paget disease,0.05307536293127002,False
+TYROBP,MONDO_0011230,ossification of the posterior longitudinal ligament of the spine,0.05234359481899432,False
+TYROBP,MONDO_0001056,gastric cancer,0.051970946067800235,False
+TYROBP,MONDO_0019784,12q14 microdeletion syndrome,0.05105560902541812,False
+TYROBP,MONDO_0011877,autosomal dominant osteopetrosis 1,0.05068048547291316,False
+TYROBP,Orphanet_2783,Autosomal dominant osteopetrosis type 1,0.05068048547291316,False
+TYROBP,MONDO_0007970,melorheostosis,0.05051376389402205,False
+TYROBP,MONDO_0005178,osteoarthritis,0.05033438207681333,False
+TYROBP,MONDO_0009395,hyperostosis corticalis generalisata,0.049979721004002664,False
+TYROBP,MONDO_0021042,glioma,0.04972783699497591,False
+TYROBP,MONDO_0002714,central nervous system cancer,0.04972783699497591,False
+TYROBP,MONDO_0008961,Charcot-Marie-Tooth disease type 4A,0.04960973050503498,False
+TYROBP,EFO_0007982,mild neurocognitive disorder,0.049338910600407695,False
+TYROBP,MONDO_0007309,Charcot-Marie-Tooth disease type 1A,0.04805975365891564,False
+TYROBP,MONDO_0019667,spondyloepiphyseal dysplasia tarda,0.0478772222751297,False
+TYROBP,MONDO_0014711,autosomal dominant Charcot-Marie-Tooth disease type 2W,0.04752612141317922,False
+TYROBP,MONDO_0015634,isolated osteopoikilosis,0.047474380233523364,False
+TYROBP,Orphanet_210110,Intermediate osteopetrosis,0.047064557239106346,False
+TYROBP,Orphanet_53,Albers-Schönberg osteopetrosis,0.04683500708491884,False
+TYROBP,MONDO_0008156,autosomal dominant osteopetrosis 2,0.04683500708491884,False
+TYROBP,MONDO_0859253,"osteoporosis, childhood- or juvenile-onset, with developmental delay",0.045441691032757504,False
+TYROBP,MONDO_0013959,Charcot-Marie-Tooth disease type 4F,0.04506471958097911,False
+TYROBP,MONDO_0033363,"developmental and epileptic encephalopathy, 54",0.04502776159551064,False
+TYROBP,MONDO_0010995,Charcot-Marie-Tooth disease type 1C,0.04439393214472638,False
+TYROBP,MONDO_0019019,osteogenesis imperfecta,0.044184503560405056,False
+TYROBP,MONDO_0009597,"metaphyseal chondrodysplasia, Spahr type",0.04411305145516601,False
+TYROBP,MONDO_0018076,tuberculosis,0.04388247469027105,False
+TYROBP,MONDO_0015613,dentin dysplasia,0.04350324469493625,False
+TYROBP,MONDO_0006702,chronic inflammatory demyelinating polyradiculoneuropathy,0.04327964888285201,False
+TYROBP,MONDO_0008155,osteomesopyknosis,0.04326301778939119,False
+TYROBP,Orphanet_85192,Calvarial doughnut lesions - bone fragility,0.043050509372947486,False
+TYROBP,MONDO_0007470,calvarial doughnut lesions-bone fragility syndrome,0.043050509372947486,False
+TYROBP,MONDO_0007915,systemic lupus erythematosus,0.04297473293199377,False
+TYROBP,MONDO_0019087,cholangiocarcinoma,0.04287126314342542,False
+TYROBP,Orphanet_100044,Autosomal dominant intermediate Charcot-Marie-Tooth disease type B,0.04274745389210603,False
+TYROBP,MONDO_0011674,Charcot-Marie-Tooth disease dominant intermediate B,0.04274745389210603,False
+TYROBP,MONDO_0016431,autosomal dominant Charcot-Marie-Tooth disease type 2M,0.04274745389210603,False
+TYROBP,MONDO_0007319,chondrocalcinosis 2,0.042728974899371795,False
+TYROBP,MONDO_0008392,Roussy-Levy syndrome,0.04263657993570062,False
+TYROBP,Orphanet_3115,Roussy-Lévy syndrome,0.04263657993570062,False
+TYROBP,MONDO_0005015,diabetes mellitus,0.04240289973842027,False
+TYROBP,MONDO_0030677,"Charcot-Marie-Tooth disease, demyelinating, IIA 1I",0.04208221015367357,False
+TYROBP,MONDO_0030714,"osteogenesis imperfecta, IIA 22",0.04178285047137897,False
+TYROBP,MONDO_0017178,osteochondritis dissecans,0.04171078239971545,False
+TYROBP,Orphanet_251262,Familial osteochondritis dissecans,0.04171078239971545,False
+TYROBP,MONDO_0003543,trigeminal nerve disorder,0.04153892776728706,False
+TYROBP,MONDO_0008599,trigeminal neuralgia,0.04153892776728706,False
+TYROBP,MONDO_0011902,Charcot-Marie-Tooth disease type 1F,0.04111760673294649,False
+TYROBP,MONDO_0009818,autosomal recessive osteopetrosis 3,0.040520735267630704,False
+TYROBP,Orphanet_2785,Osteopetrosis with renal tubular acidosis,0.040520735267630704,False
+TYROBP,MONDO_0007764,"autosomal dominant osteosclerosis, Worth type",0.04048932097998251,False
+TYROBP,MONDO_0013016,leukocyte adhesion deficiency 3,0.04044312349814692,False
+TYROBP,Orphanet_99844,Leukocyte adhesion deficiency type III,0.04044312349814692,False
+TYROBP,MONDO_0007145,aplasia cutis congenita,0.0396392873142077,False
+TYROBP,MONDO_0008704,short-limb skeletal dysplasia with severe combined immunodeficiency,0.03955797974617705,False
+TYROBP,MONDO_0007624,Flynn-Aird syndrome,0.039550588149083375,False
+TYROBP,MONDO_0005010,coronary artery disorder,0.0395039800229648,False
+TYROBP,MONDO_0100062,genetic developmental and epileptic encephalopathy,0.039426778897763984,False
+TYROBP,MONDO_0011085,Charcot-Marie-Tooth disease type 4D,0.03936395032246758,False
+TYROBP,Orphanet_667,Autosomal recessive malignant osteopetrosis,0.039044263748165324,False
+TYROBP,Orphanet_89936,X-linked hypophosphatemia,0.03901284946051711,False
+TYROBP,MONDO_0004976,amyotrophic lateral sclerosis,0.03849350872873522,False
+TYROBP,MONDO_0018800,Kallmann syndrome,0.038458479678490066,False
+TYROBP,Orphanet_320365,Autosomal dominant spastic paraplegia type 36,0.03825705865768691,False
+TYROBP,MONDO_0005090,schizophrenia,0.03728730961267919,False
+TYROBP,HP_0100806,Sepsis,0.0372490977292291,False
+TYROBP,MONDO_0005350,abdominal aortic aneurysm,0.03695798546847018,False
+TYROBP,MONDO_0005649,appendicitis,0.03621882575910078,False
+TYROBP,MONDO_0014074,Charcot-Marie-Tooth disease dominant intermediate F,0.035664455977073725,False
+TYROBP,Orphanet_352670,Autosomal dominant intermediate Charcot-Marie-Tooth disease type F,0.035664455977073725,False
+TYROBP,MONDO_0005292,colitis,0.03563365765584999,False
+TYROBP,MONDO_0010070,"brachyolmia type 1, Hobaek type",0.03553879882648093,False

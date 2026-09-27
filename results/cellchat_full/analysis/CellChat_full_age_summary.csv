@@ -1,0 +1,4 @@
+"age_months","nonzero_edges","significant_edges","significant_interactions","significant_pathways","total_significant_probability","mean_probability_per_significant_edge"
+3,739,455,146,33,11.4918711999513,0.0252568597801127
+12,561,360,115,34,9.39216525967245,0.0260893479435346
+24,463,245,64,27,7.44473528319366,0.0303866746252802

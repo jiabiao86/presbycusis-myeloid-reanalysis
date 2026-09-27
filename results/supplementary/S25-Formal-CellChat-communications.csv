@@ -1,0 +1,4 @@
+﻿source,target,ligand,receptor,prob,pval,interaction_name,interaction_name_2,pathway_name,annotation,evidence,age_months
+Macrophages/Microglia,Macrophages/Microglia,Ptprc,Mrc1,0.069442541768023,0,PTPRC_MRC1,Ptprc  - Mrc1,CD45,Cell-Cell Contact,PMID: 27601670; PMID: 10575006,3
+Macrophages/Microglia,Macrophages/Microglia,Ptprc,Mrc1,0.108225895171534,0,PTPRC_MRC1,Ptprc  - Mrc1,CD45,Cell-Cell Contact,PMID: 27601670; PMID: 10575006,12
+Macrophages/Microglia,Macrophages/Microglia,Ptprc,Mrc1,0.0447300343885107,0,PTPRC_MRC1,Ptprc  - Mrc1,CD45,Cell-Cell Contact,PMID: 27601670; PMID: 10575006,24

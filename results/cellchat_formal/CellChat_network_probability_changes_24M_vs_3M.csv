@@ -1,0 +1,2 @@
+"source","target","interaction_name","prob_3m","age_months_3m","prob_24m","age_months_24m","delta_24m_minus_3m","involving_myeloid"
+"Macrophages/Microglia","Macrophages/Microglia","PTPRC_MRC1",0.069442541768023,3,0.0447300343885107,24,-0.0247125073795124,TRUE

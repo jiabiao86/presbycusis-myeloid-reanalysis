@@ -1,0 +1,46 @@
+"age_months","source","target","interaction_name","prob","pval"
+3,"Supporting cells","Inner hair cells","PTN_ALK",0.317310127597561,0
+3,"Spiral ganglion neurons","Supporting cells","NRG3_ERBB4",0.274816090751913,0
+3,"Fibrocytes","Inner hair cells","PTN_ALK",0.273581784835085,0
+3,"Outer hair cells","Inner hair cells","PTN_ALK",0.247285548907177,0
+3,"Macrophages/Microglia","Inner hair cells","PTN_ALK",0.239089094420536,0
+3,"Glia/Schwann","Inner hair cells","PTN_ALK",0.237272045511496,0
+3,"Inner hair cells","Inner hair cells","PTN_ALK",0.23321219225046,0
+3,"Spiral ganglion neurons","Inner hair cells","PTN_ALK",0.230939092584089,0
+3,"Supporting cells","Glia/Schwann","PTN_PTPRZ1",0.216563667840741,0
+3,"Spiral ganglion neurons","Glia/Schwann","NRG3_ERBB4",0.199198837657351,0
+3,"Spiral ganglion neurons","Fibrocytes","NRG3_ERBB4",0.195018144314004,0
+3,"Fibrocytes","Glia/Schwann","PTN_PTPRZ1",0.182997533770206,0
+3,"Spiral ganglion neurons","Spiral ganglion neurons","CADM1_CADM1",0.172597590055473,0
+3,"Glia/Schwann","Supporting cells","EFNA5_EPHA3",0.165016683718193,0
+3,"Outer hair cells","Glia/Schwann","PTN_PTPRZ1",0.163449017251016,0
+12,"Supporting cells","Glia/Schwann","PTN_PTPRZ1",0.275496024573566,0
+12,"Spiral ganglion neurons","Supporting cells","NRG3_ERBB4",0.235694460828851,0
+12,"Spiral ganglion neurons","Glia/Schwann","PTN_PTPRZ1",0.228451256952913,0
+12,"Fibrocytes","Glia/Schwann","PTN_PTPRZ1",0.226641917594629,0
+12,"Inner hair cells","Glia/Schwann","PTN_PTPRZ1",0.220658028942837,0
+12,"Outer hair cells","Glia/Schwann","PTN_PTPRZ1",0.216902864432928,0
+12,"Supporting cells","Inner hair cells","PTN_ALK",0.210155846122085,0
+12,"Macrophages/Microglia","Glia/Schwann","PTN_PTPRZ1",0.204587393995629,0
+12,"Glia/Schwann","Glia/Schwann","PTN_PTPRZ1",0.197525799132536,0
+12,"Spiral ganglion neurons","Fibrocytes","NRG3_ERBB4",0.18043646979868,0
+12,"Spiral ganglion neurons","Inner hair cells","PTN_ALK",0.171625694459325,0
+12,"Fibrocytes","Inner hair cells","PTN_ALK",0.170167152999364,0
+12,"Inner hair cells","Inner hair cells","PTN_ALK",0.165355520383107,0
+12,"Outer hair cells","Inner hair cells","PTN_ALK",0.162345445843803,0
+12,"Spiral ganglion neurons","Glia/Schwann","NRG3_ERBB4",0.159480998770324,0
+24,"Spiral ganglion neurons","Supporting cells","NRG3_ERBB4",0.283227878177298,0
+24,"Supporting cells","Glia/Schwann","PTN_PTPRZ1",0.273696382956348,0
+24,"Supporting cells","Inner hair cells","PTN_ALK",0.227429017345705,0
+24,"Fibrocytes","Glia/Schwann","PTN_PTPRZ1",0.205625354676957,0
+24,"Spiral ganglion neurons","Glia/Schwann","NRG3_ERBB4",0.205110646138262,0
+24,"Spiral ganglion neurons","Outer hair cells","NRG3_ERBB4",0.198110873295425,0
+24,"Spiral ganglion neurons","Fibrocytes","NRG3_ERBB4",0.193428273996872,0
+24,"Supporting cells","Inner hair cells","PTN_PTPRZ1",0.186893277367057,0
+24,"Fibrocytes","Inner hair cells","PTN_ALK",0.168200272731881,0
+24,"Glia/Schwann","Glia/Schwann","EFNA5_EPHA7",0.159190557112548,0
+24,"Macrophages/Microglia","Glia/Schwann","PTN_PTPRZ1",0.140695970756723,0
+24,"Glia/Schwann","Supporting cells","EFNA5_EPHA3",0.137295166478131,0
+24,"Fibrocytes","Inner hair cells","PTN_PTPRZ1",0.136357918459327,0
+24,"Spiral ganglion neurons","Inner hair cells","NRG3_ERBB4",0.125790817273375,0
+24,"Glia/Schwann","Fibrocytes","EFNA5_EPHA7",0.123202735427371,0

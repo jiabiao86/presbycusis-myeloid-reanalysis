@@ -1,0 +1,4 @@
+﻿age_months,n_interactions_evaluated,n_nonzero_edges,n_significant_edges,n_significant_interactions,n_significant_pathways,nboot,seed_use
+3,2019,739,455,146,33,100,1
+12,2019,561,360,115,34,100,1
+24,2019,463,245,64,27,100,1

@@ -1,0 +1,2 @@
+"source","target","ligand","receptor","interaction_name","pathway_name","annotation","age_months_3m","prob_3m","age_months_24m","prob_24m","delta_24m_minus_3m","log2FC_24m_vs_3m","involving_myeloid"
+"Macrophages/Microglia","Macrophages/Microglia","Ptprc","Mrc1","PTPRC_MRC1","CD45","Cell-Cell Contact",3,0.069442541768023,24,0.0447300343885107,-0.0247125073795124,-0.634564409654259,TRUE

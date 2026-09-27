@@ -1,0 +1,606 @@
+﻿age_months,source,target,pathway_name,prob
+3,Fibrocytes,Fibrocytes,PTN,0.0380587116560193
+3,Supporting cells,Fibrocytes,PTN,0.0465544738544718
+3,Fibrocytes,Glia/Schwann,PTN,0.182997533770206
+3,Glia/Schwann,Glia/Schwann,PTN,0.156126212428496
+3,Inner hair cells,Glia/Schwann,PTN,0.153175970978122
+3,Macrophages/Microglia,Glia/Schwann,PTN,0.157450120041152
+3,Outer hair cells,Glia/Schwann,PTN,0.163449017251016
+3,Spiral ganglion neurons,Glia/Schwann,PTN,0.151528816885918
+3,Supporting cells,Glia/Schwann,PTN,0.216563667840741
+3,Fibrocytes,Inner hair cells,PTN,0.335766337369864
+3,Glia/Schwann,Inner hair cells,PTN,0.2891979272591
+3,Inner hair cells,Inner hair cells,PTN,0.28403826252747
+3,Macrophages/Microglia,Inner hair cells,PTN,0.291510181716317
+3,Outer hair cells,Inner hair cells,PTN,0.301963585401157
+3,Spiral ganglion neurons,Inner hair cells,PTN,0.281153349905261
+3,Supporting cells,Inner hair cells,PTN,0.392952506465556
+3,Supporting cells,Supporting cells,PTN,0.0229448928431499
+3,Fibrocytes,Fibrocytes,EPHA,0.0767669074157813
+3,Glia/Schwann,Fibrocytes,EPHA,0.189009157354067
+3,Outer hair cells,Fibrocytes,EPHA,0.0557505239940027
+3,Supporting cells,Fibrocytes,EPHA,0.0232963625320551
+3,Fibrocytes,Glia/Schwann,EPHA,0.114288407612432
+3,Glia/Schwann,Glia/Schwann,EPHA,0.227426801530094
+3,Outer hair cells,Glia/Schwann,EPHA,0.0772148659203371
+3,Fibrocytes,Inner hair cells,EPHA,0.0123150270723555
+3,Glia/Schwann,Inner hair cells,EPHA,0.082764002483259
+3,Outer hair cells,Inner hair cells,EPHA,0.0087758325063405
+3,Glia/Schwann,Macrophages/Microglia,EPHA,0.0436911754948752
+3,Fibrocytes,Spiral ganglion neurons,EPHA,0.107201369688327
+3,Glia/Schwann,Spiral ganglion neurons,EPHA,0.26485639243077
+3,Inner hair cells,Spiral ganglion neurons,EPHA,0.0110312440705882
+3,Outer hair cells,Spiral ganglion neurons,EPHA,0.0529444536844536
+3,Spiral ganglion neurons,Spiral ganglion neurons,EPHA,0.0030407927301744
+3,Supporting cells,Spiral ganglion neurons,EPHA,0.0099779442877612
+3,Fibrocytes,Supporting cells,EPHA,0.190894359907706
+3,Glia/Schwann,Supporting cells,EPHA,0.37558282632579
+3,Outer hair cells,Supporting cells,EPHA,0.138043815658056
+3,Spiral ganglion neurons,Fibrocytes,NRG,0.294443814421335
+3,Spiral ganglion neurons,Glia/Schwann,NRG,0.301115312082663
+3,Spiral ganglion neurons,Inner hair cells,NRG,0.206883153462596
+3,Spiral ganglion neurons,Macrophages/Microglia,NRG,0.13028667515034
+3,Spiral ganglion neurons,Outer hair cells,NRG,0.105788819805106
+3,Spiral ganglion neurons,Spiral ganglion neurons,NRG,0.228220640159228
+3,Spiral ganglion neurons,Supporting cells,NRG,0.425055810883977
+3,Inner hair cells,Inner hair cells,PTPRM,0.13189245713524
+3,Spiral ganglion neurons,Inner hair cells,PTPRM,0.0799783816360789
+3,Supporting cells,Inner hair cells,PTPRM,0.0881413652967632
+3,Inner hair cells,Spiral ganglion neurons,PTPRM,0.0799783816360789
+3,Inner hair cells,Supporting cells,PTPRM,0.0881413652967632
+3,Supporting cells,Supporting cells,PTPRM,0.0579347417667977
+3,Fibrocytes,Macrophages/Microglia,LAMININ,0.0269115036683724
+3,Glia/Schwann,Macrophages/Microglia,LAMININ,0.0338125726386466
+3,Inner hair cells,Macrophages/Microglia,LAMININ,0.009824240853671
+3,Macrophages/Microglia,Macrophages/Microglia,LAMININ,0.0080162295527687
+3,Outer hair cells,Macrophages/Microglia,LAMININ,0.0149676188736834
+3,Spiral ganglion neurons,Macrophages/Microglia,LAMININ,0.0210416103974916
+3,Supporting cells,Macrophages/Microglia,LAMININ,0.0586446213485684
+3,Fibrocytes,Spiral ganglion neurons,LAMININ,0.0419374104941017
+3,Glia/Schwann,Spiral ganglion neurons,LAMININ,0.0544161654904194
+3,Inner hair cells,Spiral ganglion neurons,LAMININ,0.0153032185160028
+3,Macrophages/Microglia,Spiral ganglion neurons,LAMININ,0.0124850863729064
+3,Outer hair cells,Spiral ganglion neurons,LAMININ,0.0263698280712784
+3,Spiral ganglion neurons,Spiral ganglion neurons,LAMININ,0.0327784588421562
+3,Supporting cells,Spiral ganglion neurons,LAMININ,0.0933740863202306
+3,Glia/Schwann,Supporting cells,LAMININ,0.0074713943321072
+3,Outer hair cells,Supporting cells,LAMININ,0.0059623605837649
+3,Supporting cells,Supporting cells,LAMININ,0.0233870616410103
+3,Fibrocytes,Glia/Schwann,NRXN,0.0259404925742172
+3,Glia/Schwann,Glia/Schwann,NRXN,0.0124385052905402
+3,Inner hair cells,Glia/Schwann,NRXN,0.0859911883412275
+3,Spiral ganglion neurons,Glia/Schwann,NRXN,0.105501432583911
+3,Supporting cells,Glia/Schwann,NRXN,0.0274842825689097
+3,Fibrocytes,Spiral ganglion neurons,NRXN,0.0199940619054624
+3,Glia/Schwann,Spiral ganglion neurons,NRXN,0.0095096548310007
+3,Inner hair cells,Spiral ganglion neurons,NRXN,0.0687759889131422
+3,Spiral ganglion neurons,Spiral ganglion neurons,NRXN,0.0810863447981172
+3,Supporting cells,Spiral ganglion neurons,NRXN,0.0210295909820497
+3,Fibrocytes,Fibrocytes,BMP,0.0187051229128455
+3,Inner hair cells,Fibrocytes,BMP,0.0043877998853431
+3,Fibrocytes,Glia/Schwann,BMP,0.0280451045183878
+3,Inner hair cells,Glia/Schwann,BMP,0.0065781279229002
+3,Fibrocytes,Inner hair cells,BMP,0.0740477663156277
+3,Glia/Schwann,Inner hair cells,BMP,0.0357832268880498
+3,Inner hair cells,Inner hair cells,BMP,0.0174317001993486
+3,Supporting cells,Inner hair cells,BMP,0.0203770587420719
+3,Fibrocytes,Spiral ganglion neurons,BMP,0.0417222810196037
+3,Glia/Schwann,Spiral ganglion neurons,BMP,0.0044800735582784
+3,Inner hair cells,Spiral ganglion neurons,BMP,0.0098018044334403
+3,Fibrocytes,Supporting cells,BMP,0.0649750709222505
+3,Glia/Schwann,Supporting cells,BMP,0.0432743770163113
+3,Inner hair cells,Supporting cells,BMP,0.0153711253773763
+3,Supporting cells,Supporting cells,BMP,0.0290705800335845
+3,Spiral ganglion neurons,Fibrocytes,FGF,0.0288380065501619
+3,Spiral ganglion neurons,Glia/Schwann,FGF,0.0803181869070162
+3,Spiral ganglion neurons,Inner hair cells,FGF,0.0429440377607175
+3,Spiral ganglion neurons,Macrophages/Microglia,FGF,0.0380802218518804
+3,Spiral ganglion neurons,Outer hair cells,FGF,0.0165674123926556
+3,Spiral ganglion neurons,Spiral ganglion neurons,FGF,0.0435892693077585
+3,Spiral ganglion neurons,Supporting cells,FGF,0.0853256049985178
+3,Glia/Schwann,Glia/Schwann,CADM,0.0070938425819859
+3,Spiral ganglion neurons,Glia/Schwann,CADM,0.0371702222475952
+3,Supporting cells,Glia/Schwann,CADM,0.0054101039798636
+3,Glia/Schwann,Spiral ganglion neurons,CADM,0.0371702222475952
+3,Spiral ganglion neurons,Spiral ganglion neurons,CADM,0.175274568130226
+3,Supporting cells,Spiral ganglion neurons,CADM,0.0285530789918597
+3,Glia/Schwann,Supporting cells,CADM,0.0054101039798636
+3,Spiral ganglion neurons,Supporting cells,CADM,0.0285530789918597
+3,Glia/Schwann,Macrophages/Microglia,SEMA3,0.0125928719220805
+3,Inner hair cells,Macrophages/Microglia,SEMA3,0.0212900227272772
+3,Outer hair cells,Macrophages/Microglia,SEMA3,0.0393558413122446
+3,Spiral ganglion neurons,Macrophages/Microglia,SEMA3,0.0039616800382687
+3,Glia/Schwann,Spiral ganglion neurons,SEMA3,0.0255900789397695
+3,Inner hair cells,Spiral ganglion neurons,SEMA3,0.0433469181929824
+3,Outer hair cells,Spiral ganglion neurons,SEMA3,0.0804541971603232
+3,Spiral ganglion neurons,Spiral ganglion neurons,SEMA3,0.0080353377925414
+3,Glia/Schwann,Supporting cells,SEMA3,0.0072740853064391
+3,Inner hair cells,Supporting cells,SEMA3,0.0123437868011701
+3,Outer hair cells,Supporting cells,SEMA3,0.0229965793512996
+3,Spiral ganglion neurons,Supporting cells,SEMA3,0.0022799878674524
+3,Glia/Schwann,Macrophages/Microglia,SPP1,0.006939659060283
+3,Inner hair cells,Macrophages/Microglia,SPP1,0.0149850688230899
+3,Spiral ganglion neurons,Macrophages/Microglia,SPP1,0.0659549095609871
+3,Supporting cells,Macrophages/Microglia,SPP1,0.0144519654788171
+3,Spiral ganglion neurons,Spiral ganglion neurons,SPP1,0.016372027432076
+3,Inner hair cells,Supporting cells,SPP1,0.0034457429344249
+3,Spiral ganglion neurons,Supporting cells,SPP1,0.0395831211324682
+3,Supporting cells,Supporting cells,SPP1,0.0086651837430731
+3,Supporting cells,Fibrocytes,NEGR,0.0250064887279635
+3,Supporting cells,Outer hair cells,NEGR,0.0308117235391287
+3,Fibrocytes,Supporting cells,NEGR,0.0250064887279635
+3,Outer hair cells,Supporting cells,NEGR,0.0308117235391287
+3,Supporting cells,Supporting cells,NEGR,0.0559019237573905
+3,Spiral ganglion neurons,Fibrocytes,NCAM,0.0217059568677436
+3,Spiral ganglion neurons,Glia/Schwann,NCAM,0.0161782652357395
+3,Spiral ganglion neurons,Inner hair cells,NCAM,0.0085225921934341
+3,Spiral ganglion neurons,Spiral ganglion neurons,NCAM,0.0885482932930539
+3,Spiral ganglion neurons,Supporting cells,NCAM,0.0204384579022396
+3,Glia/Schwann,Spiral ganglion neurons,CNTN,0.0080572049214833
+3,Inner hair cells,Spiral ganglion neurons,CNTN,0.0661924914601508
+3,Spiral ganglion neurons,Spiral ganglion neurons,CNTN,0.0723904090092612
+3,Supporting cells,Macrophages/Microglia,FN1,0.0215660809318705
+3,Fibrocytes,Spiral ganglion neurons,FN1,0.0019736854238588
+3,Glia/Schwann,Spiral ganglion neurons,FN1,0.0026628123367589
+3,Inner hair cells,Spiral ganglion neurons,FN1,0.0035188223495849
+3,Macrophages/Microglia,Spiral ganglion neurons,FN1,0.0049466583868893
+3,Outer hair cells,Spiral ganglion neurons,FN1,0.0037988624309741
+3,Spiral ganglion neurons,Spiral ganglion neurons,FN1,0.0032435259546865
+3,Supporting cells,Spiral ganglion neurons,FN1,0.0131469364526581
+3,Supporting cells,Supporting cells,FN1,0.0591132056002999
+3,Fibrocytes,Spiral ganglion neurons,NGL,0.0421283578566142
+3,Spiral ganglion neurons,Spiral ganglion neurons,NGL,0.0414007776990673
+3,Supporting cells,Spiral ganglion neurons,NGL,0.0294205722085245
+3,Fibrocytes,Fibrocytes,MPZ,0.0081812479869427
+3,Glia/Schwann,Fibrocytes,MPZ,0.0150299472228458
+3,Supporting cells,Fibrocytes,MPZ,0.0061730839135607
+3,Fibrocytes,Glia/Schwann,MPZ,0.0088530037603728
+3,Glia/Schwann,Glia/Schwann,MPZ,0.0209259817940102
+3,Supporting cells,Glia/Schwann,MPZ,0.0066810616491291
+3,Glia/Schwann,Inner hair cells,MPZ,0.0025570801321743
+3,Glia/Schwann,Spiral ganglion neurons,MPZ,0.003331847404382
+3,Fibrocytes,Supporting cells,MPZ,0.0061730839135607
+3,Glia/Schwann,Supporting cells,MPZ,0.0113395056433879
+3,Inner hair cells,Inner hair cells,CDH,0.0020053794883342
+3,Spiral ganglion neurons,Inner hair cells,CDH,0.0107638456029252
+3,Inner hair cells,Spiral ganglion neurons,CDH,0.0107638456029252
+3,Spiral ganglion neurons,Spiral ganglion neurons,CDH,0.0627339981867302
+3,Fibrocytes,Macrophages/Microglia,TGFb,0.0235214460047748
+3,Spiral ganglion neurons,Macrophages/Microglia,TGFb,0.0134700295595385
+3,Supporting cells,Macrophages/Microglia,TGFb,0.0134321962261631
+3,Fibrocytes,Supporting cells,TGFb,0.0170380709152442
+3,Spiral ganglion neurons,Supporting cells,TGFb,0.0049440296864581
+3,Supporting cells,Supporting cells,TGFb,0.0093717893759408
+3,Macrophages/Microglia,Macrophages/Microglia,CD45,0.064301160086734
+3,Inner hair cells,Inner hair cells,NT,0.002911770010473
+3,Inner hair cells,Spiral ganglion neurons,NT,0.059925090141358
+3,Supporting cells,Fibrocytes,IGF,0.0098267629287484
+3,Supporting cells,Glia/Schwann,IGF,0.0076795249159265
+3,Supporting cells,Inner hair cells,IGF,0.0047279595500643
+3,Supporting cells,Macrophages/Microglia,IGF,0.0069724023026242
+3,Supporting cells,Outer hair cells,IGF,0.0115980122764718
+3,Supporting cells,Spiral ganglion neurons,IGF,0.0050339170035715
+3,Supporting cells,Supporting cells,IGF,0.0068367685526886
+3,Glia/Schwann,Spiral ganglion neurons,SEMA5,0.0055117674691677
+3,Inner hair cells,Spiral ganglion neurons,SEMA5,0.0207022850337632
+3,Spiral ganglion neurons,Spiral ganglion neurons,SEMA5,0.0021228049498322
+3,Supporting cells,Spiral ganglion neurons,SEMA5,0.0133990600369483
+3,Fibrocytes,Macrophages/Microglia,COLLAGEN,0.0050324557845841
+3,Glia/Schwann,Macrophages/Microglia,COLLAGEN,0.0034235079218705
+3,Spiral ganglion neurons,Macrophages/Microglia,COLLAGEN,0.0017929112048884
+3,Supporting cells,Macrophages/Microglia,COLLAGEN,0.0025155688189446
+3,Fibrocytes,Spiral ganglion neurons,COLLAGEN,0.0045184966892469
+3,Glia/Schwann,Spiral ganglion neurons,COLLAGEN,0.00307127326238
+3,Spiral ganglion neurons,Spiral ganglion neurons,COLLAGEN,0.0016070686584422
+3,Supporting cells,Spiral ganglion neurons,COLLAGEN,0.0022556745594793
+3,Fibrocytes,Supporting cells,COLLAGEN,0.0038073763733124
+3,Glia/Schwann,Supporting cells,COLLAGEN,0.0025890846547236
+3,Supporting cells,Supporting cells,COLLAGEN,0.0019020182940825
+3,Spiral ganglion neurons,Macrophages/Microglia,SEMA6,0.0063022639457922
+3,Spiral ganglion neurons,Spiral ganglion neurons,SEMA6,0.02099935007747
+3,Spiral ganglion neurons,Supporting cells,SEMA6,0.0032882654307041
+3,Spiral ganglion neurons,Fibrocytes,GAS,0.0022307040033762
+3,Spiral ganglion neurons,Macrophages/Microglia,GAS,0.019478008103315
+3,Spiral ganglion neurons,Spiral ganglion neurons,GAS,0.00142656771346
+3,Spiral ganglion neurons,Supporting cells,GAS,0.0045059050340556
+3,Spiral ganglion neurons,Fibrocytes,PDGF,0.0045854366171148
+3,Spiral ganglion neurons,Inner hair cells,PDGF,0.005163183151543
+3,Spiral ganglion neurons,Outer hair cells,PDGF,0.0052676969178362
+3,Spiral ganglion neurons,Supporting cells,PDGF,0.0055528523751405
+3,Spiral ganglion neurons,Glia/Schwann,EPHB,0.0019286709408522
+3,Spiral ganglion neurons,Inner hair cells,EPHB,0.0032918191123376
+3,Spiral ganglion neurons,Spiral ganglion neurons,EPHB,0.0092176206692404
+3,Spiral ganglion neurons,Supporting cells,EPHB,0.0031234162531898
+3,Macrophages/Microglia,Inner hair cells,GRN,0.0066108804576368
+3,Macrophages/Microglia,Spiral ganglion neurons,GRN,0.0020528458446232
+3,Spiral ganglion neurons,Macrophages/Microglia,VEGF,0.0023093152643218
+3,Spiral ganglion neurons,Spiral ganglion neurons,VEGF,0.0014776256746443
+3,Spiral ganglion neurons,Supporting cells,VEGF,0.0036989636634918
+3,Supporting cells,Supporting cells,CLDN,0.0040171343767245
+3,Glia/Schwann,Spiral ganglion neurons,AGRN,0.0014406279829436
+3,Spiral ganglion neurons,Spiral ganglion neurons,AGRN,0.0015146333255274
+3,Supporting cells,Macrophages/Microglia,PROS,0.0006208546895658
+12,Fibrocytes,Fibrocytes,PTN,0.0496334306045193
+12,Glia/Schwann,Fibrocytes,PTN,0.0420215459565123
+12,Inner hair cells,Fibrocytes,PTN,0.0480327248159868
+12,Macrophages/Microglia,Fibrocytes,PTN,0.0438274505303999
+12,Outer hair cells,Fibrocytes,PTN,0.0470379920838577
+12,Spiral ganglion neurons,Fibrocytes,PTN,0.0501212498078606
+12,Supporting cells,Fibrocytes,PTN,0.0634633340881688
+12,Fibrocytes,Glia/Schwann,PTN,0.267855554009461
+12,Glia/Schwann,Glia/Schwann,PTN,0.197525799132536
+12,Inner hair cells,Glia/Schwann,PTN,0.260531109904726
+12,Macrophages/Microglia,Glia/Schwann,PTN,0.204587393995629
+12,Outer hair cells,Glia/Schwann,PTN,0.255943264649838
+12,Spiral ganglion neurons,Glia/Schwann,PTN,0.270073583403708
+12,Supporting cells,Glia/Schwann,PTN,0.328323877666459
+12,Fibrocytes,Inner hair cells,PTN,0.275819647099659
+12,Glia/Schwann,Inner hair cells,PTN,0.237193218441794
+12,Inner hair cells,Inner hair cells,PTN,0.267795400810036
+12,Macrophages/Microglia,Inner hair cells,PTN,0.246465638529799
+12,Outer hair cells,Inner hair cells,PTN,0.262782726743646
+12,Spiral ganglion neurons,Inner hair cells,PTN,0.278254813863834
+12,Supporting cells,Inner hair cells,PTN,0.343064500567977
+12,Fibrocytes,Macrophages/Microglia,PTN,0.0184798342220686
+12,Glia/Schwann,Macrophages/Microglia,PTN,0.0155674666186616
+12,Inner hair cells,Macrophages/Microglia,PTN,0.0178649625604951
+12,Macrophages/Microglia,Macrophages/Microglia,PTN,0.0162557806726978
+12,Outer hair cells,Macrophages/Microglia,PTN,0.0174835143740685
+12,Spiral ganglion neurons,Macrophages/Microglia,PTN,0.0186674764970961
+12,Supporting cells,Macrophages/Microglia,PTN,0.0788925488745933
+12,Supporting cells,Supporting cells,PTN,0.0418911643781145
+12,Fibrocytes,Fibrocytes,EPHA,0.0636567978340528
+12,Glia/Schwann,Fibrocytes,EPHA,0.17966738029641
+12,Outer hair cells,Fibrocytes,EPHA,0.0283620107438319
+12,Fibrocytes,Glia/Schwann,EPHA,0.100515379325792
+12,Glia/Schwann,Glia/Schwann,EPHA,0.269733804283636
+12,Outer hair cells,Glia/Schwann,EPHA,0.0411204846425995
+12,Fibrocytes,Inner hair cells,EPHA,0.0408996170169603
+12,Glia/Schwann,Inner hair cells,EPHA,0.100867141297203
+12,Glia/Schwann,Macrophages/Microglia,EPHA,0.0270405488943548
+12,Fibrocytes,Outer hair cells,EPHA,0.0162772533310365
+12,Glia/Schwann,Outer hair cells,EPHA,0.0659145489872395
+12,Fibrocytes,Spiral ganglion neurons,EPHA,0.0314392535351151
+12,Glia/Schwann,Spiral ganglion neurons,EPHA,0.109857207744255
+12,Outer hair cells,Spiral ganglion neurons,EPHA,0.0034686899634202
+12,Fibrocytes,Supporting cells,EPHA,0.113350612324852
+12,Glia/Schwann,Supporting cells,EPHA,0.268533904444696
+12,Outer hair cells,Supporting cells,EPHA,0.0247868412430734
+12,Spiral ganglion neurons,Fibrocytes,NRG,0.18043646979868
+12,Spiral ganglion neurons,Glia/Schwann,NRG,0.159480998770324
+12,Spiral ganglion neurons,Inner hair cells,NRG,0.140502895228038
+12,Spiral ganglion neurons,Macrophages/Microglia,NRG,0.0847282124467479
+12,Spiral ganglion neurons,Outer hair cells,NRG,0.130646969860972
+12,Spiral ganglion neurons,Spiral ganglion neurons,NRG,0.0569198809170115
+12,Spiral ganglion neurons,Supporting cells,NRG,0.235694460828851
+12,Fibrocytes,Macrophages/Microglia,APP,0.14366958669936
+12,Glia/Schwann,Macrophages/Microglia,APP,0.114320431185854
+12,Inner hair cells,Macrophages/Microglia,APP,0.148030042101863
+12,Macrophages/Microglia,Macrophages/Microglia,APP,0.138008292221451
+12,Outer hair cells,Macrophages/Microglia,APP,0.151357629013091
+12,Spiral ganglion neurons,Macrophages/Microglia,APP,0.121618633709158
+12,Supporting cells,Macrophages/Microglia,APP,0.151809121431206
+12,Fibrocytes,Fibrocytes,BMP,0.0440205007834976
+12,Glia/Schwann,Fibrocytes,BMP,0.0343909511426185
+12,Supporting cells,Fibrocytes,BMP,0.0112058051877796
+12,Fibrocytes,Glia/Schwann,BMP,0.0303883620338519
+12,Glia/Schwann,Glia/Schwann,BMP,0.0157262921979249
+12,Supporting cells,Glia/Schwann,BMP,0.0044397094630795
+12,Fibrocytes,Inner hair cells,BMP,0.0207683872361754
+12,Glia/Schwann,Inner hair cells,BMP,0.0099624745683583
+12,Supporting cells,Inner hair cells,BMP,0.0054284465802065
+12,Fibrocytes,Macrophages/Microglia,BMP,0.0153612504322124
+12,Glia/Schwann,Macrophages/Microglia,BMP,0.0120016511211575
+12,Fibrocytes,Outer hair cells,BMP,0.0315643806466361
+12,Glia/Schwann,Outer hair cells,BMP,0.0182597613049795
+12,Supporting cells,Outer hair cells,BMP,0.0076472188260239
+12,Fibrocytes,Supporting cells,BMP,0.0284143967067764
+12,Glia/Schwann,Supporting cells,BMP,0.0222312925288668
+12,Supporting cells,Supporting cells,BMP,0.0121205140999502
+12,Fibrocytes,Glia/Schwann,NRXN,0.0173565227011194
+12,Glia/Schwann,Glia/Schwann,NRXN,0.0089177316303903
+12,Inner hair cells,Glia/Schwann,NRXN,0.064984386235059
+12,Spiral ganglion neurons,Glia/Schwann,NRXN,0.085448709009159
+12,Supporting cells,Glia/Schwann,NRXN,0.0144256732144797
+12,Fibrocytes,Supporting cells,NRXN,0.0022952341296754
+12,Glia/Schwann,Supporting cells,NRXN,0.0011705614775621
+12,Inner hair cells,Supporting cells,NRXN,0.0089708744352211
+12,Spiral ganglion neurons,Supporting cells,NRXN,0.0118409733755409
+12,Supporting cells,Supporting cells,NRXN,0.0018907473295062
+12,Fibrocytes,Fibrocytes,LAMININ,0.004632255023774
+12,Glia/Schwann,Fibrocytes,LAMININ,0.002103874356076
+12,Inner hair cells,Fibrocytes,LAMININ,0.0018563315719342
+12,Outer hair cells,Fibrocytes,LAMININ,0.0028716778702519
+12,Supporting cells,Fibrocytes,LAMININ,0.0120344738718611
+12,Fibrocytes,Glia/Schwann,LAMININ,0.0046681999666696
+12,Glia/Schwann,Glia/Schwann,LAMININ,0.0021202415968281
+12,Inner hair cells,Glia/Schwann,LAMININ,0.0018707766462184
+12,Outer hair cells,Glia/Schwann,LAMININ,0.002894000970417
+12,Supporting cells,Glia/Schwann,LAMININ,0.0051313017322966
+12,Fibrocytes,Macrophages/Microglia,LAMININ,0.0234391008040568
+12,Glia/Schwann,Macrophages/Microglia,LAMININ,0.0204718335245707
+12,Inner hair cells,Macrophages/Microglia,LAMININ,0.0062284656846139
+12,Outer hair cells,Macrophages/Microglia,LAMININ,0.0096283852293749
+12,Spiral ganglion neurons,Macrophages/Microglia,LAMININ,0.0045852652401204
+12,Supporting cells,Macrophages/Microglia,LAMININ,0.0403517761134197
+12,Fibrocytes,Supporting cells,LAMININ,0.00602409228939
+12,Glia/Schwann,Supporting cells,LAMININ,0.0039697742464296
+12,Inner hair cells,Supporting cells,LAMININ,0.0035027577894597
+12,Outer hair cells,Supporting cells,LAMININ,0.0054182028551615
+12,Supporting cells,Supporting cells,LAMININ,0.0186393963108709
+12,Supporting cells,Fibrocytes,FN1,0.0157693346644118
+12,Fibrocytes,Macrophages/Microglia,FN1,0.0016399374886479
+12,Glia/Schwann,Macrophages/Microglia,FN1,0.0039252555540026
+12,Inner hair cells,Macrophages/Microglia,FN1,0.0056286585376293
+12,Outer hair cells,Macrophages/Microglia,FN1,0.0031303661853218
+12,Spiral ganglion neurons,Macrophages/Microglia,FN1,0.0058879822136092
+12,Supporting cells,Macrophages/Microglia,FN1,0.0326320169914498
+12,Supporting cells,Supporting cells,FN1,0.0395204877034006
+12,Fibrocytes,Glia/Schwann,TGFb,0.005965277561931
+12,Macrophages/Microglia,Glia/Schwann,TGFb,0.0039342701476716
+12,Fibrocytes,Macrophages/Microglia,TGFb,0.0318198562434895
+12,Glia/Schwann,Macrophages/Microglia,TGFb,0.0117709256143267
+12,Macrophages/Microglia,Macrophages/Microglia,TGFb,0.02163141113623
+12,Spiral ganglion neurons,Macrophages/Microglia,TGFb,0.0164791483542811
+12,Fibrocytes,Supporting cells,TGFb,0.0083270235527067
+12,Macrophages/Microglia,Supporting cells,TGFb,0.0055468973802961
+12,Macrophages/Microglia,Macrophages/Microglia,CD45,0.0882813233728293
+12,Fibrocytes,Spiral ganglion neurons,NGL,0.0252070721364012
+12,Spiral ganglion neurons,Spiral ganglion neurons,NGL,0.044828320004982
+12,Supporting cells,Spiral ganglion neurons,NGL,0.0111038943850822
+12,Glia/Schwann,Macrophages/Microglia,SEMA3,0.0102485367222479
+12,Inner hair cells,Macrophages/Microglia,SEMA3,0.0158782711799466
+12,Outer hair cells,Macrophages/Microglia,SEMA3,0.0177418429047696
+12,Glia/Schwann,Supporting cells,SEMA3,0.0081535769020448
+12,Inner hair cells,Supporting cells,SEMA3,0.0126472115227994
+12,Outer hair cells,Supporting cells,SEMA3,0.0141370136747383
+12,Fibrocytes,Fibrocytes,CADM,0.0038928928549681
+12,Glia/Schwann,Fibrocytes,CADM,0.0028495125440553
+12,Macrophages/Microglia,Fibrocytes,CADM,0.0032319355899793
+12,Spiral ganglion neurons,Fibrocytes,CADM,0.0062075191754459
+12,Fibrocytes,Glia/Schwann,CADM,0.0028495125440553
+12,Glia/Schwann,Glia/Schwann,CADM,0.0020851955440813
+12,Macrophages/Microglia,Glia/Schwann,CADM,0.0023652856120215
+12,Spiral ganglion neurons,Glia/Schwann,CADM,0.0045466000554778
+12,Fibrocytes,Macrophages/Microglia,CADM,0.0032319355899793
+12,Glia/Schwann,Macrophages/Microglia,CADM,0.0023652856120215
+12,Spiral ganglion neurons,Macrophages/Microglia,CADM,0.0051556056441348
+12,Fibrocytes,Spiral ganglion neurons,CADM,0.0062075191754459
+12,Glia/Schwann,Spiral ganglion neurons,CADM,0.0045466000554778
+12,Macrophages/Microglia,Spiral ganglion neurons,CADM,0.0051556056441348
+12,Spiral ganglion neurons,Spiral ganglion neurons,CADM,0.0098847133691714
+12,Spiral ganglion neurons,Fibrocytes,NCAM,0.0213773532748946
+12,Spiral ganglion neurons,Glia/Schwann,NCAM,0.0078497646794589
+12,Spiral ganglion neurons,Inner hair cells,NCAM,0.0038302942793572
+12,Spiral ganglion neurons,Spiral ganglion neurons,NCAM,0.0164846437130513
+12,Spiral ganglion neurons,Supporting cells,NCAM,0.0080903113844388
+12,Outer hair cells,Outer hair cells,NEGR,0.0141039096521183
+12,Supporting cells,Outer hair cells,NEGR,0.0128591603034818
+12,Outer hair cells,Supporting cells,NEGR,0.0128591603034818
+12,Supporting cells,Supporting cells,NEGR,0.0117229608229368
+12,Supporting cells,Fibrocytes,MK,0.0050531416002535
+12,Supporting cells,Glia/Schwann,MK,0.0158017927330842
+12,Supporting cells,Inner hair cells,MK,0.0152529674972876
+12,Supporting cells,Macrophages/Microglia,MK,0.0076764086825216
+12,Supporting cells,Spiral ganglion neurons,MK,0.002081299704624
+12,Supporting cells,Supporting cells,MK,0.0039981641534717
+12,Spiral ganglion neurons,Fibrocytes,SPP1,0.0064203337648462
+12,Spiral ganglion neurons,Macrophages/Microglia,SPP1,0.028114163513943
+12,Spiral ganglion neurons,Supporting cells,SPP1,0.0111034291688428
+12,Fibrocytes,Macrophages/Microglia,COLLAGEN,0.0067349650725631
+12,Glia/Schwann,Macrophages/Microglia,COLLAGEN,0.0158590502730239
+12,Fibrocytes,Supporting cells,COLLAGEN,0.0047230718078826
+12,Glia/Schwann,Supporting cells,COLLAGEN,0.0097956957910672
+12,Macrophages/Microglia,Fibrocytes,VISFATIN,0.0036160360404067
+12,Macrophages/Microglia,Glia/Schwann,VISFATIN,0.0079336541684217
+12,Macrophages/Microglia,Inner hair cells,VISFATIN,0.0035210350590611
+12,Macrophages/Microglia,Macrophages/Microglia,VISFATIN,0.0035217888068318
+12,Macrophages/Microglia,Outer hair cells,VISFATIN,0.0032182961235221
+12,Macrophages/Microglia,Spiral ganglion neurons,VISFATIN,0.0022402958030819
+12,Macrophages/Microglia,Supporting cells,VISFATIN,0.0066847270963407
+12,Inner hair cells,Spiral ganglion neurons,CNTN,0.0197699977365582
+12,Outer hair cells,Spiral ganglion neurons,CNTN,0.0015072614496822
+12,Spiral ganglion neurons,Spiral ganglion neurons,CNTN,0.0093041948670113
+12,Fibrocytes,Fibrocytes,PTPRM,0.0106858931462093
+12,Supporting cells,Fibrocytes,PTPRM,0.0095985626189608
+12,Fibrocytes,Supporting cells,PTPRM,0.0095985626189608
+12,Fibrocytes,Fibrocytes,MPZ,0.0078826964312725
+12,Glia/Schwann,Fibrocytes,MPZ,0.0050026795034715
+12,Supporting cells,Fibrocytes,MPZ,0.0022218679302555
+12,Fibrocytes,Glia/Schwann,MPZ,0.0050026795034715
+12,Glia/Schwann,Glia/Schwann,MPZ,0.0031715399786848
+12,Fibrocytes,Supporting cells,MPZ,0.0022218679302555
+12,Fibrocytes,Fibrocytes,PDGF,0.0059956926291544
+12,Fibrocytes,Inner hair cells,PDGF,0.0035869568044877
+12,Fibrocytes,Outer hair cells,PDGF,0.0058851563830721
+12,Fibrocytes,Supporting cells,PDGF,0.006312274398741
+12,Macrophages/Microglia,Glia/Schwann,GRN,0.0068950692918081
+12,Macrophages/Microglia,Inner hair cells,GRN,0.0059944954781175
+12,Macrophages/Microglia,Outer hair cells,GRN,0.0053800194412677
+12,Supporting cells,Fibrocytes,CLDN,0.0034488673503526
+12,Fibrocytes,Supporting cells,CLDN,0.0034488673503526
+12,Supporting cells,Supporting cells,CLDN,0.0037876558078242
+12,Glia/Schwann,Glia/Schwann,JAM,0.0010343062696743
+12,Macrophages/Microglia,Glia/Schwann,JAM,0.0019604113641371
+12,Glia/Schwann,Macrophages/Microglia,JAM,0.0019604113641371
+12,Macrophages/Microglia,Macrophages/Microglia,JAM,0.0037126577443973
+12,Glia/Schwann,Glia/Schwann,EPHB,0.0020332577559862
+12,Glia/Schwann,Inner hair cells,EPHB,0.0016575486708077
+12,Glia/Schwann,Spiral ganglion neurons,EPHB,0.0022068073162472
+12,Glia/Schwann,Supporting cells,EPHB,0.0024553745384178
+12,Glia/Schwann,Fibrocytes,AGRN,0.0027504114792918
+12,Glia/Schwann,Glia/Schwann,AGRN,0.0027717945308368
+12,Glia/Schwann,Supporting cells,AGRN,0.0016105997842253
+12,Macrophages/Microglia,Macrophages/Microglia,VCAM,0.0055270148013023
+12,Glia/Schwann,Glia/Schwann,CDH,0.0053266111598871
+12,Fibrocytes,Glia/Schwann,ncWNT,0.0008862204735381
+12,Supporting cells,Glia/Schwann,ncWNT,0.0024183714342831
+12,Macrophages/Microglia,Glia/Schwann,SEMA4,0.0011627577556111
+12,Macrophages/Microglia,Macrophages/Microglia,SEMA4,0.001732525523903
+12,Glia/Schwann,Glia/Schwann,OCLN,0.0016762625194377
+12,Spiral ganglion neurons,Spiral ganglion neurons,L1CAM,0.001130710131198
+24,Fibrocytes,Fibrocytes,PTN,0.0490175175498753
+24,Supporting cells,Fibrocytes,PTN,0.0697998907259969
+24,Fibrocytes,Glia/Schwann,PTN,0.205625354676957
+24,Glia/Schwann,Glia/Schwann,PTN,0.0691753039088477
+24,Inner hair cells,Glia/Schwann,PTN,0.114559828096271
+24,Macrophages/Microglia,Glia/Schwann,PTN,0.140695970756723
+24,Outer hair cells,Glia/Schwann,PTN,0.067921289493072
+24,Spiral ganglion neurons,Glia/Schwann,PTN,0.0714519892078908
+24,Supporting cells,Glia/Schwann,PTN,0.273696382956348
+24,Fibrocytes,Inner hair cells,PTN,0.304558191191209
+24,Glia/Schwann,Inner hair cells,PTN,0.0982331726134333
+24,Inner hair cells,Inner hair cells,PTN,0.164938275428364
+24,Macrophages/Microglia,Inner hair cells,PTN,0.204202113126302
+24,Outer hair cells,Inner hair cells,PTN,0.0964159969329244
+24,Spiral ganglion neurons,Inner hair cells,PTN,0.10153580257719
+24,Supporting cells,Inner hair cells,PTN,0.414322294712762
+24,Glia/Schwann,Fibrocytes,EPHA,0.158082835769172
+24,Outer hair cells,Fibrocytes,EPHA,0.036069913320176
+24,Spiral ganglion neurons,Fibrocytes,EPHA,0.0332902136277863
+24,Glia/Schwann,Glia/Schwann,EPHA,0.316547508059682
+24,Outer hair cells,Glia/Schwann,EPHA,0.0839389075030678
+24,Spiral ganglion neurons,Glia/Schwann,EPHA,0.077512166533563
+24,Glia/Schwann,Inner hair cells,EPHA,0.13132504729222
+24,Glia/Schwann,Macrophages/Microglia,EPHA,0.0857314232161283
+24,Glia/Schwann,Outer hair cells,EPHA,0.0672486230993911
+24,Outer hair cells,Outer hair cells,EPHA,0.0047121044595969
+24,Glia/Schwann,Spiral ganglion neurons,EPHA,0.128067343406904
+24,Outer hair cells,Spiral ganglion neurons,EPHA,0.0108385770749036
+24,Spiral ganglion neurons,Spiral ganglion neurons,EPHA,0.0060716126422763
+24,Glia/Schwann,Supporting cells,EPHA,0.285789551122588
+24,Outer hair cells,Supporting cells,EPHA,0.0583632716773089
+24,Spiral ganglion neurons,Supporting cells,EPHA,0.0054871292385513
+24,Spiral ganglion neurons,Fibrocytes,NRG,0.230870018682032
+24,Spiral ganglion neurons,Glia/Schwann,NRG,0.245330085661343
+24,Spiral ganglion neurons,Inner hair cells,NRG,0.148455605976183
+24,Spiral ganglion neurons,Macrophages/Microglia,NRG,0.0939874418958534
+24,Spiral ganglion neurons,Outer hair cells,NRG,0.236657379042601
+24,Spiral ganglion neurons,Spiral ganglion neurons,NRG,0.0841796316215085
+24,Spiral ganglion neurons,Supporting cells,NRG,0.344055844438696
+24,Fibrocytes,Glia/Schwann,NRXN,0.0566822070623314
+24,Glia/Schwann,Glia/Schwann,NRXN,0.0121323008838033
+24,Inner hair cells,Glia/Schwann,NRXN,0.0827029785179245
+24,Macrophages/Microglia,Glia/Schwann,NRXN,0.0099901155327704
+24,Spiral ganglion neurons,Glia/Schwann,NRXN,0.090522083037811
+24,Supporting cells,Glia/Schwann,NRXN,0.0102707293433987
+24,Fibrocytes,Spiral ganglion neurons,NRXN,0.0419726213749139
+24,Glia/Schwann,Spiral ganglion neurons,NRXN,0.0088750790576915
+24,Inner hair cells,Spiral ganglion neurons,NRXN,0.0613106139639472
+24,Macrophages/Microglia,Spiral ganglion neurons,NRXN,0.0073037651767111
+24,Spiral ganglion neurons,Spiral ganglion neurons,NRXN,0.0673007330039479
+24,Supporting cells,Spiral ganglion neurons,NRXN,0.0075094940648502
+24,Inner hair cells,Fibrocytes,PTPRM,0.0310605595875361
+24,Inner hair cells,Glia/Schwann,PTPRM,0.0264406028155178
+24,Fibrocytes,Inner hair cells,PTPRM,0.0310605595875361
+24,Glia/Schwann,Inner hair cells,PTPRM,0.0264406028155178
+24,Inner hair cells,Inner hair cells,PTPRM,0.10604672726623
+24,Macrophages/Microglia,Inner hair cells,PTPRM,0.0255514885688428
+24,Outer hair cells,Inner hair cells,PTPRM,0.0348946059881662
+24,Supporting cells,Inner hair cells,PTPRM,0.0338487985620203
+24,Inner hair cells,Macrophages/Microglia,PTPRM,0.0255514885688428
+24,Inner hair cells,Outer hair cells,PTPRM,0.0348946059881662
+24,Inner hair cells,Supporting cells,PTPRM,0.0338487985620203
+24,Supporting cells,Supporting cells,PTPRM,0.0102410224521621
+24,Fibrocytes,Macrophages/Microglia,APP,0.0353816874083381
+24,Glia/Schwann,Macrophages/Microglia,APP,0.0260821792386006
+24,Inner hair cells,Macrophages/Microglia,APP,0.0384113502751822
+24,Macrophages/Microglia,Macrophages/Microglia,APP,0.0262709413929522
+24,Outer hair cells,Macrophages/Microglia,APP,0.0315669804759682
+24,Spiral ganglion neurons,Macrophages/Microglia,APP,0.023771905636682
+24,Supporting cells,Macrophages/Microglia,APP,0.0380756062803116
+24,Fibrocytes,Fibrocytes,BMP,0.0100371664407892
+24,Glia/Schwann,Fibrocytes,BMP,0.021025996443062
+24,Macrophages/Microglia,Fibrocytes,BMP,0.0087381970155929
+24,Outer hair cells,Fibrocytes,BMP,0.0066640126623019
+24,Supporting cells,Fibrocytes,BMP,0.0085623255558579
+24,Fibrocytes,Glia/Schwann,BMP,0.0051205060902799
+24,Glia/Schwann,Glia/Schwann,BMP,0.0133899484778326
+24,Macrophages/Microglia,Glia/Schwann,BMP,0.0044578206990847
+24,Outer hair cells,Glia/Schwann,BMP,0.0033996559491751
+24,Supporting cells,Glia/Schwann,BMP,0.0043680979160095
+24,Fibrocytes,Inner hair cells,BMP,0.0098087450312663
+24,Glia/Schwann,Inner hair cells,BMP,0.0121080026161752
+24,Macrophages/Microglia,Inner hair cells,BMP,0.0085397059336147
+24,Outer hair cells,Inner hair cells,BMP,0.0065130875772439
+24,Supporting cells,Inner hair cells,BMP,0.0056056859679987
+24,Fibrocytes,Outer hair cells,BMP,0.0049629482539019
+24,Glia/Schwann,Outer hair cells,BMP,0.0061270390814072
+24,Macrophages/Microglia,Outer hair cells,BMP,0.0043205651213221
+24,Outer hair cells,Outer hair cells,BMP,0.0032948732627485
+24,Supporting cells,Outer hair cells,BMP,0.0042335931403324
+24,Fibrocytes,Supporting cells,BMP,0.0139799226820582
+24,Glia/Schwann,Supporting cells,BMP,0.0172504066595077
+24,Glia/Schwann,Macrophages/Microglia,SEMA3,0.0330687861895302
+24,Inner hair cells,Macrophages/Microglia,SEMA3,0.0135550475771147
+24,Outer hair cells,Macrophages/Microglia,SEMA3,0.0521019312979667
+24,Glia/Schwann,Supporting cells,SEMA3,0.014459422611537
+24,Inner hair cells,Supporting cells,SEMA3,0.005860427800097
+24,Outer hair cells,Supporting cells,SEMA3,0.0230369038399337
+24,Outer hair cells,Inner hair cells,NEGR,0.0612860280630411
+24,Inner hair cells,Outer hair cells,NEGR,0.0612860280630411
+24,Supporting cells,Supporting cells,NEGR,0.0168612992513319
+24,Fibrocytes,Spiral ganglion neurons,NGL,0.0310465728456602
+24,Inner hair cells,Spiral ganglion neurons,NGL,0.009180288546822
+24,Macrophages/Microglia,Spiral ganglion neurons,NGL,0.0155083183160983
+24,Outer hair cells,Spiral ganglion neurons,NGL,0.0087196724838298
+24,Spiral ganglion neurons,Spiral ganglion neurons,NGL,0.0307769324967356
+24,Supporting cells,Spiral ganglion neurons,NGL,0.0277993611982644
+24,Spiral ganglion neurons,Fibrocytes,FGF,0.010904108748666
+24,Spiral ganglion neurons,Glia/Schwann,FGF,0.0340884746544598
+24,Spiral ganglion neurons,Inner hair cells,FGF,0.0124895524977772
+24,Spiral ganglion neurons,Macrophages/Microglia,FGF,0.0066085814935895
+24,Spiral ganglion neurons,Outer hair cells,FGF,0.0109697324895432
+24,Spiral ganglion neurons,Spiral ganglion neurons,FGF,0.0078717093084479
+24,Spiral ganglion neurons,Supporting cells,FGF,0.0259538125367001
+24,Fibrocytes,Macrophages/Microglia,LAMININ,0.0166318605045042
+24,Glia/Schwann,Macrophages/Microglia,LAMININ,0.0066412133063664
+24,Inner hair cells,Macrophages/Microglia,LAMININ,0.0050054924219632
+24,Macrophages/Microglia,Macrophages/Microglia,LAMININ,0.0028625968498831
+24,Spiral ganglion neurons,Macrophages/Microglia,LAMININ,0.0035359040220424
+24,Supporting cells,Macrophages/Microglia,LAMININ,0.0102158941742267
+24,Fibrocytes,Spiral ganglion neurons,LAMININ,0.0295854916172494
+24,Glia/Schwann,Spiral ganglion neurons,LAMININ,0.0041446556292847
+24,Supporting cells,Spiral ganglion neurons,LAMININ,0.0182347165329339
+24,Spiral ganglion neurons,Macrophages/Microglia,CADM,0.0121166718350695
+24,Macrophages/Microglia,Spiral ganglion neurons,CADM,0.0121166718350695
+24,Spiral ganglion neurons,Spiral ganglion neurons,CADM,0.0507284668223418
+24,Spiral ganglion neurons,Fibrocytes,NCAM,0.0095473739869613
+24,Spiral ganglion neurons,Glia/Schwann,NCAM,0.0058951120455372
+24,Spiral ganglion neurons,Inner hair cells,NCAM,0.0040197664980552
+24,Spiral ganglion neurons,Outer hair cells,NCAM,0.0059846082581233
+24,Spiral ganglion neurons,Spiral ganglion neurons,NCAM,0.0179386258057486
+24,Spiral ganglion neurons,Supporting cells,NCAM,0.0075833341106201
+24,Macrophages/Microglia,Macrophages/Microglia,CD45,0.0447300343885107
+24,Fibrocytes,Outer hair cells,SEMA5,0.0043700305257896
+24,Inner hair cells,Outer hair cells,SEMA5,0.0193417668519758
+24,Supporting cells,Outer hair cells,SEMA5,0.0054271139914095
+24,Spiral ganglion neurons,Fibrocytes,TGFb,0.0053340817310788
+24,Spiral ganglion neurons,Glia/Schwann,TGFb,0.0022072280082566
+24,Spiral ganglion neurons,Macrophages/Microglia,TGFb,0.0140514800798018
+24,Spiral ganglion neurons,Supporting cells,TGFb,0.0059613641867809
+24,Spiral ganglion neurons,Macrophages/Microglia,SPP1,0.0162623666079799
+24,Fibrocytes,Fibrocytes,MPZ,0.0039524236325147
+24,Glia/Schwann,Fibrocytes,MPZ,0.0033396791669789
+24,Spiral ganglion neurons,Fibrocytes,MPZ,0.0007577504095633
+24,Fibrocytes,Glia/Schwann,MPZ,0.0033396791669789
+24,Glia/Schwann,Glia/Schwann,MPZ,0.0028216594077689
+24,Spiral ganglion neurons,Glia/Schwann,MPZ,0.0006399581095205
+24,Fibrocytes,Spiral ganglion neurons,MPZ,0.0007577504095633
+24,Glia/Schwann,Spiral ganglion neurons,MPZ,0.0006399581095205
+24,Glia/Schwann,Glia/Schwann,CDH,0.0034870931811464
+24,Spiral ganglion neurons,Glia/Schwann,CDH,0.0013015754952463
+24,Glia/Schwann,Spiral ganglion neurons,CDH,0.0013015754952463
+24,Spiral ganglion neurons,Spiral ganglion neurons,CDH,0.0053234641776755
+24,Glia/Schwann,Inner hair cells,PDGF,0.0099634054198512
+24,Fibrocytes,Macrophages/Microglia,COLLAGEN,0.0032445184132108
+24,Glia/Schwann,Macrophages/Microglia,COLLAGEN,0.0055178924872983
+24,Spiral ganglion neurons,Macrophages/Microglia,COLLAGEN,0.0006371858481666
+24,Supporting cells,Macrophages/Microglia,FN1,0.0062507389947299
+24,Macrophages/Microglia,Glia/Schwann,GRN,0.0016474349559709
+24,Macrophages/Microglia,Inner hair cells,GRN,0.001564167644523
+24,Macrophages/Microglia,Outer hair cells,GRN,0.0023400154935947
+24,Spiral ganglion neurons,Inner hair cells,CNTN,0.0040322989033703
+24,Spiral ganglion neurons,Macrophages/Microglia,AGRN,0.0006870425882378
+24,Spiral ganglion neurons,Spiral ganglion neurons,AGRN,0.0020109930907962
+24,Inner hair cells,Inner hair cells,NECTIN,0.0005082161172949

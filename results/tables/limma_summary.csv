@@ -1,0 +1,7 @@
+"comparison","FDR_0.05_log2FC_1_up","FDR_0.05_log2FC_1_down","FDR_0.05_log2FC_0.585_up","FDR_0.05_log2FC_0.585_down"
+"MA_vs_YC",0,0,0,0
+"MP_vs_MA",9,0,17,0
+"MP_vs_YC",11,1,24,1
+"SP_vs_MA",12,3,29,9
+"SP_vs_MP",0,0,0,0
+"SP_vs_YC",16,2,35,12

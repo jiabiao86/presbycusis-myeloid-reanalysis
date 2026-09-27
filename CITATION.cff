@@ -1,0 +1,32 @@
+cff-version: 1.2.0
+message: "If you use this code or these result tables, please cite the associated manuscript."
+title: "Peripheral-central convergence of macrophage and microglial programs in presbycusis severity"
+type: software
+authors:
+  - family-names: Ji
+    given-names: Jiabiao
+  - family-names: Yu
+    given-names: Xiaoqing
+  - family-names: Zhang
+    given-names: Chao
+  - family-names: Liu
+    given-names: Long
+  - family-names: Yan
+    given-names: Lin
+  - family-names: Zhang
+    given-names: Hongjian
+  - family-names: Yang
+    given-names: Jianming
+repository-code: "https://github.com/jiabiao86/presbycusis-myeloid-reanalysis"
+keywords:
+  - presbycusis
+  - age-related hearing loss
+  - cochlea
+  - inferior colliculus
+  - macrophage
+  - microglia
+  - transcriptomics
+  - CellChat
+license: MIT
+version: "1.0.0"
+date-released: "2026-09-27"
