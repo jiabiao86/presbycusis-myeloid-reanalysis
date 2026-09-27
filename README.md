@@ -33,10 +33,19 @@ results/cellchat_full/  Exhaustive CellChatDB.mouse run (all 2,019 interactions)
 results/cellchat_formal/  Severity-focused CellChat run (106 curated interactions)
 results/figures/      Figure 1-10 vector PDFs and 300 dpi PNGs
 results/supplementary/  Supplementary Tables S1-S37 (CSV, workbook, captions)
-manuscript/           Manuscript source (Markdown) and submission DOCX
+manuscript/           Manuscript source (Markdown), submission DOCX, Highlights,
+                      and the graphical abstract (PDF, PNG, 300 dpi TIFF)
 docs/                 Environment, random-seed, and result-index documentation
 SHA256SUMS.txt        Checksums for every archived file
 ```
+
+## Journal submission files
+
+The archive contains the files prepared for submission to *Hearing Research*
+(Elsevier): the manuscript with figures and tables, a figure-legend file, the
+required highlights (five bullet points, each within the 85-character limit),
+a graphical abstract with a 2.5:1 width-to-height ratio, and the supplementary
+tables S1-S37.
 
 ## Reproducing the analysis
 

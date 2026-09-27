@@ -4,25 +4,30 @@
 
 **Short title:** Peripheral-central myeloid programs in presbycusis
 
-**Authors:** Jiabiao Ji^1, Xiaoqing Yu^1, Chao Zhang^1, Long Liu^1, Lin Yan^1, Hongjian Zhang^1, Jianming Yang^1,*
+**Authors:** Jiabiao Ji (季加标)^a,#, Xiaoqing Yu (余晓庆)^a,#, Chao Zhang (章超)^a, Long Liu (刘龙)^a, Lin Yan (闫琳)^a, Hongjian Zhang (张红健)^a, Jianming Yang (杨见明)^a,*
 
-**Affiliations:** ^1 The Second Affiliated Hospital of Anhui Medical University, Hefei, Anhui, China
+**# These authors contributed equally to this work.**
 
-**Corresponding author:** Jianming Yang, The Second Affiliated Hospital of Anhui Medical University, Hefei, Anhui, China (corresponding email to be confirmed before submission)
+**\* Corresponding author.**
 
-**Keywords:** presbycusis; age-related hearing loss; cochlea; inferior colliculus; macrophage; microglia; WGCNA; transcriptomics
+**Affiliations:** ^a Department of Otorhinolaryngology-Head and Neck Surgery, The Second Affiliated Hospital of Anhui Medical University, Hefei, Anhui, China
+
+**Corresponding author:** Jianming Yang (杨见明), Department of Otorhinolaryngology-Head and Neck Surgery, The Second Affiliated Hospital of Anhui Medical University, Hefei, Anhui, China. Email: jmyang@163.com
+
+**Keywords:** presbycusis; age-related hearing loss; cochlea; inferior colliculus; macrophage; microglia; CellChat
 
 ## Abstract
 
-**Background:** Presbycusis, or age-related hearing loss, is clinically heterogeneous and involves both peripheral and central auditory dysfunction. Previous transcriptomic studies have mainly analyzed the cochlea, often using single-tissue differential expression and hub-gene strategies. Whether severe hearing loss is associated with shared myeloid programs across the peripheral and central auditory system remains unclear.
+**Background:** Presbycusis involves peripheral and central auditory dysfunction. Whether severe hearing loss is accompanied by shared myeloid programs across the auditory system remains unclear.
 
-**Methods:** We reanalyzed two Affymetrix Mouse Genome 430A microarray datasets from CBA/CaJ mice: GSE49543 (cochlea; 41 samples: 9 young controls, 17 middle-aged, 9 mild presbycusis, and 6 severe presbycusis) and GSE49522 (inferior colliculus; 39 samples: 8 young controls, 17 middle-aged, 9 mild presbycusis, and 5 severe presbycusis). RMA-normalized expression was modeled with limma/eBayes using ordinal severity, pairwise contrasts, and Benjamini-Hochberg correction. Weighted gene co-expression network analysis identified severity-associated modules, followed by module preservation analysis. Peripheral-central convergence was assessed by gene-level correlation and shared significance. Marker-based immune enrichment was used to estimate relative macrophage, microglial, and leukocyte program abundance without interpreting values as absolute cell proportions. Candidate programs were localized using GSE274279 single-nucleus RNA sequencing and evaluated in GSE233798, GSE153882, and GSE154833. Nested cross-validation was used only as a secondary computational analysis.
+**Methods:** We reanalyzed two Affymetrix microarray datasets from CBA/CaJ mice (cochlea, 41 samples; inferior colliculus, 39 samples). Expression was modeled with limma/eBayes using ordinal severity and pairwise contrasts. Weighted gene co-expression network analysis identified severity-associated modules, and convergence between tissues was assessed by gene-level correlation. Marker-based enrichment and single-nucleus data localized candidate programs, tested in public validation datasets. Communication was evaluated with CellChat across all 2,019 mouse interactions.
 
-**Results:** Middle age alone produced no genes meeting FDR < 0.05 and absolute log2 fold change >= 1. In contrast, myeloid and antigen-presentation genes increased during progression from mild to severe presbycusis. The severity model identified 181 genes at FDR < 0.05, including 122 positively and 59 negatively associated genes. WGCNA identified module M12 as the module most strongly correlated with severity (r = 0.860, 66 genes), and M12 was preserved in the inferior colliculus (Zsummary = 8.40, permutation P = 2.28e-21). Among 12,437 genes shared by the cochlea and inferior colliculus, 6,551 changed in the same direction and 48 were significant in both tissues. The shared genes were enriched for immune system processes, macrophages, and microglia. Marker-based enrichment linked macrophage/microglial programs to severity in both the cochlea (r = 0.847, FDR = 2.14e-22) and inferior colliculus (r = 0.854, FDR = 2.14e-22); a microglia-like program was specifically associated with central severity (r = 0.630, FDR = 4.87e-6). In 11,403 single nuclei from GSE274279, the candidate genes were predominantly localized to 147 macrophages/microglia rather than hair cells, supporting cells, fibrocytes, or spiral ganglion neurons. Exhaustive CellChat analysis of all 2,019 CellChatDB.mouse interactions revealed an age-related decline in cochlear communication (455, 360, and 245 significant edges at 3, 12, and 24 months), with 46 ligand-receptor pairs significant at every age; PTN signaling was the strongest pathway throughout, macrophage/microglial PTPRC-MRC1 self-communication was significant at all ages, and APP-CD74 signaling emerged at 12 and 24 months. Transcription-factor enrichment converged on macrophage-associated regulators including IRF8, SPI1, CEBPB, SMRT, and NCOR, while second-pass enrichment supported phagocytosis, cytokine signaling, and antigen presentation. External datasets showed partial directional reproducibility and substantial tissue-specific divergence. Nested cross-validation produced internal areas under the curve of 1.000 for hearing loss versus normal and 0.869 for severe versus non-severe classification, whereas external transfer to GSE233798 yielded areas under the curve of 0.44 to 0.50.
+**Results:** Middle age alone produced no genes at FDR < 0.05; progression to severe presbycusis was accompanied by a myeloid signature of 181 genes. Module M12 (66 genes) correlated most strongly with severity (r = 0.860) and was preserved centrally (Zsummary = 8.40). Forty-eight genes were significant in both tissues and enriched for macrophage, phagocytic, complement, and antigen-presentation functions; candidate transcripts localized mainly to macrophages and microglia. Exhaustive CellChat analysis showed declining cochlear communication with age (455, 360, and 245 edges at 3, 12, and 24 months), a core of 46 interactions, PTN signaling as the strongest pathway, PTPRC-MRC1 communication at every age, and APP-CD74 signaling from 12 months. Sex adjustment preserved the severity direction; age adjustment attenuated it. External reproducibility was partial, and nested cross-validation did not transfer (AUC 0.44-0.50).
 
-**Conclusion:** Severity-resolved transcriptomic analysis identified a convergent macrophage and microglial program in the aging mouse cochlea and inferior colliculus. The findings support a peripheral-central myeloid axis in presbycusis severity while showing that bulk immune signals are tissue- and model-dependent. The work is computational, and translation to humans will require experimental validation.
+**Conclusion:** Severity-resolved analysis identifies a convergent myeloid program in the aging mouse auditory system. The findings are computational and require experimental validation.
 
-## Introduction
+
+## 1. Introduction
 
 Presbycusis is a multifactorial disorder characterized by progressive hearing loss during aging, with contributions from cochlear degeneration, altered central auditory processing, vascular and metabolic dysfunction, and low-grade inflammation. Clinically, patients with similar chronological age can differ substantially in hearing thresholds and speech perception, suggesting that age alone does not capture the biological heterogeneity of presbycusis [1-3]. Recent work has documented chronic inflammatory activation in the aging cochlea and cochlear nucleus, together with oxidative stress, altered cytokine signaling, and transcriptional changes in immune, metabolic, and sensory-cell programs [18-21,24,31]. Transcriptomic studies have therefore sought molecular signatures associated with auditory aging and hearing loss.
 
@@ -34,57 +39,57 @@ We therefore integrated two severity-annotated mouse datasets from the same stra
 
 The resulting manuscript presents a computational reanalysis and does not include new animal experiments, qRT-PCR, immunostaining, Western blotting, or other laboratory validation. All inferences are therefore limited to transcriptomic associations and public-data reproducibility.
 
-## Materials and Methods
+## 2. Materials and Methods
 
-### Study design and data sources
+### 2.1 Study design and data sources
 
 This study was a secondary analysis of public mouse transcriptomic data. The primary discovery dataset was GSE49543, an Affymetrix Mouse Genome 430A microarray study of the cochlea. The official GEO sample metadata were curated at the sample level. After correcting one severe presbycusis sample that was recorded as "Sever Presbycusis," the dataset contained 41 samples: 9 young controls, 17 middle-aged mice, 9 mice with mild presbycusis, and 6 mice with severe presbycusis. GSE49522, generated on the same microarray platform from the inferior colliculus, contained 39 samples: 8 young controls, 17 middle-aged mice, 9 mice with mild presbycusis, and 5 mice with severe presbycusis. The group labels were encoded for ordinal severity analysis as young control = 0, middle-aged = 1, mild presbycusis = 2, and severe presbycusis = 3.
 
 Independent datasets were used for contextual evaluation rather than for remodeling the discovery model. GSE233798 provided RNA-seq FPKM profiles from aged and young mouse cochlea. GSE153882 provided RNA-seq RPKM profiles from inner hair cells and outer hair cells, and prior analyses of this dataset established that inner and outer hair cells undergo distinct biological aging trajectories [39]. GSE154833 provided RNA-seq RPKM profiles from the stria vascularis, a region whose contribution to age-related hearing loss has been debated [38]. GSE274279 provided 10x single-nucleus RNA sequencing profiles from mouse cochlea at 3, 12, and 24 months of age. Dataset roles and sample sizes are summarized in Table 1.
 
-### Microarray preprocessing and quality control
+### 2.2 Microarray preprocessing and quality control
 
 GSE49543 and GSE49522 were Affymetrix Mouse Genome 430A microarray datasets, not RNA sequencing datasets. Probe-level intensities were normalized with the robust multi-array average method [10]. Expression values were analyzed on the log2 scale. Quality control included sample-level correlation summaries, principal component analysis, and comparison of within-group correlation distributions. No sample was removed solely on the basis of exploratory visualization. One severe sample was reassigned from the misspelled severity label to the severe presbycusis group.
 
-### Differential expression and severity modeling
+### 2.3 Differential expression and severity modeling
 
 Differential expression was evaluated using limma with empirical Bayes moderated t-statistics [11]. Six pairwise contrasts were analyzed: middle-aged versus young control, mild presbycusis versus middle-aged, mild presbycusis versus young control, severe presbycusis versus middle-aged, severe presbycusis versus mild presbycusis, and severe presbycusis versus young control. Genes were reported at FDR < 0.05 with absolute log2 fold change >= 1 for the stringent result and absolute log2 fold change >= 0.585 for the moderate-effect result. Benjamini-Hochberg correction was used for multiple testing [12].
 
 To model progression rather than only pairwise differences, ordinal severity was treated as a linear predictor in a limma model. This analysis estimated the direction and strength of monotonic expression change across young control, middle-aged, mild presbycusis, and severe presbycusis. The severity trend was analyzed separately in GSE49543 and GSE49522. Age and severity were not fully separable in the original designs, so severity models were interpreted as progression-associated transcriptomic trends rather than isolated causal effects of hearing loss.
 
-### Weighted gene co-expression network analysis
+### 2.4 Weighted gene co-expression network analysis
 
 WGCNA was performed using the 4,000 most variable genes in GSE49543 [13]. A soft-thresholding power of 16 was selected using the scale-free topology criterion. Modules were identified using default dynamic tree cutting followed by merging of highly similar modules. Module eigengenes were correlated with ordinal severity. The module with the strongest positive severity correlation, M12, was selected for downstream characterization.
 
 Module preservation in GSE49522 was evaluated using WGCNA preservation statistics and permutation testing [14]. Preservation was summarized by Zsummary and empirical permutation P values. Modules with strong preservation were interpreted as reproducible co-expression structures, whereas modules without preservation were considered tissue-specific or model-dependent.
 
-### Peripheral-central comparison
+### 2.5 Peripheral-central comparison
 
 Gene-level severity associations from GSE49543 and GSE49522 were matched by gene symbol. The overall relationship between cochlear and central severity correlations was assessed using Pearson correlation. Genes with FDR < 0.05 in both tissues were defined as shared significant severity genes, and direction concordance was calculated among genes that were testable in both datasets. Shared significant genes were used for functional analysis with STRING [15]. Functional enrichment terms were considered supportive when they were coherent with the gene-level evidence and not dependent on a single isolated gene.
 
-### Marker-based immune enrichment
+### 2.6 Marker-based immune enrichment
 
 Because human CIBERSORT signatures are not directly appropriate for mouse immune deconvolution, mouse-specific marker panels were used for relative marker-based enrichment scoring. Scores represented the relative abundance of immune transcriptional programs and were not interpreted as absolute cell fractions. The analysis included macrophage/microglia, microglia-like, monocyte, neutrophil, T cell, B cell, natural killer cell, dendritic cell, and mast cell programs. Correlations between immune scores and ordinal severity were calculated separately in GSE49543 and GSE49522. For reference, the previously generated human LM22 CIBERSORT results were compared with the mouse marker-based scores, but the human-signature analysis was not used as a primary result [16].
 
-### Single-nucleus RNA sequencing localization
+### 2.7 Single-nucleus RNA sequencing localization
 
 GSE274279 was processed with Scanpy [17]. Nuclei were filtered using standard quality-control metrics, normalized, log-transformed, and clustered. Cell types were assigned using marker scores for supporting cells, fibrocytes, glia/Schwann cells, inner hair cells, outer hair cells, spiral ganglion neurons, and macrophages/microglia. After quality control, 11,403 nuclei and 23,496 genes were retained. The age distribution was 2,916 nuclei at 3 months, 5,533 nuclei at 12 months, and 2,954 nuclei at 24 months. Macrophages/microglia represented 147 nuclei. Candidate gene localization was summarized by mean log-expression and the percentage of expressing nuclei within each cell type and age group. Age comparisons within the macrophage/microglial compartment were exploratory because of the limited number of nuclei and unequal age composition.
 
-### External validation
+### 2.8 External validation
 
 Candidate genes and severity-associated programs were evaluated in GSE233798 for cochlear aging, GSE153882 for inner and outer hair cell context, and GSE154833 for stria vascularis context. Directional concordance, P values, and FDR values were calculated where sample structure permitted. Because external datasets differed in strain, model, RNA processing, tissue dissection, and age contrast, they were not treated as independent replications of the same clinical severity phenotype. Genes with concordant effects were classified as reproducible in direction, whereas genes with opposing effects or failed significance were retained as examples of model and tissue heterogeneity.
 
-### Nested cross-validation
+### 2.9 Nested cross-validation
 
 As a secondary analysis, nested cross-validation was performed for two classification tasks: hearing loss versus normal and severe presbycusis versus remaining samples. Feature selection and hyperparameter optimization were placed inside the training folds. Logistic regression and support vector machine models were evaluated. The final model was then transferred to GSE233798 as an external test. This analysis was designed to evaluate internal separability and external transfer limits, not to establish a diagnostic assay.
 
-### CellChat and enhancement analyses
+### 2.10 CellChat and enhancement analyses
 
 Cell-cell communication was evaluated with CellChat 1.6.1 [41]. All 2,019 ligand-receptor pairs of CellChatDB.mouse were evaluated. Database genes that were absent from the GSE274279 matrix were represented as all-zero rows, and two database genes with non-official mouse symbols were restored after gene filtering, so that every database interaction could be tested while complexes were still evaluated from their subunits. Because CellChat dispatches a parallel job for each coreceptor evaluation, the database was analysed in chunks of 505 interactions under a sequential evaluation plan, and the chunks were merged into a single network per age; the permutation seed was fixed at 1 so that every chunk drew the same bootstrap permutations. CellChat was run separately at 3, 12, and 24 months using normalized expression, `triMean` group averages, 100 bootstrap permutations, and a minimum of 10 cells per group. Interactions whose ligand or receptor was undetected return zero probability and a permutation P value of 1, and a severity-focused sensitivity run restricted to 106 curated interactions was retained for comparison. Significant communications were obtained with `subsetCommunication`, and the full interaction probability tensor was exported for age comparison.
 
 An exploratory CellChatDB-informed ligand-receptor score was also calculated to evaluate broader interaction potential beyond the significant CellChat result. This analysis used the same database and complex definitions but substituted a product score based on mean ligand expression, mean receptor expression, and the percentages of expressing sender and receiver cells. These exploratory values represent relative communication potential and are reported separately from the formal CellChat inference.
 
-### Sensitivity and myeloid subclustering analyses
+### 2.11 Sensitivity and myeloid subclustering analyses
 
 Sex and hearing status were parsed from the GEO series metadata. For each tissue, severity effects were recalculated using limma with either sex adjustment or age-group adjustment. The age-group-adjusted model included severity as a continuous variable and an indicator for old mice with hearing loss. Candidate-gene severity coefficients were also estimated by 500 within-group bootstrap samples.
 
@@ -92,19 +97,19 @@ GSE274279 myeloid nuclei were extracted and reanalyzed with Seurat. Counts were 
 
 Transcription-factor and miRNA enrichment were performed with Enrichr [42,43] using the ChEA 2022 and TargetScan microRNA 2017 libraries [44,45]. The M12 module and the positive severity gene set were analyzed separately. Drug-signature enrichment used DSigDB [46]. A second functional enrichment analysis used GO Biological Process 2025 and KEGG mouse libraries. Enrichment P values and adjusted P values were reported without additional post hoc filtering. Mouse symbols were converted to uppercase human-style symbols for Enrichr compatibility.
 
-### Statistical analysis and reproducibility
+### 2.12 Statistical analysis and reproducibility
 
 All analyses used public data. P values were adjusted using the Benjamini-Hochberg procedure unless otherwise stated. Correlations were Pearson correlations. Module preservation P values were empirical permutation values. Analyses were performed with R 4.6.1, limma 3.68.5, WGCNA 1.74, Python 3.12, Scanpy 1.12.4, NumPy 2.5.3, pandas 3.0.6, SciPy 1.18.1, scikit-learn 1.9.1, and statsmodels 0.15.0. The random seed was fixed at 2026. Analysis scripts and frozen result tables are listed in the Code Availability section.
 
-## Results
+## 3. Results
 
-### Cohort structure and quality control
+### 3.1 Cohort structure and quality control
 
 The curated GSE49543 cochlear dataset contained 41 mice. Sample-level correlations were consistently high within groups: mean within-group correlations were 0.972 for young controls, 0.979 for middle-aged mice, 0.979 for mild presbycusis, and 0.976 for severe presbycusis. Principal component analysis did not identify a single sample that justified removal before modeling. The corrected severe group included six samples after merging the misspelled severity label. The central GSE49522 dataset contained 39 mice and was analyzed with the same ordinal severity scale. Complete sample metadata and severity coding are provided in Supplementary Table S1.
 
 The first 10 principal components of GSE49543 explained 19.98%, 14.90%, 7.50%, 6.97%, 5.57%, 5.04%, 4.50%, 3.81%, 2.72%, and 2.51% of variance, respectively. The absence of a dominant first component indicated that group differences were distributed across genes rather than driven by a single global batch effect. These quality-control results supported the use of the full curated dataset for severity modeling.
 
-### Age alone did not produce robust differential expression
+### 3.2 Age alone did not produce robust differential expression
 
 At FDR < 0.05 and absolute log2 fold change >= 1, no genes were significant for middle-aged versus young control mice (Table 2). The same threshold produced 9 upregulated and no downregulated genes for mild presbycusis versus middle-aged mice, 11 upregulated and 1 downregulated gene for mild presbycusis versus young controls, 12 upregulated and 3 downregulated genes for severe presbycusis versus middle-aged mice, no genes for severe versus mild presbycusis, and 16 upregulated and 2 downregulated genes for severe presbycusis versus young controls. Count summaries and complete differential expression results are provided in Supplementary Tables S2 and S3.
 
@@ -114,7 +119,7 @@ The ordinal severity model identified 181 genes at FDR < 0.05, including 122 gen
 
 The positive severity signature therefore represented a coherent myeloid program, while the negative signature represented a broader decline in metabolic and structural programs. This directional imbalance was consistent with previous reports of inflammation-related and mitochondrial gene modules in age-related hearing loss [28,29], and it informed the subsequent emphasis on the myeloid axis while preventing overinterpretation of the negative signature as one unified pathway.
 
-### WGCNA identified a preserved severity-associated myeloid module
+### 3.3 WGCNA identified a preserved severity-associated myeloid module
 
 WGCNA grouped 4,000 high-variance genes into 16 modules. Module M12 had the strongest correlation with ordinal severity (r = 0.860) (Table 3). M12 contained 66 genes, including Mpeg1, Cd68, Clec7a, Fcgr3, H2-Aa, Ctss, Clec4d, Tyrobp, Csf1r, C1qc, Ms4a7, Lgals3, Cxcl13, Lyz1, Lyz2, Cd14, Fcer1g, C3ar1, Cd84, and Lcp1. The module therefore combined macrophage identity, phagocytic function, lysosomal activity, antigen presentation, complement signaling, and inflammatory chemokines. Module assignments, trait correlations, and preservation statistics are provided in Supplementary Tables S6 and S7.
 
@@ -122,7 +127,7 @@ Preservation analysis in the inferior colliculus supported M12 as a reproducible
 
 Other modules had different relationships to severity. Module M9 showed a moderate positive correlation (r = 0.437), whereas M5, M11, and M3 showed negative correlations (r = -0.429, -0.471, and -0.162, respectively). The dominance of M12 at severe stages, together with the preservation of its co-expression structure in the central dataset, provided the first evidence for a shared myeloid program across peripheral and central auditory tissues.
 
-### The cochlea and inferior colliculus shared a myeloid-enriched severity signature
+### 3.4 The cochlea and inferior colliculus shared a myeloid-enriched severity signature
 
 GSE49543 and GSE49522 contained 12,437 genes that could be matched by symbol. The correlation between cochlear and central severity effect estimates was positive but modest (r = 0.146, P = 3.03e-61). This small genome-wide correlation indicated that the inferior colliculus was not a simple mirror of the cochlea; most genes either changed in only one tissue or changed in opposing directions. Nevertheless, 6,551 genes changed in the same direction in both tissues, and 48 genes reached FDR < 0.05 in both.
 
@@ -130,7 +135,7 @@ The 48 shared significant genes were strongly enriched for myeloid immune functi
 
 The shared gene list contained both positive and negative severity associations. Uros and Lynx1 were shared significant genes with negative associations, indicating that the peripheral-central commonality was not exclusively a myeloid increase. However, the immune terms were driven primarily by the larger positively associated group, and the strongest shared positive genes were Ctss, Mpeg1, Fcgr3, Clec7a, Cd68, Ms4a6d, Cd84, Il2rg, C3ar1, C1qc, Tyrobp, and H2-K1. The comparison defined a peripheral-central convergent module rather than a single tissue-specific inflammatory response.
 
-### Marker-based enrichment linked severity to macrophage and microglial programs
+### 3.5 Marker-based enrichment linked severity to macrophage and microglial programs
 
 In the cochlea, macrophage/microglia marker enrichment had the strongest correlation with ordinal severity (r = 0.847, FDR = 2.14e-22). Monocyte (r = 0.536, FDR = 3.34e-4), neutrophil (r = 0.499, FDR = 1.15e-3), T cell (r = 0.424, FDR = 0.0103), and dendritic cell (r = 0.362, FDR = 0.0397) programs also showed weaker positive associations. B cell, natural killer cell, and mast cell programs did not reach FDR < 0.05.
 
@@ -138,7 +143,7 @@ In the inferior colliculus, macrophage/microglia enrichment was similarly associ
 
 The marker-based analysis estimated relative program abundance and not absolute cell proportions. The very similar macrophage/microglia correlations in the two tissues should therefore be interpreted as evidence of shared myeloid transcriptional enrichment, not as proof that the same cell population expands by the same amount in both tissues.
 
-### Single-nucleus RNA sequencing localized candidate genes to macrophages and microglia
+### 3.6 Single-nucleus RNA sequencing localized candidate genes to macrophages and microglia
 
 After quality control, GSE274279 contained 11,403 nuclei across 3-, 12-, and 24-month-old mice. The dominant cell types were supporting cells (n = 8,387), fibrocytes (n = 1,332), glia/Schwann cells (n = 865), outer hair cells (n = 283), inner hair cells (n = 261), macrophages/microglia (n = 147), and spiral ganglion neurons (n = 128). Macrophages/microglia were captured in two clusters, which is consistent with heterogeneity within the myeloid compartment or with differences in cell state. Cell-type counts and candidate expression summaries are provided in Supplementary Tables S8 and S9.
 
@@ -146,7 +151,7 @@ Candidate genes showed strong myeloid localization. Cd74, H2-Aa, H2-Eb1, Ctss, C
 
 The single-nucleus data therefore supported the cellular source of the bulk immune signal. The bulk severity signature was unlikely to reflect intrinsic expression of the same myeloid genes by hair cells or supporting cells. Instead, it was more consistent with myeloid cell abundance, state change, or both. Age-direction estimates within macrophages/microglia were variable: Apoe, C1qa, and C1qc were lower at 24 months than at 3 months, whereas several inflammatory genes were highest at 12 months. Because the number of macrophage/microglial nuclei was limited and the age groups were unbalanced, these within-cell-type age comparisons were treated as exploratory and were not used to define a linear aging trajectory.
 
-### External datasets showed partial reproducibility and strong tissue context
+### 3.7 External datasets showed partial reproducibility and strong tissue context
 
 GSE233798 provided a different aged mouse cochlear model. Candidate genes H2-Aa and H2-Eb1 were increased in aged cochlea with FDR < 0.05, and Setd1a, Nfatc2, Cd74, and Apoe also showed significant positive effects. Several myeloid genes had concordant positive directions without FDR significance, including Fcgr3, Cd68, C1qa, C1qb, C3ar1, Ctss, and Ms4a7. In contrast, Tyrobp, Mpeg1, Clec4d, Laptm5, Mif, and Apoe showed directionally inconsistent or significant opposite effects across the discovery and validation contexts. This heterogeneity indicated that not every severe-presbycusis-associated myeloid gene is reproducible across aging models. Complete external validation results are provided in Supplementary Tables S12-S14, and prioritized candidate evidence is provided in Supplementary Table S15.
 
@@ -156,13 +161,13 @@ GSE154833 provided a distinct regional context. In the stria vascularis, many ca
 
 Across these datasets, the most reproducible program-level finding was not a single universal biomarker but the recurrent involvement of MHC class II, complement, Fc receptor, lysosomal, and phagocytic genes. Candidate-level reproducibility varied by model and tissue.
 
-### Nested cross-validation revealed internal separability but limited external transfer
+### 3.8 Nested cross-validation revealed internal separability but limited external transfer
 
 Nested cross-validation achieved high internal performance in GSE49543. Logistic regression produced an area under the curve of 1.000 for hearing loss versus normal and 0.869 for severe presbycusis versus remaining samples. Support vector machines produced areas under the curve of 0.997 and 0.857, respectively. Stable features included C3ar1, Cxcl13, Csf1r, Ctss, C1qc, Clec4d, Fcgr3, Tyrobp, Ms4a7, Mpeg1, and Cd68, which aligned with the severity and module analyses. Model summaries, fold-level performance, and feature stability are provided in Supplementary Tables S16-S18.
 
 External transfer of the hearing-loss classifier to GSE233798 produced areas under the curve of 0.444 for logistic regression and 0.500 for support vector machines. The marked decrease in performance indicated that internal discrimination depended strongly on the original study design, group structure, platform, and tissue context. The machine-learning results were therefore retained only as a secondary computational observation. They do not support the claim that the current features form a generalizable diagnostic model.
 
-### CellChat and enhancement analyses identified myeloid communication and regulatory programs
+### 3.9 CellChat and enhancement analyses identified myeloid communication and regulatory programs
 
 To place the severity-focused analysis in context, we first evaluated the complete CellChatDB.mouse database. All 2,019 ligand-receptor pairs were tested in every age group with 100 bootstrap permutations. The number of significant cell-type-resolved edges decreased monotonically with age, from 455 at 3 months to 360 at 12 months and 245 at 24 months, corresponding to 146, 115, and 64 significant ligand-receptor interactions and to 33, 34, and 27 significant pathways; the total significant communication probability declined in parallel (11.49, 9.39, and 7.44). Forty-six interactions were significant at all three ages, no interaction was significant at 3 months alone, and two were significant at 24 months alone, indicating that presbycusis involves a quantitative contraction of the cochlear communication network rather than a switch between unrelated programs (Figure 10 and Supplementary Tables S35-S37).
 
@@ -180,17 +185,17 @@ The second functional enrichment analysis supported the primary STRING results. 
 
 Drug-signature enrichment identified multiple perturbation signatures associated with the severity-positive gene set, including mebendazole, nickel sulfate, methotrexate, phorbol 12-myristate 13-acetate, 1-nitropyrene, dexamethasone, and beclomethasone. The M12 module also matched signatures including 1-nitropyrene, phorbol 12-myristate 13-acetate, acetovanillone, mebendazole, and progesterone. The severity signature therefore has detectable pharmacological connectivity, but the analysis does not establish efficacy, causality, or clinical benefit. Drug and chemical terms are therefore reported only as computational repositioning hypotheses in Supplementary Table S24.
 
-### Sensitivity analyses showed robust sex adjustment but incomplete separation from age
+### 3.10 Sensitivity analyses showed robust sex adjustment but incomplete separation from age
 
 Sex adjustment had little effect on the cochlear severity signal. The correlation between severity-only and sex-adjusted effects was 0.997, and the number of genes at FDR < 0.05 changed from 181 to 189. In the inferior colliculus, the corresponding effect correlation was 0.855 and the number of significant genes changed from 228 to 134. Candidate genes retained their direction after sex adjustment in both tissues. Bootstrap confidence intervals for the leading cochlear candidate genes were above zero for all 18 evaluated genes, and the inferior colliculus also showed positive bootstrap intervals for H2-Aa, H2-Eb1, Cd74, Ctss, Fcgr3, Cd68, Tyrobp, Mpeg1, C1qc, C3ar1, and Clec7a. Sex composition therefore does not primarily explain the myeloid severity direction.
 
 In contrast, age-group adjustment substantially attenuated the severity signal. After including an old-hearing-loss indicator, no cochlear genes remained significant at FDR < 0.05, and only Mpeg1 remained significant in the inferior colliculus. The correlation between severity-only and age-adjusted effects decreased to 0.541 in the cochlea and 0.507 in the inferior colliculus. This does not invalidate the ordinal severity model, because severity and age are intrinsically related in presbycusis, but it demonstrates that the current design cannot fully separate age-related and hearing-loss-related effects. The sensitivity results are provided in Supplementary Tables S26-S28 and Figure 8.
 
-### Myeloid subclustering identified two states with age-dependent scores
+### 3.11 Myeloid subclustering identified two states with age-dependent scores
 
 Reclustering of the 147 macrophage/microglial nuclei identified two myeloid clusters. Myeloid_C0 contained 38 cells at 3 months, 54 at 12 months, and 19 at 24 months, corresponding to 71.7%, 88.5%, and 57.6% of myeloid nuclei, respectively. Myeloid_C1 increased from 28.3% at 3 months to 42.4% at 24 months. Myeloid_C0 had higher APP-CD74, PTPRC-MRC1, MHC-II, complement, and phagocytic scores than Myeloid_C1. Within Myeloid_C0, APP-CD74 and PTPRC-MRC1 scores peaked at 12 months and declined at 24 months. Equal-cell bootstrap analysis showed negative 24-month-minus-3-month changes for APP-CD74 (median = -0.437, 95% CI -0.826 to -0.097) and complement (median = -0.353, 95% CI -0.683 to -0.085). The myeloid states were therefore age-dependent, but the small number of nuclei limits definitive subtype assignment. The subclustering results are provided in Supplementary Tables S29-S34 and Figure 9.
 
-## Discussion
+## 4. Discussion
 
 This integrative reanalysis identified a severity-associated macrophage and microglial program shared by the aging mouse cochlea and inferior colliculus. Three observations support the main conclusion. First, middle age alone did not produce robust differential expression at stringent thresholds, whereas progression from middle-aged to mild or severe presbycusis was accompanied by a coherent myeloid signature. Second, WGCNA identified module M12 as strongly correlated with severity and reproducible in the inferior colliculus. Third, 48 genes were significant in both tissues and were enriched for macrophage, microglia, antigen presentation, phagocytosis, complement, and Fc receptor functions. Single-nucleus data localized representative genes to macrophages/microglia.
 
@@ -218,7 +223,7 @@ This study has several limitations. It is purely computational and contains no i
 
 Despite these limitations, the analysis provides a reproducible computational framework for severity-resolved study of peripheral-central auditory aging. The principal contribution is not a single hub gene but a cross-tissue myeloid program that links macrophage and microglial biology to presbycusis severity. Future experimental work should determine which myeloid states are causal, which are compensatory, and how central glial responses relate temporally to cochlear degeneration.
 
-## Conclusion
+## 5. Conclusion
 
 GSE49543 and GSE49522 support a peripheral-central convergence of macrophage and microglial programs in presbycusis severity. The strongest evidence consists of a severity-associated 66-gene WGCNA module, 48 genes shared between the cochlea and inferior colliculus, and myeloid-specific localization in single-nucleus data. Two broad myeloid states displayed different age distributions and immunometabolic scores. Sex-adjusted models preserved the severity direction, whereas age-adjusted models showed that age and hearing loss cannot be fully separated. An exhaustive CellChat analysis of all 2,019 CellChatDB.mouse interactions showed declining cochlear communication with age, a preserved core of 46 ligand-receptor pairs, PTPRC-MRC1 macrophage/microglial communication at all ages, and APP-CD74 signaling from 12 months onwards, while TF enrichment and second-pass functional analysis linked the module to macrophage-associated regulators, phagocytosis, and antigen presentation. The same analyses show substantial tissue specificity and incomplete external reproducibility. The analysis defines a biologically plausible, computationally derived myeloid axis in presbycusis while explicitly excluding claims of a validated diagnostic model or human biomarker.
 
@@ -240,7 +245,7 @@ This study used only previously published, de-identified public mouse transcript
 
 ## Author Contributions
 
-Jiabiao Ji: Conceptualization, Methodology, Formal analysis, Visualization, Writing - original draft. Xiaoqing Yu: Data curation, Formal analysis, Validation. Chao Zhang: Software, Data curation. Long Liu: Investigation, Validation. Lin Yan: Visualization, Writing - review and editing. Hongjian Zhang: Resources, Writing - review and editing. Jianming Yang: Conceptualization, Supervision, Writing - review and editing.
+Jiabiao Ji (季加标) and Xiaoqing Yu (余晓庆) contributed equally to this work. Jiabiao Ji: Conceptualization, Methodology, Formal analysis, Visualization, Writing - original draft. Xiaoqing Yu: Data curation, Formal analysis, Validation. Chao Zhang (章超): Software, Data curation. Long Liu (刘龙): Investigation, Validation. Lin Yan (闫琳): Visualization, Writing - review and editing. Hongjian Zhang (张红健): Resources, Writing - review and editing. Jianming Yang: Conceptualization, Supervision, Writing - review and editing.
 
 ## Funding
 
@@ -248,7 +253,11 @@ This research did not receive any specific grant from funding agencies in the pu
 
 ## Conflicts of Interest
 
-The authors declare no competing interests. This statement should be confirmed by all authors before submission.
+The authors declare no competing interests. All authors have read and approved the submitted version of the manuscript.
+
+## Declaration of generative AI use
+
+During the preparation of this work the authors used an AI-based assistant to support language editing, drafting and documentation of analysis code, and consistency checking of the analysis pipeline. All study design decisions, analyses, and interpretations were specified, executed, and verified by the authors, who reviewed and edited all content and take full responsibility for the published work. Generative AI tools were not used to create or modify figures, images, or data.
 
 ## Acknowledgements
 

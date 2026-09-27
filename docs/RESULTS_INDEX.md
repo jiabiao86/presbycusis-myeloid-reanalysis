@@ -14,6 +14,7 @@
 | Figure 8. Sensitivity analyses | `results/tables/cochlea_severity_*.csv`, `results/tables/central_severity_*.csv`, `results/tables/candidate_models_sensitivity.csv`, `results/tables/candidate_severity_bootstrap.csv` |
 | Figure 9. Myeloid subclustering | `results/tables/myeloid_*.csv` |
 | Figure 10. Exhaustive CellChatDB.mouse analysis | `results/cellchat_full/final/*`, `results/cellchat_full/analysis/*` |
+| Graphical abstract | `manuscript/Graphical_Abstract/graphical_abstract.{pdf,png,tiff}` |
 
 ## Tables
 
