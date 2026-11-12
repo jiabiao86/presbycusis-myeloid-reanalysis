@@ -11,10 +11,12 @@ authors:
     given-names: Chao
   - family-names: Liu
     given-names: Long
+  - family-names: Song
+    given-names: Jun
   - family-names: Yan
     given-names: Lin
-  - family-names: Zhang
-    given-names: Hongjian
+  - family-names: Ren
+    given-names: Shan
   - family-names: Yang
     given-names: Jianming
 repository-code: "https://github.com/jiabiao86/presbycusis-myeloid-reanalysis"
@@ -28,5 +30,5 @@ keywords:
   - transcriptomics
   - CellChat
 license: MIT
-version: "1.0.0"
-date-released: "2026-09-27"
+version: "8.0.0"
+date-released: "2026-11-13"
