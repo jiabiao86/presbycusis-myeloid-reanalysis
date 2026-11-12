@@ -1,0 +1,53 @@
+{
+  "generated_utc": "2026-10-28 16:38:26 UTC",
+  "script": "code/R/run_external_welch_bh.R",
+  "method": "Welch t test with Welch-Satterthwaite df; BH correction",
+  "contexts": [
+    {
+      "dataset": "GSE233798",
+      "context": "GSE233798 cochlea",
+      "comparison": "old_vs_young",
+      "tested_transcripts": 34395,
+      "nominal_p_lt_0_05": 9759,
+      "bh_fdr_lt_0_05": 2246,
+      "p_value_numeric_underflow": 32,
+      "fdr_numeric_underflow": 32,
+      "method": "Welch t test; Welch-Satterthwaite df; BH across tested transcripts"
+    },
+    {
+      "dataset": "GSE153882",
+      "context": "GSE153882 IHC",
+      "comparison": "26m_vs_9m",
+      "tested_transcripts": 49585,
+      "nominal_p_lt_0_05": 13990,
+      "bh_fdr_lt_0_05": 12190,
+      "p_value_numeric_underflow": 0,
+      "fdr_numeric_underflow": 0,
+      "method": "Welch t test; Welch-Satterthwaite df; BH across tested transcripts"
+    },
+    {
+      "dataset": "GSE153882",
+      "context": "GSE153882 OHC",
+      "comparison": "26m_vs_9m",
+      "tested_transcripts": 49585,
+      "nominal_p_lt_0_05": 13742,
+      "bh_fdr_lt_0_05": 12770,
+      "p_value_numeric_underflow": 0,
+      "fdr_numeric_underflow": 0,
+      "method": "Welch t test; Welch-Satterthwaite df; BH across tested transcripts"
+    },
+    {
+      "dataset": "GSE154833",
+      "context": "GSE154833 stria vascularis",
+      "comparison": "26m_vs_1m",
+      "tested_transcripts": 48709,
+      "nominal_p_lt_0_05": 10772,
+      "bh_fdr_lt_0_05": 6627,
+      "p_value_numeric_underflow": 86,
+      "fdr_numeric_underflow": 86,
+      "method": "Welch t test; Welch-Satterthwaite df; BH across tested transcripts"
+    }
+  ],
+  "candidate_genes": ["Cd68", "Clec7a", "Fcgr3", "Lyz1", "Lyz2", "Mpeg1", "Ptprc"],
+  "p_value_zero_policy": "retain numeric zero; label numeric_underflow; display <2.2e-16; BH uses the numeric values and zero rows are exported for traceability"
+}

@@ -3,9 +3,20 @@
 # (severity-associated M12/limma-positive subset) and report what the full
 # database adds.
 
-root <- "/Users/jijiabiao/Desktop/耳聋课题/2026_supplement_analysis"
-full_dir <- file.path(root, "cellchat_full", "final")
-formal_dir <- file.path(root, "cellchat_formal")
+script_arg <- grep("^--file=", commandArgs(trailingOnly = FALSE), value = TRUE)
+if (length(script_arg) == 0) {
+  stop("Run with Rscript so repository paths can be resolved.")
+}
+script_file <- normalizePath(sub("^--file=", "", script_arg[[1]]), mustWork = TRUE)
+source(file.path(dirname(script_file), "common_v14.R"))
+configure_v14_library()
+repo_root <- v14_repo_root()
+derived_root <- v14_derived_dir(repo_root)
+full_dir <- file.path(derived_root, "cellchat_full", "final")
+formal_dir <- v14_path(
+  "V14_CELLCHAT_FORMAL_DIR",
+  file.path(derived_root, "cellchat_formal")
+)
 ages <- c(3, 12, 24)
 
 read_age <- function(suffix) {

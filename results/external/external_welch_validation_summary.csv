@@ -1,0 +1,5 @@
+"context","tested_transcripts","candidate_checks","candidate_failures","maximum_absolute_bh_difference","bh_recalculation_passed","method"
+"GSE233798",34395,7,0,1.72084568816899e-15,TRUE,"independent R t.test and p.adjust checks"
+"GSE153882_IHC",49585,7,0,2.1094237467878e-15,TRUE,"independent R t.test and p.adjust checks"
+"GSE153882_OHC",49585,7,0,2.1094237467878e-15,TRUE,"independent R t.test and p.adjust checks"
+"GSE154833",48709,7,0,2.33146835171283e-15,TRUE,"independent R t.test and p.adjust checks"

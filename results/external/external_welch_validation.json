@@ -1,0 +1,48 @@
+{
+  "generated_utc": "2026-10-28 16:38:53 UTC",
+  "scripts": ["code/R/run_external_welch_bh.R", "code/R/validate_external_welch_bh.R"],
+  "checks": {
+    "selected_candidate_rows_recomputed_with_t_test": 28,
+    "selected_candidate_failures": 0,
+    "bh_recalculated_for_all_contexts": true,
+    "maximum_absolute_bh_difference": 2.3315e-15
+  },
+  "contexts": [
+    {
+      "context": "GSE233798",
+      "tested_transcripts": 34395,
+      "candidate_checks": 7,
+      "candidate_failures": 0,
+      "maximum_absolute_bh_difference": 1.7208e-15,
+      "bh_recalculation_passed": true,
+      "method": "independent R t.test and p.adjust checks"
+    },
+    {
+      "context": "GSE153882_IHC",
+      "tested_transcripts": 49585,
+      "candidate_checks": 7,
+      "candidate_failures": 0,
+      "maximum_absolute_bh_difference": 2.1094e-15,
+      "bh_recalculation_passed": true,
+      "method": "independent R t.test and p.adjust checks"
+    },
+    {
+      "context": "GSE153882_OHC",
+      "tested_transcripts": 49585,
+      "candidate_checks": 7,
+      "candidate_failures": 0,
+      "maximum_absolute_bh_difference": 2.1094e-15,
+      "bh_recalculation_passed": true,
+      "method": "independent R t.test and p.adjust checks"
+    },
+    {
+      "context": "GSE154833",
+      "tested_transcripts": 48709,
+      "candidate_checks": 7,
+      "candidate_failures": 0,
+      "maximum_absolute_bh_difference": 2.3315e-15,
+      "bh_recalculation_passed": true,
+      "method": "independent R t.test and p.adjust checks"
+    }
+  ]
+}

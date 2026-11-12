@@ -1,0 +1,14 @@
+package,version,direct_use,analysis_layer
+base,4.6.1,TRUE,R runtime
+limma,3.68.5,TRUE,differential expression
+WGCNA,1.74,TRUE,weighted co-expression network
+Seurat,5.5.1,TRUE,myeloid subclustering
+CellChat,1.6.1,TRUE,inferred cell-cell communication
+Matrix,1.7.5,TRUE,sparse single-cell matrices
+dplyr,1.2.1,TRUE,myeloid data manipulation
+ggplot2,4.0.3,TRUE,figure support
+patchwork,1.3.2,TRUE,figure composition
+digest,0.6.39,TRUE,input checksums
+jsonlite,2.0.0,TRUE,run metadata
+ComplexHeatmap,2.28.0,TRUE,figure support
+circlize,0.4.18,TRUE,figure support

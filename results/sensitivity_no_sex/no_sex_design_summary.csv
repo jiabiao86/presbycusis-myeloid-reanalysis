@@ -1,0 +1,3 @@
+"tissue","dataset","n_samples","model","design_columns","design_rank"
+"cochlea","GSE49543",41,"~ 0 + cohort_group",4,4
+"inferior_colliculus","GSE49522",39,"~ 0 + cohort_group",4,4

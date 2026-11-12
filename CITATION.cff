@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-message: "If you use this code or these result tables, please cite the associated manuscript and the R8 Zenodo record."
+message: "If you use this code or these result tables, please cite the associated manuscript and the Zenodo record."
 title: "Intersection of Myeloid-Associated Genes in Aging CBA/CaJ Mouse Auditory Tissues: A Secondary Reanalysis with Cross-Strain Single-Nucleus Context"
 type: software
 authors:
@@ -30,8 +30,8 @@ authors:
 repository-code: "https://github.com/jiabiao86/presbycusis-myeloid-reanalysis"
 identifiers:
   - type: doi
-    value: "10.5281/zenodo.24168471"
-    description: "Version DOI for the R8 archive"
+    value: "10.5281/zenodo.24169355"
+    description: "Version DOI for the analysis code archive"
 keywords:
   - presbycusis
   - age-related hearing loss
@@ -42,5 +42,5 @@ keywords:
   - transcriptomics
   - CellChat
 license: MIT
-version: "v14-r8"
+version: "v14.0"
 date-released: "2026-11-13"

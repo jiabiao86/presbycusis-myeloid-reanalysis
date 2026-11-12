@@ -1,0 +1,7 @@
+"dataset","tissue","contrast","numerator","denominator","n_samples","genes_tested","n_up","n_down","n_fdr_only","n_effect_size_only","n_significant","fdr_cutoff","abs_log2fc_cutoff"
+"GSE49543","cochlea","MA_vs_YC","MA","YC",39,12437,0,0,0,3,0,0.05,1
+"GSE49543","cochlea","SP_vs_MP","SP","MP",39,12437,0,0,0,11,0,0.05,1
+"GSE49543","cochlea","SP_vs_YC","SP","YC",39,12437,15,2,45,50,17,0.05,1
+"GSE49522","inferior_colliculus","MA_vs_YC","MA","YC",39,12437,0,0,1,24,0,0.05,1
+"GSE49522","inferior_colliculus","SP_vs_MP","SP","MP",39,12437,0,0,0,105,0,0.05,1
+"GSE49522","inferior_colliculus","SP_vs_YC","SP","YC",39,12437,46,0,91,188,46,0.05,1

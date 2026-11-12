@@ -1,22 +1,30 @@
-# V14 Code Archive, Revision 8
+# Analysis Code Archive
 
-This archive accompanies the Revision 8 manuscript for the audited
-cochlea/inferior-colliculus secondary reanalysis. It preserves the unordered
-four-cohort model, the 41-sample primary analysis, mirrored exclusion of the
-two unmatched cochlear records, their joint exclusion, and 41
-leave-one-animal-out models. It also records all-four-library processing of the
-C57BL/6J GSE274279 cochlear single-nucleus context and the GSE49543
-probe-aggregation sensitivity.
+This archive accompanies the manuscript "Intersection of Myeloid-Associated
+Genes in Aging CBA/CaJ Mouse Auditory Tissues: A Secondary Reanalysis with
+Cross-Strain Single-Nucleus Context". It preserves the unordered four-cohort
+model, the 41-sample primary analysis, mirrored exclusion of the two unmatched
+cochlear records, their joint exclusion, and 41 leave-one-animal-out models.
+It also records all-four-library processing of the C57BL/6J GSE274279
+cochlear single-nucleus context and the GSE49543 probe-aggregation sensitivity.
 
-This R8 archive is available from Zenodo at
-https://doi.org/10.5281/zenodo.24168471 (version DOI
-10.5281/zenodo.24168471). The parent concept DOI is
-10.5281/zenodo.23737274. The earlier Zenodo DOI
-10.5281/zenodo.23737275 applies only to R3.
+This analysis code archive is available from Zenodo at
+https://doi.org/10.5281/zenodo.24169355. The GitHub repository is
+https://github.com/jiabiao86/presbycusis-myeloid-reanalysis.
 
-The R8 author order is Jiabiao Ji, Xiaoqing Yu, Chao Zhang, Long Liu, Jun Song,
+The author order is Jiabiao Ji, Xiaoqing Yu, Chao Zhang, Long Liu, Jun Song,
 Lin Yan, Shan Ren, and Jianming Yang. Jiabiao Ji is the first author, Xiaoqing
 Yu is the co-first author, and Jianming Yang is the corresponding author.
+
+## Repository layout
+
+- The repository root contains the analysis code, selected frozen result
+  tables, environment records, validation outputs, and integrity manifests.
+- `submission/` contains the manuscript, cover letter, highlights, figure
+  legends, main and supplementary figures, supplementary materials, analysis
+  code archive, and checksum manifests prepared for initial journal submission.
+- `submission/Analysis_Code.zip` is the single analysis executable archive
+  deposited in Zenodo.
 
 ## Reproducible scope
 
@@ -259,37 +267,26 @@ Welch/BH, underflow, and independent validation outputs in
 of that manifest and the selected external outputs are under
 `results/external/`.
 
-### 8. Rebuild documents and run submission QA
+### 8. Rebuild submission documents
 
 The compact code archive intentionally does not include the manuscript Markdown
-sources or the generated figure PNGs. To rebuild the five editable documents,
-provide a local project root containing the R8 Markdown files and a directory
+and supporting-document sources or the generated figure PNGs. To rebuild the
+four editable documents, provide a local project root containing the Markdown
+files and a directory
 containing the approved figure PNGs:
 
 ```bash
-python3 code/python/build_submission_docs_r8.py \
+python3 code/python/build_submission_docs.py \
   --project-root /path/to/project-root \
   --package-root /path/to/document-output \
   --figure-dir /path/to/approved-figures
 ```
 
-Run the cross-document number check and the prohibited-wording scan against an
-assembled submission package:
-
-```bash
-python3 code/python/crosscheck_v14_claims.py \
-  --package /path/to/Submission_Package_v14_R8 \
-  --output /tmp/cross_document_claim_check.json
-python3 code/python/scan_uploadable_text.py \
-  --package /path/to/Submission_Package_v14_R8 \
-  --output /tmp/uploadable_content_scan.txt
-```
-
 After the package is complete, rebuild the analysis manifest and SHA-256 list:
 
 ```bash
-python3 code/python/build_submission_manifest_r8.py \
-  --package /path/to/Submission_Package_v14_R8
+python3 code/python/build_manifest.py \
+  --package /path/to/analysis-package
 ```
 
 The code archive has its own file-level integrity records under `manifests/`.
@@ -341,9 +338,9 @@ regenerated matrices and large R objects are not duplicated.
 
 ## Integrity
 
-`manifests/V14_R8_ANALYSIS_MANIFEST.csv` lists each file in the code archive
+`manifests/ANALYSIS_MANIFEST.csv` lists each file in the code archive
 with its relative path, size, and SHA-256 digest.
-`manifests/V14_R8_SHA256SUMS.csv` is the corresponding checksum list. These
+`manifests/SHA256SUMS.csv` is the corresponding checksum list. These
 two records do not checksum themselves.
 
 ## P-value display

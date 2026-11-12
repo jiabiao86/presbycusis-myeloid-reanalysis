@@ -1,0 +1,96 @@
+{
+  "retrieval_date": "2026-10-28",
+  "datasets": {
+    "GSE49543": {
+      "tissue": "cochlea",
+      "observed_n": 41,
+      "documented_n": 40,
+      "counts_by_group": {
+        "MA": 17,
+        "MP": 9,
+        "SP": 6,
+        "YC": 9
+      },
+      "sex_by_group": {
+        "MA": {
+          "Female": 10,
+          "Male": 7
+        },
+        "MP": {
+          "Female": 4,
+          "Male": 5
+        },
+        "SP": {
+          "Female": 4,
+          "Male": 2
+        },
+        "YC": {
+          "Female": 4,
+          "Male": 5
+        }
+      },
+      "sex_complete": true,
+      "series_title": "Novel approach to select genes from RMA normalized microarray data using functional hearing tests in aging mice.",
+      "series_overall_design": "In the study of expression changes GABA receptors in the in cochlea of young adult and aging presbycusis mice total of forty chips were used. The normal aging mice were in four groups young adults controls with good hearing (8 mice, 8 MOE430A GeneChips), Middle aged group  with good hearing  ( 17 mice, 17 MOE430A GeneChips), Mild Presbycusis (old) with limited hearing loss (9 mice, 9 MOE430A GeneChips) and Severe Presbycusis (old) (6 mice, 6 MOE430A GeneChips). Each Mice cochlea to each GeneChips, Samples was not pooled. The hearing potential evidence of each mouse is accompanied with each mice DPOAE amplitude.",
+      "count_discrepancy": true,
+      "count_discrepancy_note": "Observed 41 GSMs versus documented 40 (YC 8, MA 17, MP 9, SP 6); the two unmatched cochlear records are animal 13 (SP, GSM1201602) and animal 16 (YC, GSM1201568). Both remain in the primary analysis."
+    },
+    "GSE49522": {
+      "tissue": "inferior_colliculus",
+      "observed_n": 39,
+      "documented_n": 39,
+      "counts_by_group": {
+        "MA": 17,
+        "MP": 9,
+        "SP": 5,
+        "YC": 8
+      },
+      "sex_by_group": {
+        "MA": {
+          "Female": 10,
+          "Male": 7
+        },
+        "MP": {
+          "Female": 4,
+          "Male": 5
+        },
+        "SP": {
+          "Female": 4,
+          "Male": 1
+        },
+        "YC": {
+          "Female": 4,
+          "Male": 4
+        }
+      },
+      "sex_complete": true,
+      "series_title": "Expression changes in IC GABA receptors in the auditory midbrain of young adult and aging presbycusis mice.",
+      "series_overall_design": "In the study of Expression changes in IC GABA receptors in the Auditory Midbrain of young adult and aging presbycusis mice total of thirty nine chips were used. The normal aging mice were in Four groups Young adults Controls with good hearing (8 mice, 8 MOE430A GeneChips), Middle aged group  with good hearing  ( 17 mice, 17 MOE430A GeneChips), Mild Presbycusis with limited hearing loss (9 mice, 9 MOE430A GeneChips) and Severe Presbycusis (5 mice, 5 MOE430A GeneChips).",
+      "count_discrepancy": false,
+      "count_discrepancy_note": "Observed count matches the documented 39."
+    }
+  },
+  "deposited_animal_level_fields": {
+    "age_months": false,
+    "abr_threshold_db": false,
+    "dpoae_db": false
+  },
+  "notes": [
+    "GEO further-processed workbooks contain expression values and cohort labels only.",
+    "No per-animal numeric age, ABR threshold, or DPOAE value was found.",
+    "The GSE49543 overall design states that each mouse had DPOAE amplitude, but no per-animal DPOAE values are present in the deposited series matrix, family SOFT record, or further-processed workbook.",
+    "Published cohort age means and SDs are retained only as cohort metadata."
+  ],
+  "cross_tissue": {
+    "cochlea_animals": 41,
+    "inferior_colliculus_animals": 39,
+    "paired_animals": 39,
+    "cochlea_only_animal_ids": [
+      "13",
+      "16"
+    ],
+    "inferior_colliculus_only_animal_ids": [],
+    "paired_group_concordant": 39,
+    "paired_group_discordant": 0
+  }
+}

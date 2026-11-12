@@ -1,0 +1,78 @@
+{
+  "generated_at": "2026-10-28T22:49:27+0800",
+  "method": "For each of the 41 cochlear animal IDs, we removed that animal from the cochlear model and, when a paired inferior-colliculus sample existed, from the inferior-colliculus model. Both tissue models were then refitted.",
+  "n_animals": 41,
+  "shared_gene_count": {
+    "min": 5,
+    "median": 7,
+    "max": 10,
+    "distribution": [
+      {
+        "shared_gene_count": 5,
+        "n_models": 1
+      },
+      {
+        "shared_gene_count": 6,
+        "n_models": 5
+      },
+      {
+        "shared_gene_count": 7,
+        "n_models": 27
+      },
+      {
+        "shared_gene_count": 8,
+        "n_models": 7
+      },
+      {
+        "shared_gene_count": 10,
+        "n_models": 1
+      }
+    ]
+  },
+  "candidate_gene_frequency": [
+    {
+      "gene": "Cd68",
+      "n_models": 41,
+      "frequency": 1
+    },
+    {
+      "gene": "Clec7a",
+      "n_models": 41,
+      "frequency": 1
+    },
+    {
+      "gene": "Fcgr3",
+      "n_models": 41,
+      "frequency": 1
+    },
+    {
+      "gene": "Lyz1",
+      "n_models": 38,
+      "frequency": 0.9268
+    },
+    {
+      "gene": "Lyz2",
+      "n_models": 35,
+      "frequency": 0.8537
+    },
+    {
+      "gene": "Mpeg1",
+      "n_models": 41,
+      "frequency": 1
+    },
+    {
+      "gene": "Ptprc",
+      "n_models": 39,
+      "frequency": 0.9512
+    },
+    {
+      "gene": "Tyrobp",
+      "n_models": 6,
+      "frequency": 0.1463
+    }
+  ],
+  "fdr_cutoff": 0.05,
+  "abs_log2fc_cutoff": 1,
+  "model_formula": "~ 0 + cohort_group + sex",
+  "session_info": ["R version 4.6.1 (2026-06-24)", "Platform: aarch64-apple-darwin25.4.0", "Running under: macOS Tahoe 26.7.1", "", "Matrix products: default", "BLAS:   /opt/homebrew/Cellar/openblas/0.3.34/lib/libopenblasp-r0.3.34.dylib ", "LAPACK: /opt/homebrew/Cellar/r/4.6.1/lib/R/lib/libRlapack.dylib;  LAPACK version 3.12.1", "", "locale:", "[1] C.UTF-8/C.UTF-8/C.UTF-8/C/C.UTF-8/C.UTF-8", "", "time zone: Asia/Shanghai", "tzcode source: internal", "", "attached base packages:", "[1] stats     graphics  grDevices utils     datasets  methods   base     ", "", "other attached packages:", "[1] limma_3.68.5   jsonlite_2.0.0", "", "loaded via a namespace (and not attached):", "[1] compiler_4.6.1 splines_4.6.1  statmod_1.5.2 "]
+}

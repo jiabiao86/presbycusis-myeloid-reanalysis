@@ -1,0 +1,5 @@
+"gsm","library","age_months","raw_barcodes","retained_nuclei","median_genes_retained","median_counts_retained","median_percent_mt_retained"
+"GSM8446833","3M",3,2936,2916,1358.5,2394.5,0.471797766319097
+"GSM8446834","12M",12,5581,5532,1485.5,2574.5,0.709720899157812
+"GSM8446835","24M",24,2968,2954,1042,1815,0.0391849770448508
+"GSM8446836","24M_Cochlea_BU",24,2757,2750,978.5,1693.5,0.0367378713737211

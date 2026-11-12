@@ -1,0 +1,31 @@
+{
+  "source": "Xia et al., Cell Reports 2025;44:115781",
+  "strain": "C57BL/6J",
+  "gsm": ["GSM8446833", "GSM8446834", "GSM8446835", "GSM8446836"],
+  "raw_barcodes": [2936, 5581, 2968, 2757],
+  "retained_nuclei": [2916, 5532, 2954, 2750],
+  "total_retained_nuclei": 14152,
+  "genes": 23540,
+  "myeloid_nuclei": 245,
+  "myeloid_by_age": {
+    "3": 68,
+    "12": 81,
+    "24": 96
+  },
+  "myeloid_by_library": {
+    "12M": 81,
+    "24M": 50,
+    "24M_Cochlea_BU": 46,
+    "3M": 68
+  },
+  "cell_types": {
+    "Endothelial": 31,
+    "Inner hair cells": 483,
+    "Macrophages/Microglia": 245,
+    "Outer hair cells": 448,
+    "Spiral ganglion neurons": 368,
+    "Stria vascularis": 74,
+    "Supporting cells": 12503
+  },
+  "analytic_boundary": "Age, library, and 10x batch are not separable. The animal-level relationship of the 24M_Cochlea_BU library to the 24M library is not documented in GEO."
+}

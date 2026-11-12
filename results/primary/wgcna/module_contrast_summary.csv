@@ -1,0 +1,7 @@
+"tissue","contrast","n_eigengenes_including_grey","n_biological_modules","n_biological_modules_fdr_lt_0_05","n_grey_eigengene_fdr_lt_0_05","module_fdr_rule"
+"cochlea","MA_vs_YC",24,23,0,0,"BH-adjusted P < 0.05; descriptive module-level rule; grey denotes unassigned genes and is not a biological module"
+"inferior_colliculus","MA_vs_YC",13,12,0,0,"BH-adjusted P < 0.05; descriptive module-level rule; grey denotes unassigned genes and is not a biological module"
+"cochlea","SP_vs_MP",24,23,0,0,"BH-adjusted P < 0.05; descriptive module-level rule; grey denotes unassigned genes and is not a biological module"
+"inferior_colliculus","SP_vs_MP",13,12,0,0,"BH-adjusted P < 0.05; descriptive module-level rule; grey denotes unassigned genes and is not a biological module"
+"cochlea","SP_vs_YC",24,23,3,0,"BH-adjusted P < 0.05; descriptive module-level rule; grey denotes unassigned genes and is not a biological module"
+"inferior_colliculus","SP_vs_YC",13,12,1,0,"BH-adjusted P < 0.05; descriptive module-level rule; grey denotes unassigned genes and is not a biological module"

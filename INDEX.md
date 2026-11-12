@@ -1,15 +1,13 @@
-# Supplementary Table S13 Code Index, Revision 8
+# Supplementary Table S13 Code Index
 
 The minimal code archive is supplied as
-`Code_Archive/V14_Code_Archive_R8.zip` relative to the submission package
+`Analysis_Code.zip` relative to the submission package
 root. The archive `README.md` describes dependencies, environment variables,
 and the recommended execution order.
 
-The R8 code archive is available from Zenodo at
-https://doi.org/10.5281/zenodo.24168471 (version DOI
-10.5281/zenodo.24168471). The parent concept DOI is
-10.5281/zenodo.23737274. The earlier Zenodo DOI
-10.5281/zenodo.23737275 applies only to R3.
+The analysis code archive is available from Zenodo at
+https://doi.org/10.5281/zenodo.24169355 and from GitHub at
+https://github.com/jiabiao86/presbycusis-myeloid-reanalysis.
 
 ## Code
 
@@ -28,13 +26,11 @@ https://doi.org/10.5281/zenodo.24168471 (version DOI
 | Myeloid subclustering figure | `code/R/generate_myeloid_figure.R` |
 | CellChat | `code/R/cellchat_full_analysis.R`, `code/R/cellchat_full_by_age.R`, `code/R/cellchat_full_merge.R`, `code/R/cellchat_full_compare.R`, `code/R/generate_cellchat_full_figure.R` |
 | Main figures and graphical abstract | `code/R/generate_figures_v14.R`, `code/R/generate_graphical_abstract_v14.R` |
-| Document construction | `code/python/build_submission_docs_r8.py` |
+| Document construction | `code/python/build_submission_docs.py` |
 | External matrix preparation | `code/python/prepare_external_inputs.py` |
 | External Welch and BH analysis | `code/R/run_external_welch_bh.R`, `code/R/validate_external_welch_bh.R` |
-| Submission QA | `code/python/scan_uploadable_text.py`, `code/python/crosscheck_v14_claims.py` |
 | P-value display | `code/python/add_pvalue_display_columns.py` |
-| Integrity manifest | `code/python/build_submission_manifest_r8.py` |
-| Package assembly | `code/python/build_submission_archives_r8.py` |
+| Integrity manifest | `code/python/build_manifest.py` |
 
 ## Environment and validation
 
@@ -74,8 +70,8 @@ https://doi.org/10.5281/zenodo.24168471 (version DOI
 
 ## Integrity
 
-`V14_R8_ANALYSIS_MANIFEST.csv` lists every packaged file with its relative path,
-size, and SHA-256 digest. `V14_R8_SHA256SUMS.csv` contains the corresponding
+`ANALYSIS_MANIFEST.csv` lists every packaged file with its relative path,
+size, and SHA-256 digest. `SHA256SUMS.csv` contains the corresponding
 checksum list. The manifest and checksum files do not checksum themselves.
 
 Public GEO workbooks, complete prepared matrices, and complete

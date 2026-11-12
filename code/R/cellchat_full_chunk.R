@@ -15,9 +15,14 @@ start <- as.integer(args[[2]])
 end <- as.integer(args[[3]])
 nboot <- if (length(args) >= 4) as.integer(args[[4]]) else 100L
 
-root <- "/Users/jijiabiao/Desktop/耳聋课题/2026_supplement_analysis"
-lib <- "/Users/jijiabiao/Desktop/耳聋课题/Rlibs"
-.libPaths(c(lib, .libPaths()))
+script_arg <- grep("^--file=", commandArgs(trailingOnly = FALSE), value = TRUE)
+if (length(script_arg) == 0) {
+  stop("Run with Rscript so repository paths can be resolved.")
+}
+script_file <- normalizePath(sub("^--file=", "", script_arg[[1]]), mustWork = TRUE)
+source(file.path(dirname(script_file), "common_v14.R"))
+configure_v14_library()
+repo_root <- v14_repo_root()
 
 suppressPackageStartupMessages({
   library(Matrix)
@@ -30,11 +35,12 @@ suppressPackageStartupMessages({
 future::plan("sequential")
 options(future.globals.maxSize = 8 * 1024^3)
 
-chunk_dir <- file.path(root, "cellchat_full", "chunks")
+cellchat_root <- file.path(v14_derived_dir(repo_root), "cellchat_full")
+chunk_dir <- file.path(cellchat_root, "chunks")
 dir.create(chunk_dir, recursive = TRUE, showWarnings = FALSE)
 
 cache <- readRDS(
-  file.path(root, "cellchat_full", "cache", paste0("cache_", age, "M.rds"))
+  file.path(cellchat_root, "cache", paste0("cache_", age, "M.rds"))
 )
 lr <- cache$lr
 if (start < 1 || end > nrow(lr) || start > end) {

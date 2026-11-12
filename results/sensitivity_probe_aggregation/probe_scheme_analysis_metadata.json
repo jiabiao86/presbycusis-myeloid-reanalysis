@@ -1,0 +1,19 @@
+{
+  "source_preparation": "code/python/prepare_gse49543_probe_sensitivity.py",
+  "input_directory": "inputs/prepared/gse49543_probe_sensitivity",
+  "sample_master": "results/primary/sample_master.csv",
+  "inferior_colliculus_result": "results/primary/inferior_colliculus_SP_vs_YC.csv",
+  "frozen_universe": "results/primary/analysis_universe.csv",
+  "model": "~ 0 + cohort_group + sex",
+  "contrast": "SP - YC",
+  "thresholds": {
+    "bh_adjusted_p": 0.05,
+    "absolute_log2_fold_change": 1
+  },
+  "rules": {
+    "first_probe": "First valid source row per exact gene symbol.",
+    "mean_probe": "Mean linear signal across rows sharing an exact gene symbol.",
+    "max_mean_probe": "Row with the highest mean linear signal across the 41 samples for each exact gene symbol."
+  },
+  "interpretation": "Probe aggregation changes the cochlear transcript set tested; the inferior-colliculus model and frozen gene universe are unchanged."
+}

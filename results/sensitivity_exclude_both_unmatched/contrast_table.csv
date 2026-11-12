@@ -1,0 +1,4 @@
+"contrast_id","numerator","denominator","interpretation"
+"MA_vs_YC","MA","YC","Middle-aged normal-hearing cohort minus young normal-hearing cohort."
+"SP_vs_MP","SP","MP","SP cohort minus MP cohort according to the source labels; age remains partly confounded."
+"SP_vs_YC","SP","YC","SP cohort minus YC cohort according to the source labels; descriptive combined age and hearing-status difference."

@@ -1,0 +1,79 @@
+{
+  "generated_at": "2026-10-28T20:39:34+0800",
+  "run_label": "sensitivity_exclude_GSM1201568",
+  "model_formula": "~ 0 + cohort_group + sex",
+  "sample_exclusion": [
+    {
+      "run_label": "sensitivity_exclude_GSM1201568",
+      "dataset": "GSE49543",
+      "tissue": "cochlea",
+      "gsm": "GSM1201568",
+      "animal_id": 16,
+      "adjudicated_group": "Young Control",
+      "expression_column": "YC-16",
+      "reason": "40-sample sensitivity analysis excluding the unmatched young-control cochlear record GSM1201568."
+    }
+  ],
+  "frozen_gene_universe": true,
+  "cohort_levels": ["YC", "MA", "MP", "SP"],
+  "sex_levels": ["Female", "Male"],
+  "contrasts": [
+    {
+      "contrast_id": "MA_vs_YC",
+      "numerator": "MA",
+      "denominator": "YC",
+      "interpretation": "Middle-aged normal-hearing cohort minus young normal-hearing cohort."
+    },
+    {
+      "contrast_id": "SP_vs_MP",
+      "numerator": "SP",
+      "denominator": "MP",
+      "interpretation": "SP cohort minus MP cohort according to the source labels; age remains partly confounded."
+    },
+    {
+      "contrast_id": "SP_vs_YC",
+      "numerator": "SP",
+      "denominator": "YC",
+      "interpretation": "SP cohort minus YC cohort according to the source labels; descriptive combined age and hearing-status difference."
+    }
+  ],
+  "expression_scale": "log2 values supplied by input matrices; no additional log transform",
+  "fdr_method": "Benjamini-Hochberg within tissue and contrast",
+  "fdr_cutoff": 0.05,
+  "abs_log2fc_cutoff": 1,
+  "limma": {
+    "lmFit": "limma::lmFit",
+    "eBayes": "limma::eBayes(fit, trend = TRUE, robust = TRUE)"
+  },
+  "common_analysis_genes": 12437,
+  "supported_by_continuous_abr": false,
+  "continuous_abr_reason": "No per-animal ABR values were deposited or recovered.",
+  "dpoae_used": false,
+  "dpoae_reason": "No per-animal DPOAE values were deposited or recovered; no composite phenotype was created.",
+  "input_checksums": [
+    {
+      "path": "inputs/prepared/expression_GSE49543_log2.csv",
+      "sha256": "6ac19ab7bfddd28750a67a89f7e5db27bb837e24f7746b4cfb94493fe541c622"
+    },
+    {
+      "path": "inputs/prepared/expression_GSE49522_log2.csv",
+      "sha256": "dd32df2eb8c50d8492926deae662e29b4acb44130d34d27d76f59a7e3d577df5"
+    },
+    {
+      "path": "inputs/prepared/sample_master.csv",
+      "sha256": "f8015c81da767c9c5c4073211cd383504f38e7f79d2d2054ec7625254c254ce0"
+    }
+  ],
+  "outputs": {
+    "significant_counts": "results/significant_counts.csv",
+    "significant_genes_long": "results/significant_genes_long.csv",
+    "shared_genes": "results/shared_genes.csv",
+    "shared_gene_counts": "results/shared_gene_counts.csv",
+    "contrast_table": "results/contrast_table.csv",
+    "model_formula": "results/model_formula.txt",
+    "analysis_universe": "results/analysis_universe.csv",
+    "design_matrices": "results/design/",
+    "limma_tables": "results/limma/"
+  },
+  "session_info": ["R version 4.6.1 (2026-06-24)", "Platform: aarch64-apple-darwin25.4.0", "Running under: macOS Tahoe 26.7.1", "", "Matrix products: default", "BLAS:   /opt/homebrew/Cellar/openblas/0.3.34/lib/libopenblasp-r0.3.34.dylib ", "LAPACK: /opt/homebrew/Cellar/r/4.6.1/lib/R/lib/libRlapack.dylib;  LAPACK version 3.12.1", "", "locale:", "[1] C.UTF-8/C.UTF-8/C.UTF-8/C/C.UTF-8/C.UTF-8", "", "time zone: Asia/Shanghai", "tzcode source: internal", "", "attached base packages:", "[1] stats     graphics  grDevices utils     datasets  methods   base     ", "", "other attached packages:", "[1] limma_3.68.5   jsonlite_2.0.0 digest_0.6.39 ", "", "loaded via a namespace (and not attached):", "[1] compiler_4.6.1 splines_4.6.1  statmod_1.5.2 "]
+}

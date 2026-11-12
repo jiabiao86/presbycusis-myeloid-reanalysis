@@ -1,0 +1,6 @@
+"scenario","label","cochlea_samples","inferior_colliculus_samples","shared_gene_count","shared_genes","lost_vs_primary","gained_vs_primary"
+"primary","Primary (41 cochlea / 39 IC)",41,39,"7","Cd68;Clec7a;Fcgr3;Lyz1;Lyz2;Mpeg1;Ptprc","",""
+"exclude_GSM1201568","Exclude GSM1201568 (40 / 39)",40,39,"8","Cd68;Clec7a;Fcgr3;Lyz1;Lyz2;Mpeg1;Ptprc;Tyrobp","","Tyrobp"
+"exclude_GSM1201602","Exclude GSM1201602 (40 / 39)",40,39,"5","Cd68;Clec7a;Fcgr3;Lyz1;Mpeg1","Lyz2;Ptprc",""
+"exclude_both_unmatched","Exclude both unmatched (39 / 39)",39,39,"7","Cd68;Clec7a;Fcgr3;Lyz1;Lyz2;Mpeg1;Tyrobp","Ptprc","Tyrobp"
+"leave_one_animal_out","Leave one animal out (41 models)",NA,NA,"5-10; median 7","Cd68;Clec7a;Fcgr3;Lyz1;Lyz2;Mpeg1;Ptprc;Tyrobp","",""

@@ -1,0 +1,4 @@
+"probe_rule","genes_tested","cochlea_significant_up","cochlea_significant_down","inferior_colliculus_significant","intersection_size","primary_seven_retained","additional_intersection_genes"
+"first_probe",12437,16,2,46,7,7,""
+"mean_probe",12437,14,2,46,8,7,"C1qb"
+"max_mean_probe",12437,17,4,46,9,7,"Laptm5;Ms4a6d"

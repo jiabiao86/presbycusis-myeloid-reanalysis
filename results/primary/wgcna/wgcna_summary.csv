@@ -1,0 +1,3 @@
+"dataset","tissue","n_samples","n_genes","selected_power","scale_free_fit","mean_connectivity","n_modules_excluding_grey","n_grey_genes","max_block_size"
+"GSE49543","cochlea",41,5000,7,0.824142131719086,24.1003172836914,23,109,5000
+"GSE49522","inferior_colliculus",39,5000,5,0.942419979906383,8.04306065358233,12,1090,5000

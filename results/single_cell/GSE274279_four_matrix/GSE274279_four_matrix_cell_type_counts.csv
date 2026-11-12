@@ -1,0 +1,26 @@
+"gsm","library","age_months","cell_type","nuclei"
+"GSM8446833","3M",3,"Endothelial",28
+"GSM8446833","3M",3,"Inner hair cells",167
+"GSM8446833","3M",3,"Macrophages/Microglia",68
+"GSM8446833","3M",3,"Outer hair cells",174
+"GSM8446833","3M",3,"Spiral ganglion neurons",145
+"GSM8446833","3M",3,"Stria vascularis",1
+"GSM8446833","3M",3,"Supporting cells",2333
+"GSM8446834","12M",12,"Endothelial",3
+"GSM8446834","12M",12,"Inner hair cells",152
+"GSM8446834","12M",12,"Macrophages/Microglia",81
+"GSM8446834","12M",12,"Outer hair cells",249
+"GSM8446834","12M",12,"Spiral ganglion neurons",99
+"GSM8446834","12M",12,"Supporting cells",4948
+"GSM8446835","24M",24,"Inner hair cells",85
+"GSM8446835","24M",24,"Macrophages/Microglia",50
+"GSM8446835","24M",24,"Outer hair cells",14
+"GSM8446835","24M",24,"Spiral ganglion neurons",65
+"GSM8446835","24M",24,"Stria vascularis",40
+"GSM8446835","24M",24,"Supporting cells",2700
+"GSM8446836","24M_Cochlea_BU",24,"Inner hair cells",79
+"GSM8446836","24M_Cochlea_BU",24,"Macrophages/Microglia",46
+"GSM8446836","24M_Cochlea_BU",24,"Outer hair cells",11
+"GSM8446836","24M_Cochlea_BU",24,"Spiral ganglion neurons",59
+"GSM8446836","24M_Cochlea_BU",24,"Stria vascularis",33
+"GSM8446836","24M_Cochlea_BU",24,"Supporting cells",2522

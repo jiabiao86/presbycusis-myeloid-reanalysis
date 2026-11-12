@@ -1,0 +1,3 @@
+"run_label","dataset","tissue","gsm","animal_id","adjudicated_group","expression_column","reason"
+"sensitivity_exclude_both_unmatched","GSE49543","cochlea","GSM1201568",16,"Young Control","YC-16","Cochlear sensitivity analysis excluding 2 observed GSM record(s): GSM1201568, GSM1201602."
+"sensitivity_exclude_both_unmatched","GSE49543","cochlea","GSM1201602",13,"Severe Presbycusis","SP-13","Cochlear sensitivity analysis excluding 2 observed GSM record(s): GSM1201568, GSM1201602."

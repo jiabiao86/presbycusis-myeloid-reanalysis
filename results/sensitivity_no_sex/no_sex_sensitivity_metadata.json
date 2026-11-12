@@ -1,0 +1,36 @@
+{
+  "generated_at": "2026-10-29T07:45:05+0800",
+  "model": "~ 0 + cohort_group",
+  "rationale": "Sensitivity model omitting sex adjustment because the inferior colliculus SP group contained only one male sample.",
+  "frozen_gene_universe": 12437,
+  "fdr_method": "Benjamini-Hochberg within tissue and contrast",
+  "fdr_cutoff": 0.05,
+  "abs_log2fc_cutoff": 1,
+  "limma": {
+    "lmFit": "limma::lmFit",
+    "eBayes": "limma::eBayes(fit, trend = TRUE, robust = TRUE)"
+  },
+  "input_checksums": [
+    {
+      "path": "validation/geo_rebuild/expression_GSE49543_log2.csv",
+      "sha256": "6ac19ab7bfddd28750a67a89f7e5db27bb837e24f7746b4cfb94493fe541c622",
+      "_row": "validation/geo_rebuild/expression_GSE49543_log2.csv"
+    },
+    {
+      "path": "validation/geo_rebuild/expression_GSE49522_log2.csv",
+      "sha256": "dd32df2eb8c50d8492926deae662e29b4acb44130d34d27d76f59a7e3d577df5",
+      "_row": "validation/geo_rebuild/expression_GSE49522_log2.csv"
+    },
+    {
+      "path": "supplementary/S1_sample_master/sample_master.csv",
+      "sha256": "f8015c81da767c9c5c4073211cd383504f38e7f79d2d2054ec7625254c254ce0",
+      "_row": "supplementary/S1_sample_master/sample_master.csv"
+    },
+    {
+      "path": "supplementary/S2_model_and_contrasts/analysis_universe.csv",
+      "sha256": "f850b76493a17ba5b1a74bc97985c8364e7a3f7224d3322e465c4eef2d8abf98",
+      "_row": "supplementary/S2_model_and_contrasts/analysis_universe.csv"
+    }
+  ],
+  "session_info": ["R version 4.6.1 (2026-06-24)", "Platform: aarch64-apple-darwin25.4.0", "Running under: macOS Tahoe 26.7.1", "", "Matrix products: default", "BLAS:   /opt/homebrew/Cellar/openblas/0.3.34/lib/libopenblasp-r0.3.34.dylib ", "LAPACK: /opt/homebrew/Cellar/r/4.6.1/lib/R/lib/libRlapack.dylib;  LAPACK version 3.12.1", "", "locale:", "[1] C.UTF-8/C.UTF-8/C.UTF-8/C/C.UTF-8/C.UTF-8", "", "time zone: Asia/Shanghai", "tzcode source: internal", "", "attached base packages:", "[1] stats     graphics  grDevices utils     datasets  methods   base     ", "", "other attached packages:", "[1] limma_3.68.5   jsonlite_2.0.0 digest_0.6.39 ", "", "loaded via a namespace (and not attached):", "[1] compiler_4.6.1 splines_4.6.1  statmod_1.5.2 "]
+}

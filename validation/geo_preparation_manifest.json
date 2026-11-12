@@ -1,0 +1,25 @@
+{
+  "generator": "code/python/prepare_geo_inputs.py",
+  "gse49543": {
+    "linear_signal_probe_selection": "GSE49543: first probe per exact source Gene Symbol; GSE49522: drop probes containing '///', then average within symbol",
+    "transform": "log2(linear RMA signal or within-symbol mean signal + 1)",
+    "source_file": "GSE49543_further_processed.xls.gz",
+    "source_sha256": "fb1fa34a66d0e692534c5579c8a4e505a03cc07b4eb513c361880d51018fed76",
+    "output": "expression_GSE49543_log2.csv",
+    "rows": 13649,
+    "samples": 41,
+    "output_sha256": "6ac19ab7bfddd28750a67a89f7e5db27bb837e24f7746b4cfb94493fe541c622"
+  },
+  "gse49522": {
+    "linear_signal_probe_selection": "GSE49543: first probe per exact source Gene Symbol; GSE49522: drop probes containing '///', then average within symbol",
+    "transform": "log2(linear RMA signal or within-symbol mean signal + 1)",
+    "source_file": "GSE49522_family_soft.txt",
+    "source_sha256": "22c337bdc94190d72aad2e3982de1ff3bad6ba85850d854758ec5feca815ef6a",
+    "series_matrix": "GSE49522_series_matrix.txt.gz",
+    "series_matrix_sha256": "4e2869a7057ad37cd5e8e7b367f263892121048d66478e6c866bfc5030bd8c36",
+    "output": "expression_GSE49522_log2.csv",
+    "rows": 13049,
+    "samples": 39,
+    "output_sha256": "dd32df2eb8c50d8492926deae662e29b4acb44130d34d27d76f59a7e3d577df5"
+  }
+}

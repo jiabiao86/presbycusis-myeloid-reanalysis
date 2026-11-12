@@ -5,14 +5,20 @@
 # communication strength, pathway-level decline, and the status of the
 # interactions highlighted in the manuscript.
 
-root <- "/Users/jijiabiao/Desktop/耳聋课题/2026_supplement_analysis"
-lib <- "/Users/jijiabiao/Desktop/耳聋课题/Rlibs"
-.libPaths(c(lib, .libPaths()))
+script_arg <- grep("^--file=", commandArgs(trailingOnly = FALSE), value = TRUE)
+if (length(script_arg) == 0) {
+  stop("Run with Rscript so repository paths can be resolved.")
+}
+script_file <- normalizePath(sub("^--file=", "", script_arg[[1]]), mustWork = TRUE)
+source(file.path(dirname(script_file), "common_v14.R"))
+configure_v14_library()
+repo_root <- v14_repo_root()
 
 suppressPackageStartupMessages(library(CellChat))
 
-final_dir <- file.path(root, "cellchat_full", "final")
-out_dir <- file.path(root, "cellchat_full", "analysis")
+cellchat_root <- file.path(v14_derived_dir(repo_root), "cellchat_full")
+final_dir <- file.path(cellchat_root, "final")
+out_dir <- file.path(cellchat_root, "analysis")
 dir.create(out_dir, recursive = TRUE, showWarnings = FALSE)
 
 ages <- c(3, 12, 24)
@@ -22,6 +28,17 @@ objects <- setNames(
   }),
   as.character(ages)
 )
+
+format_pvalue <- function(x) {
+  output <- rep(NA_character_, length(x))
+  zero <- !is.na(x) & x == 0
+  small <- !is.na(x) & x > 0 & x < 0.001
+  other <- !is.na(x) & x >= 0.001
+  output[zero] <- "<2.2e-16"
+  output[small] <- formatC(x[small], format = "e", digits = 2)
+  output[other] <- formatC(x[other], format = "f", digits = 3)
+  output
+}
 
 edge_tables <- lapply(ages, function(age) {
   object <- objects[[as.character(age)]]
@@ -40,6 +57,7 @@ edge_tables <- lapply(ages, function(age) {
   )
 })
 edges <- do.call(rbind, edge_tables)
+edges$pval_display <- format_pvalue(edges$pval)
 write.csv(edges, file.path(out_dir, "CellChat_full_edges_all_ages.csv"), row.names = FALSE)
 
 interaction_presence <- do.call(rbind, lapply(ages, function(age) {
@@ -141,12 +159,13 @@ focus_interactions <- c(
   "FN1_ITGAV_ITGB1", "SPP1_ITGAV_ITGB1", "SPP1_ITGA9_ITGB1",
   "MPZ_MPZ", "MPZ_MPZL1", "CADM1_CADM1", "CDH2_CDH2", "NCAM1_NCAM1",
   "GAS6_MERTK", "PROS1_AXL", "GAS6_AXL", "VEGFA_VEGFR1", "IGF1_IGF1R",
-  "TGFB2_TGFBR1_TGFBR2", "BMP5_ACVR1_ACVR2A", "FGF1_FGFR1", "FGF1_FGFR2",
+  "TGFB2_TGFBR1_TGFBR3", "BMP5_ACVR1_ACVR3A", "FGF1_FGFR1", "FGF1_FGFR3",
   "EFNA5_EPHA3", "EFNA5_EPHA4", "EFNB2_EPHA4", "NTF3_NTRK2", "NTF3_NTRK3",
   "SPP1_ITGAV_ITGB5", "AGRN_DAG1", "LAMA5_SV2A", "GAS6_AXL"
 )
 focus <- edges[edges$interaction %in% focus_interactions, , drop = FALSE]
 focus <- focus[order(focus$interaction, focus$age_months, -focus$prob), , drop = FALSE]
+focus$pval_display <- format_pvalue(focus$pval)
 write.csv(
   focus,
   file.path(out_dir, "CellChat_full_focus_interactions.csv"),
@@ -251,7 +270,7 @@ for (name in sort(unique(focus$interaction))) {
     row <- frame[index, ]
     paste0(
       row$age_months, "M ", ifelse(row$significant, "sig", "ns"),
-      " (prob ", signif(row$prob, 3), ", p ", signif(row$pval, 3), ")"
+      " (prob ", signif(row$prob, 3), ", p ", row$pval_display, ")"
     )
   }, character(1))
   writeLines(paste0("- ", name, ": ", paste(entries, collapse = "; ")), con)

@@ -1,0 +1,4 @@
+"scheme_left","scheme_right","genes","spearman_logfc","max_abs_logfc_difference"
+"first_probe","mean_probe",12437,0.881585742214715,1.18411544260438
+"first_probe","max_mean_probe",12437,0.835963249772887,1.51938351460281
+"max_mean_probe","mean_probe",12437,0.967960295430877,0.74190742489005

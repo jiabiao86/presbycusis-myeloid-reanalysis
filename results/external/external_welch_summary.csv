@@ -1,0 +1,5 @@
+"dataset","context","comparison","tested_transcripts","nominal_p_lt_0_05","bh_fdr_lt_0_05","p_value_numeric_underflow","fdr_numeric_underflow","method"
+"GSE233798","GSE233798 cochlea","old_vs_young",34395,9759,2246,32,32,"Welch t test; Welch-Satterthwaite df; BH across tested transcripts"
+"GSE153882","GSE153882 IHC","26m_vs_9m",49585,13990,12190,0,0,"Welch t test; Welch-Satterthwaite df; BH across tested transcripts"
+"GSE153882","GSE153882 OHC","26m_vs_9m",49585,13742,12770,0,0,"Welch t test; Welch-Satterthwaite df; BH across tested transcripts"
+"GSE154833","GSE154833 stria vascularis","26m_vs_1m",48709,10772,6627,86,86,"Welch t test; Welch-Satterthwaite df; BH across tested transcripts"

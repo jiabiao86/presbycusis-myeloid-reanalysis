@@ -1,0 +1,7 @@
+dataset: GSE49543
+tissue: cochlea
+model: ~ 0 + cohort_group + sex
+n_samples: 41
+n_design_columns: 5
+design_rank: 5
+full_rank: TRUE

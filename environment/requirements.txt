@@ -1,0 +1,14 @@
+# Python 3.12. Version ranges are used where a fully verified local
+# environment was unavailable for one or more optional single-cell packages.
+numpy>=1.26,<3
+pandas>=2.2,<3
+openpyxl>=3.1,<4
+scipy>=1.11,<2
+scikit-learn>=1.4,<2
+anndata>=0.10,<1
+matplotlib>=3.8,<4
+Pillow>=10,<13
+python-docx>=1.1,<2
+reportlab>=4,<5
+pypdf>=6,<7
+pdfplumber>=0.11,<1

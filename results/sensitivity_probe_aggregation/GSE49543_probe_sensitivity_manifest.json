@@ -1,0 +1,28 @@
+{
+  "generator": "code/python/prepare_gse49543_probe_sensitivity.py",
+  "source_file": "GSE49543_further_processed.xls.gz",
+  "source_sha256": "fb1fa34a66d0e692534c5579c8a4e505a03cc07b4eb513c361880d51018fed76",
+  "probe_rows": 22690,
+  "duplicate_symbol_rows": 9041,
+  "sample_columns": 41,
+  "rules": {
+    "first_probe": {
+      "description": "First valid source row for each exact gene symbol.",
+      "rows": 13649,
+      "output": "GSE49543_first_probe_log2.csv",
+      "output_sha256": "6ac19ab7bfddd28750a67a89f7e5db27bb837e24f7746b4cfb94493fe541c622"
+    },
+    "mean_probe": {
+      "description": "Arithmetic mean of linear RMA signals across rows sharing a symbol.",
+      "rows": 13649,
+      "output": "GSE49543_mean_probe_log2.csv",
+      "output_sha256": "4c2ee0ee70eefa3a5e96049aca89589e9a1818391ded5930fefcd2c5070eba75"
+    },
+    "max_mean_probe": {
+      "description": "Row with the highest mean linear RMA signal across all 41 samples for each symbol; ties use source order.",
+      "rows": 13649,
+      "output": "GSE49543_max_mean_probe_log2.csv",
+      "output_sha256": "e3dc3284637cfafb3233394c734b225d5996eba19a5056fba44be8c4973db65c"
+    }
+  }
+}

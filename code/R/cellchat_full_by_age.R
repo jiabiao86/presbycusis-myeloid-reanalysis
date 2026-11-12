@@ -6,9 +6,14 @@ if (length(args) < 1) {
 }
 age <- args[[1]]
 
-root <- "/Users/jijiabiao/Desktop/耳聋课题/2026_supplement_analysis"
-lib <- "/Users/jijiabiao/Desktop/耳聋课题/Rlibs"
-.libPaths(c(lib, .libPaths()))
+script_arg <- grep("^--file=", commandArgs(trailingOnly = FALSE), value = TRUE)
+if (length(script_arg) == 0) {
+  stop("Run with Rscript so repository paths can be resolved.")
+}
+script_file <- normalizePath(sub("^--file=", "", script_arg[[1]]), mustWork = TRUE)
+source(file.path(dirname(script_file), "common_v14.R"))
+configure_v14_library()
+repo_root <- v14_repo_root()
 
 suppressPackageStartupMessages({
   library(Matrix)
@@ -16,8 +21,8 @@ suppressPackageStartupMessages({
   library(future)
 })
 
-data_dir <- "/tmp/ear_study_learning/GSE274279"
-out <- file.path(root, "cellchat_full")
+data_dir <- v14_single_cell_dir(repo_root)
+out <- file.path(v14_derived_dir(repo_root), "cellchat_full")
 dir.create(out, recursive = TRUE, showWarnings = FALSE)
 set.seed(2026)
 options(future.globals.maxSize = 8 * 1024^3)
@@ -37,7 +42,7 @@ features <- read.delim(
 gene_symbols <- features[[2]]
 
 umap <- read.csv(
-  file.path(root, "GSE274279_umap_coordinates.csv"),
+  file.path(v14_prepared_dir(repo_root), "GSE274279_umap_coordinates.csv"),
   row.names = 1,
   check.names = FALSE
 )
@@ -112,7 +117,7 @@ cellchat <- identifyOverExpressedGenes(cellchat)
 cellchat@LR$LRsig <- interaction_db
 cat("Age", age, "M full CellChat interactions:", nrow(interaction_db), "\n")
 
-cellchat <- computeCommunProb(cellchat, type = "triMean", nboot = 20)
+cellchat <- computeCommunProb(cellchat, type = "triMean", nboot = 100)
 cellchat <- filterCommunication(cellchat, min.cells = 10)
 cellchat <- computeCommunProbPathway(cellchat)
 cellchat <- aggregateNet(cellchat)

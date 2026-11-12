@@ -1,0 +1,533 @@
+"gene","cell_type","age_months","cells","mean_log_expression","percent_expressing"
+"Cd74","Endothelial",3,28,0,0
+"Cd74","Endothelial",12,3,0,0
+"Cd74","Inner hair cells",3,167,0.01774583661395,1.79640718562874
+"Cd74","Inner hair cells",12,152,0.00359165768836539,0.657894736842105
+"Cd74","Inner hair cells",24,164,0,0
+"Cd74","Macrophages/Microglia",3,68,0.408312661634442,16.1764705882353
+"Cd74","Macrophages/Microglia",12,81,1.15729650989849,41.9753086419753
+"Cd74","Macrophages/Microglia",24,96,0.383303674199605,23.9583333333333
+"Cd74","Outer hair cells",3,174,0.0151999595310338,1.72413793103448
+"Cd74","Outer hair cells",12,249,0.0151555665412255,1.20481927710843
+"Cd74","Outer hair cells",24,25,0,0
+"Cd74","Spiral ganglion neurons",3,145,0.026369217430715,1.37931034482759
+"Cd74","Spiral ganglion neurons",12,99,0.0531502749036627,5.05050505050505
+"Cd74","Spiral ganglion neurons",24,124,0.00247808547114965,0.806451612903226
+"Cd74","Stria vascularis",3,1,2.63092419790698,100
+"Cd74","Stria vascularis",24,73,0.0438391830752017,2.73972602739726
+"Cd74","Supporting cells",3,2333,0.0106033775993011,0.85726532361766
+"Cd74","Supporting cells",12,4948,0.0282496902160469,1.77849636216653
+"Cd74","Supporting cells",24,5222,0.00629820478727547,0.440444274224435
+"H2-Aa","Endothelial",3,28,0,0
+"H2-Aa","Endothelial",12,3,0,0
+"H2-Aa","Inner hair cells",3,167,0,0
+"H2-Aa","Inner hair cells",12,152,0,0
+"H2-Aa","Inner hair cells",24,164,0,0
+"H2-Aa","Macrophages/Microglia",3,68,0.265961719887569,10.2941176470588
+"H2-Aa","Macrophages/Microglia",12,81,0.678383982417873,27.1604938271605
+"H2-Aa","Macrophages/Microglia",24,96,0.187183349068101,14.5833333333333
+"H2-Aa","Outer hair cells",3,174,0,0
+"H2-Aa","Outer hair cells",12,249,0.0187474249741633,1.20481927710843
+"H2-Aa","Outer hair cells",24,25,0,0
+"H2-Aa","Spiral ganglion neurons",3,145,0.00705215414452009,0.689655172413793
+"H2-Aa","Spiral ganglion neurons",12,99,0,0
+"H2-Aa","Spiral ganglion neurons",24,124,0.0220039218991073,1.61290322580645
+"H2-Aa","Stria vascularis",3,1,0,0
+"H2-Aa","Stria vascularis",24,73,0,0
+"H2-Aa","Supporting cells",3,2333,0.00240424910255694,0.214316330904415
+"H2-Aa","Supporting cells",12,4948,0.0131042107978302,0.788197251414713
+"H2-Aa","Supporting cells",24,5222,0.000600567971760703,0.0574492531597089
+"H2-Eb1","Endothelial",3,28,0,0
+"H2-Eb1","Endothelial",12,3,0,0
+"H2-Eb1","Inner hair cells",3,167,0,0
+"H2-Eb1","Inner hair cells",12,152,0,0
+"H2-Eb1","Inner hair cells",24,164,0,0
+"H2-Eb1","Macrophages/Microglia",3,68,0.182694466330855,7.35294117647059
+"H2-Eb1","Macrophages/Microglia",12,81,0.774713356809683,29.6296296296296
+"H2-Eb1","Macrophages/Microglia",24,96,0.209564345096387,10.4166666666667
+"H2-Eb1","Outer hair cells",3,174,0.0210774215977394,1.14942528735632
+"H2-Eb1","Outer hair cells",12,249,0.0102494891401759,0.401606425702811
+"H2-Eb1","Outer hair cells",24,25,0,0
+"H2-Eb1","Spiral ganglion neurons",3,145,0,0
+"H2-Eb1","Spiral ganglion neurons",12,99,0.0226598244086207,3.03030303030303
+"H2-Eb1","Spiral ganglion neurons",24,124,0,0
+"H2-Eb1","Stria vascularis",3,1,0,0
+"H2-Eb1","Stria vascularis",24,73,0.125278129586757,5.47945205479452
+"H2-Eb1","Supporting cells",3,2333,0.00742736580650609,0.557222460351479
+"H2-Eb1","Supporting cells",12,4948,0.0140707396950867,0.909458367016976
+"H2-Eb1","Supporting cells",24,5222,0.00122636799427836,0.0957487552661815
+"Setd1a","Endothelial",3,28,0.239122814998282,21.4285714285714
+"Setd1a","Endothelial",12,3,0,0
+"Setd1a","Inner hair cells",3,167,0.20453815056689,21.5568862275449
+"Setd1a","Inner hair cells",12,152,0.195032062268591,15.1315789473684
+"Setd1a","Inner hair cells",24,164,0.175286426651605,15.2439024390244
+"Setd1a","Macrophages/Microglia",3,68,0.231820532016658,14.7058823529412
+"Setd1a","Macrophages/Microglia",12,81,0.16541845080153,13.5802469135802
+"Setd1a","Macrophages/Microglia",24,96,0.10597913001509,11.4583333333333
+"Setd1a","Outer hair cells",3,174,0.297943070260723,22.4137931034483
+"Setd1a","Outer hair cells",12,249,0.251890238705978,18.0722891566265
+"Setd1a","Outer hair cells",24,25,0.0726364864916395,4
+"Setd1a","Spiral ganglion neurons",3,145,0.220521112894632,22.0689655172414
+"Setd1a","Spiral ganglion neurons",12,99,0.129412738471224,10.1010101010101
+"Setd1a","Spiral ganglion neurons",24,124,0.216949178604303,14.5161290322581
+"Setd1a","Stria vascularis",3,1,0,0
+"Setd1a","Stria vascularis",24,73,0.0714663525818964,2.73972602739726
+"Setd1a","Supporting cells",3,2333,0.158990353911363,12.087441063009
+"Setd1a","Supporting cells",12,4948,0.155235613457493,12.8940986257074
+"Setd1a","Supporting cells",24,5222,0.13303759774779,9.59402527767139
+"Nfatc2","Endothelial",3,28,0.0142099433490167,3.57142857142857
+"Nfatc2","Endothelial",12,3,0,0
+"Nfatc2","Inner hair cells",3,167,0.214269945943212,21.5568862275449
+"Nfatc2","Inner hair cells",12,152,0.232010469765628,19.0789473684211
+"Nfatc2","Inner hair cells",24,164,0.36266872686293,28.0487804878049
+"Nfatc2","Macrophages/Microglia",3,68,0.552193174487132,33.8235294117647
+"Nfatc2","Macrophages/Microglia",12,81,0.464090375690655,28.3950617283951
+"Nfatc2","Macrophages/Microglia",24,96,0.32951664967356,23.9583333333333
+"Nfatc2","Outer hair cells",3,174,0.310387776867597,20.6896551724138
+"Nfatc2","Outer hair cells",12,249,0.164499992630226,14.859437751004
+"Nfatc2","Outer hair cells",24,25,0.114480606983438,8
+"Nfatc2","Spiral ganglion neurons",3,145,0.217172066897518,22.7586206896552
+"Nfatc2","Spiral ganglion neurons",12,99,0.149747479634184,10.1010101010101
+"Nfatc2","Spiral ganglion neurons",24,124,0.160311368483084,13.7096774193548
+"Nfatc2","Stria vascularis",3,1,0,0
+"Nfatc2","Stria vascularis",24,73,0.151581498558928,5.47945205479452
+"Nfatc2","Supporting cells",3,2333,0.129347806409825,10.0728675525075
+"Nfatc2","Supporting cells",12,4948,0.153530230594997,11.9846402586904
+"Nfatc2","Supporting cells",24,5222,0.174373702845783,12.1792416698583
+"Ctss","Endothelial",3,28,0,0
+"Ctss","Endothelial",12,3,0,0
+"Ctss","Inner hair cells",3,167,0,0
+"Ctss","Inner hair cells",12,152,0.0319178974444538,2.63157894736842
+"Ctss","Inner hair cells",24,164,0,0
+"Ctss","Macrophages/Microglia",3,68,0.578262438531093,26.4705882352941
+"Ctss","Macrophages/Microglia",12,81,1.2099540198719,53.0864197530864
+"Ctss","Macrophages/Microglia",24,96,0.697670043015643,34.375
+"Ctss","Outer hair cells",3,174,0.00428561588149113,0.574712643678161
+"Ctss","Outer hair cells",12,249,0.0115794767427155,1.20481927710843
+"Ctss","Outer hair cells",24,25,0,0
+"Ctss","Spiral ganglion neurons",3,145,0,0
+"Ctss","Spiral ganglion neurons",12,99,0.0370429693847044,3.03030303030303
+"Ctss","Spiral ganglion neurons",24,124,0.0386945655339615,1.61290322580645
+"Ctss","Stria vascularis",3,1,0,0
+"Ctss","Stria vascularis",24,73,0,0
+"Ctss","Supporting cells",3,2333,0.00591637975180999,0.514359194170596
+"Ctss","Supporting cells",12,4948,0.017872326846182,1.07113985448666
+"Ctss","Supporting cells",24,5222,0.00461251588106235,0.306396016851781
+"Fcgr3","Endothelial",3,28,0,0
+"Fcgr3","Endothelial",12,3,0,0
+"Fcgr3","Inner hair cells",3,167,0.00407691599222494,0.598802395209581
+"Fcgr3","Inner hair cells",12,152,0.00820370108114619,1.31578947368421
+"Fcgr3","Inner hair cells",24,164,0,0
+"Fcgr3","Macrophages/Microglia",3,68,0.236118147110748,13.2352941176471
+"Fcgr3","Macrophages/Microglia",12,81,0.438368467212062,28.3950617283951
+"Fcgr3","Macrophages/Microglia",24,96,0.0520417377103202,5.20833333333333
+"Fcgr3","Outer hair cells",3,174,0,0
+"Fcgr3","Outer hair cells",12,249,0,0
+"Fcgr3","Outer hair cells",24,25,0,0
+"Fcgr3","Spiral ganglion neurons",3,145,0,0
+"Fcgr3","Spiral ganglion neurons",12,99,0,0
+"Fcgr3","Spiral ganglion neurons",24,124,0.00521080014702076,1.61290322580645
+"Fcgr3","Stria vascularis",3,1,0,0
+"Fcgr3","Stria vascularis",24,73,0,0
+"Fcgr3","Supporting cells",3,2333,0.00281537229198288,0.257179597085298
+"Fcgr3","Supporting cells",12,4948,0.0043938114276699,0.222312045270817
+"Fcgr3","Supporting cells",24,5222,0.00240231233347721,0.114898506319418
+"Cd68","Endothelial",3,28,0,0
+"Cd68","Endothelial",12,3,0,0
+"Cd68","Inner hair cells",3,167,0.00805071713428669,1.79640718562874
+"Cd68","Inner hair cells",12,152,0.00709365400052246,0.657894736842105
+"Cd68","Inner hair cells",24,164,0.00490126588908249,1.21951219512195
+"Cd68","Macrophages/Microglia",3,68,0.119260138187157,5.88235294117647
+"Cd68","Macrophages/Microglia",12,81,0.187794575728566,13.5802469135802
+"Cd68","Macrophages/Microglia",24,96,0.0339606125958517,3.125
+"Cd68","Outer hair cells",3,174,0.00750525984855793,0.574712643678161
+"Cd68","Outer hair cells",12,249,0.000816727307031519,0.401606425702811
+"Cd68","Outer hair cells",24,25,0,0
+"Cd68","Spiral ganglion neurons",3,145,0.00625640398785174,0.689655172413793
+"Cd68","Spiral ganglion neurons",12,99,0.0243734383545256,2.02020202020202
+"Cd68","Spiral ganglion neurons",24,124,0,0
+"Cd68","Stria vascularis",3,1,0,0
+"Cd68","Stria vascularis",24,73,0,0
+"Cd68","Supporting cells",3,2333,0.00389683420282061,0.300042863266181
+"Cd68","Supporting cells",12,4948,0.00523283141340446,0.464834276475344
+"Cd68","Supporting cells",24,5222,0.00117612512906405,0.0574492531597089
+"Tyrobp","Endothelial",3,28,0,0
+"Tyrobp","Endothelial",12,3,0,0
+"Tyrobp","Inner hair cells",3,167,0,0
+"Tyrobp","Inner hair cells",12,152,0,0
+"Tyrobp","Inner hair cells",24,164,0,0
+"Tyrobp","Macrophages/Microglia",3,68,0.269337956159862,11.7647058823529
+"Tyrobp","Macrophages/Microglia",12,81,0.415035321050676,24.6913580246914
+"Tyrobp","Macrophages/Microglia",24,96,0.0660767182569641,6.25
+"Tyrobp","Outer hair cells",3,174,0,0
+"Tyrobp","Outer hair cells",12,249,0.00856642059312778,0.401606425702811
+"Tyrobp","Outer hair cells",24,25,0,0
+"Tyrobp","Spiral ganglion neurons",3,145,0.00376125933234296,0.689655172413793
+"Tyrobp","Spiral ganglion neurons",12,99,0,0
+"Tyrobp","Spiral ganglion neurons",24,124,0,0
+"Tyrobp","Stria vascularis",3,1,0,0
+"Tyrobp","Stria vascularis",24,73,0,0
+"Tyrobp","Supporting cells",3,2333,0.00274245669670923,0.128589798542649
+"Tyrobp","Supporting cells",12,4948,0.00730693536177438,0.444624090541633
+"Tyrobp","Supporting cells",24,5222,0.000240277811867289,0.0191497510532363
+"Clec4d","Endothelial",3,28,0,0
+"Clec4d","Endothelial",12,3,0,0
+"Clec4d","Inner hair cells",3,167,0,0
+"Clec4d","Inner hair cells",12,152,0,0
+"Clec4d","Inner hair cells",24,164,0,0
+"Clec4d","Macrophages/Microglia",3,68,0.0257334388310927,2.94117647058824
+"Clec4d","Macrophages/Microglia",12,81,0.0953623802970728,6.17283950617284
+"Clec4d","Macrophages/Microglia",24,96,0.0467867384327409,2.08333333333333
+"Clec4d","Outer hair cells",3,174,0,0
+"Clec4d","Outer hair cells",12,249,0,0
+"Clec4d","Outer hair cells",24,25,0,0
+"Clec4d","Spiral ganglion neurons",3,145,0,0
+"Clec4d","Spiral ganglion neurons",12,99,0,0
+"Clec4d","Spiral ganglion neurons",24,124,0,0
+"Clec4d","Stria vascularis",3,1,0,0
+"Clec4d","Stria vascularis",24,73,0,0
+"Clec4d","Supporting cells",3,2333,0.00115979985585248,0.042863266180883
+"Clec4d","Supporting cells",12,4948,0.000849262474854996,0.0404203718674212
+"Clec4d","Supporting cells",24,5222,0.000441186569352468,0.0382995021064726
+"Mpeg1","Endothelial",3,28,0,0
+"Mpeg1","Endothelial",12,3,0,0
+"Mpeg1","Inner hair cells",3,167,0,0
+"Mpeg1","Inner hair cells",12,152,0.00394461091596704,0.657894736842105
+"Mpeg1","Inner hair cells",24,164,0,0
+"Mpeg1","Macrophages/Microglia",3,68,0.225985123097921,11.7647058823529
+"Mpeg1","Macrophages/Microglia",12,81,0.569114104123634,30.8641975308642
+"Mpeg1","Macrophages/Microglia",24,96,0.123060814496086,8.33333333333333
+"Mpeg1","Outer hair cells",3,174,0,0
+"Mpeg1","Outer hair cells",12,249,0.00264184684619681,0.401606425702811
+"Mpeg1","Outer hair cells",24,25,0,0
+"Mpeg1","Spiral ganglion neurons",3,145,0.00344229084940548,0.689655172413793
+"Mpeg1","Spiral ganglion neurons",12,99,0,0
+"Mpeg1","Spiral ganglion neurons",24,124,0,0
+"Mpeg1","Stria vascularis",3,1,0,0
+"Mpeg1","Stria vascularis",24,73,0,0
+"Mpeg1","Supporting cells",3,2333,0.00447371818599427,0.300042863266181
+"Mpeg1","Supporting cells",12,4948,0.00705831220252848,0.464834276475344
+"Mpeg1","Supporting cells",24,5222,0.00278321662451415,0.191497510532363
+"Lgals3","Endothelial",3,28,0,0
+"Lgals3","Endothelial",12,3,0,0
+"Lgals3","Inner hair cells",3,167,0,0
+"Lgals3","Inner hair cells",12,152,0.0199520424612929,1.31578947368421
+"Lgals3","Inner hair cells",24,164,0,0
+"Lgals3","Macrophages/Microglia",3,68,0,0
+"Lgals3","Macrophages/Microglia",12,81,0.169038012368448,13.5802469135802
+"Lgals3","Macrophages/Microglia",24,96,0.0155741365470269,2.08333333333333
+"Lgals3","Outer hair cells",3,174,0,0
+"Lgals3","Outer hair cells",12,249,0.00743286702237844,0.401606425702811
+"Lgals3","Outer hair cells",24,25,0,0
+"Lgals3","Spiral ganglion neurons",3,145,0,0
+"Lgals3","Spiral ganglion neurons",12,99,0,0
+"Lgals3","Spiral ganglion neurons",24,124,0,0
+"Lgals3","Stria vascularis",3,1,0,0
+"Lgals3","Stria vascularis",24,73,0,0
+"Lgals3","Supporting cells",3,2333,0.00351944628490415,0.300042863266181
+"Lgals3","Supporting cells",12,4948,0.00301132601376043,0.303152789005659
+"Lgals3","Supporting cells",24,5222,0.00424232475902179,0.382995021064726
+"C1qa","Endothelial",3,28,0,0
+"C1qa","Endothelial",12,3,0,0
+"C1qa","Inner hair cells",3,167,0.0212350738932675,1.19760479041916
+"C1qa","Inner hair cells",12,152,0.0128650856796191,1.31578947368421
+"C1qa","Inner hair cells",24,164,0,0
+"C1qa","Macrophages/Microglia",3,68,0.327656052346749,17.6470588235294
+"C1qa","Macrophages/Microglia",12,81,0.764586337352464,33.3333333333333
+"C1qa","Macrophages/Microglia",24,96,0.0325362936773574,2.08333333333333
+"C1qa","Outer hair cells",3,174,0.00452622919843667,0.574712643678161
+"C1qa","Outer hair cells",12,249,0.0154283362456026,1.20481927710843
+"C1qa","Outer hair cells",24,25,0,0
+"C1qa","Spiral ganglion neurons",3,145,0.012277152961361,0.689655172413793
+"C1qa","Spiral ganglion neurons",12,99,0.0701108944764778,4.04040404040404
+"C1qa","Spiral ganglion neurons",24,124,0,0
+"C1qa","Stria vascularis",3,1,0,0
+"C1qa","Stria vascularis",24,73,0,0
+"C1qa","Supporting cells",3,2333,0.0104676907889902,0.728675525075011
+"C1qa","Supporting cells",12,4948,0.00933391860122203,0.707356507679871
+"C1qa","Supporting cells",24,5222,0.00122004435201176,0.0574492531597089
+"C1qb","Endothelial",3,28,0.0290938739674677,3.57142857142857
+"C1qb","Endothelial",12,3,0.941407892582464,33.3333333333333
+"C1qb","Inner hair cells",3,167,0.0136564441877198,1.79640718562874
+"C1qb","Inner hair cells",12,152,0.0419666850007084,2.63157894736842
+"C1qb","Inner hair cells",24,164,0,0
+"C1qb","Macrophages/Microglia",3,68,0.529638774433441,26.4705882352941
+"C1qb","Macrophages/Microglia",12,81,1.11912832791866,49.3827160493827
+"C1qb","Macrophages/Microglia",24,96,0.202655847392666,12.5
+"C1qb","Outer hair cells",3,174,0.0101763827168166,1.14942528735632
+"C1qb","Outer hair cells",12,249,0.0199442313593175,2.00803212851406
+"C1qb","Outer hair cells",24,25,0,0
+"C1qb","Spiral ganglion neurons",3,145,0.0180050892889861,1.37931034482759
+"C1qb","Spiral ganglion neurons",12,99,0.015603976206983,3.03030303030303
+"C1qb","Spiral ganglion neurons",24,124,0,0
+"C1qb","Stria vascularis",3,1,0,0
+"C1qb","Stria vascularis",24,73,0,0
+"C1qb","Supporting cells",3,2333,0.00798926040396419,0.557222460351479
+"C1qb","Supporting cells",12,4948,0.0177640573847591,1.07113985448666
+"C1qb","Supporting cells",24,5222,0.00136984346310472,0.134048257372654
+"C1qc","Endothelial",3,28,0,0
+"C1qc","Endothelial",12,3,0,0
+"C1qc","Inner hair cells",3,167,0.00168592745777975,0.598802395209581
+"C1qc","Inner hair cells",12,152,0.0252521404734955,1.97368421052632
+"C1qc","Inner hair cells",24,164,0,0
+"C1qc","Macrophages/Microglia",3,68,0.395015191429108,22.0588235294118
+"C1qc","Macrophages/Microglia",12,81,0.706493257712657,33.3333333333333
+"C1qc","Macrophages/Microglia",24,96,0.0781348420741468,6.25
+"C1qc","Outer hair cells",3,174,0,0
+"C1qc","Outer hair cells",12,249,0.0181106532373636,1.60642570281124
+"C1qc","Outer hair cells",24,25,0,0
+"C1qc","Spiral ganglion neurons",3,145,0.0142777384492973,2.06896551724138
+"C1qc","Spiral ganglion neurons",12,99,0,0
+"C1qc","Spiral ganglion neurons",24,124,0,0
+"C1qc","Stria vascularis",3,1,0,0
+"C1qc","Stria vascularis",24,73,0,0
+"C1qc","Supporting cells",3,2333,0.00436195792078993,0.385769395627947
+"C1qc","Supporting cells",12,4948,0.0106814233557758,0.586095392077607
+"C1qc","Supporting cells",24,5222,0.000680283083707812,0.0191497510532363
+"C3ar1","Endothelial",3,28,0,0
+"C3ar1","Endothelial",12,3,0,0
+"C3ar1","Inner hair cells",3,167,0,0
+"C3ar1","Inner hair cells",12,152,0,0
+"C3ar1","Inner hair cells",24,164,0.0136604670333093,0.609756097560976
+"C3ar1","Macrophages/Microglia",3,68,0.0562950813821764,4.41176470588235
+"C3ar1","Macrophages/Microglia",12,81,0.270543498905622,17.283950617284
+"C3ar1","Macrophages/Microglia",24,96,0,0
+"C3ar1","Outer hair cells",3,174,0,0
+"C3ar1","Outer hair cells",12,249,0,0
+"C3ar1","Outer hair cells",24,25,0,0
+"C3ar1","Spiral ganglion neurons",3,145,0,0
+"C3ar1","Spiral ganglion neurons",12,99,0.0120336970544749,1.01010101010101
+"C3ar1","Spiral ganglion neurons",24,124,0,0
+"C3ar1","Stria vascularis",3,1,0,0
+"C3ar1","Stria vascularis",24,73,0,0
+"C3ar1","Supporting cells",3,2333,0.00304793038658279,0.214316330904415
+"C3ar1","Supporting cells",12,4948,0.00323142238425407,0.202101859337106
+"C3ar1","Supporting cells",24,5222,0.000499074859815583,0.0191497510532363
+"Ms4a7","Endothelial",3,28,0.0290114863422056,3.57142857142857
+"Ms4a7","Endothelial",12,3,0,0
+"Ms4a7","Inner hair cells",3,167,0.0046466558551375,0.598802395209581
+"Ms4a7","Inner hair cells",12,152,0.00324393581826875,0.657894736842105
+"Ms4a7","Inner hair cells",24,164,0,0
+"Ms4a7","Macrophages/Microglia",3,68,0.345629646861419,16.1764705882353
+"Ms4a7","Macrophages/Microglia",12,81,0.562165240726979,30.8641975308642
+"Ms4a7","Macrophages/Microglia",24,96,0.0403743874225092,2.08333333333333
+"Ms4a7","Outer hair cells",3,174,0.0132198185824864,0.574712643678161
+"Ms4a7","Outer hair cells",12,249,0.00826285926540257,1.20481927710843
+"Ms4a7","Outer hair cells",24,25,0,0
+"Ms4a7","Spiral ganglion neurons",3,145,0.00195329387916846,0.689655172413793
+"Ms4a7","Spiral ganglion neurons",12,99,0,0
+"Ms4a7","Spiral ganglion neurons",24,124,0.0195244062723005,1.61290322580645
+"Ms4a7","Stria vascularis",3,1,0,0
+"Ms4a7","Stria vascularis",24,73,0,0
+"Ms4a7","Supporting cells",3,2333,0.0030124630762831,0.214316330904415
+"Ms4a7","Supporting cells",12,4948,0.00338076166411596,0.202101859337106
+"Ms4a7","Supporting cells",24,5222,0.00155101918944268,0.0957487552661815
+"Apoe","Endothelial",3,28,0.901401211523768,50
+"Apoe","Endothelial",12,3,2.18319186663971,66.6666666666667
+"Apoe","Inner hair cells",3,167,0.945216789259613,56.2874251497006
+"Apoe","Inner hair cells",12,152,1.53856268313782,72.3684210526316
+"Apoe","Inner hair cells",24,164,0.276105296370691,20.1219512195122
+"Apoe","Macrophages/Microglia",3,68,1.51566553671934,63.2352941176471
+"Apoe","Macrophages/Microglia",12,81,2.34587010986175,72.8395061728395
+"Apoe","Macrophages/Microglia",24,96,0.564729822760575,32.2916666666667
+"Apoe","Outer hair cells",3,174,0.9039074064275,50
+"Apoe","Outer hair cells",12,249,1.51083807985296,67.0682730923695
+"Apoe","Outer hair cells",24,25,0.198641401533394,12
+"Apoe","Spiral ganglion neurons",3,145,0.941768813828948,57.9310344827586
+"Apoe","Spiral ganglion neurons",12,99,1.75980865499349,73.7373737373737
+"Apoe","Spiral ganglion neurons",24,124,0.286813418043073,23.3870967741935
+"Apoe","Stria vascularis",3,1,0,0
+"Apoe","Stria vascularis",24,73,0,0
+"Apoe","Supporting cells",3,2333,1.14950575454122,56.6223746249464
+"Apoe","Supporting cells",12,4948,1.79096799727257,73.2215036378335
+"Apoe","Supporting cells",24,5222,0.378663739051897,21.7732669475297
+"Mif","Endothelial",3,28,0.117362661853055,10.7142857142857
+"Mif","Endothelial",12,3,0.802958783155766,33.3333333333333
+"Mif","Inner hair cells",3,167,0.00639173555607499,1.19760479041916
+"Mif","Inner hair cells",12,152,0.0266580216881815,2.63157894736842
+"Mif","Inner hair cells",24,164,0,0
+"Mif","Macrophages/Microglia",3,68,0,0
+"Mif","Macrophages/Microglia",12,81,0.129302866952063,7.40740740740741
+"Mif","Macrophages/Microglia",24,96,0,0
+"Mif","Outer hair cells",3,174,0.0233196689070017,1.72413793103448
+"Mif","Outer hair cells",12,249,0.0298800588859024,4.01606425702811
+"Mif","Outer hair cells",24,25,0,0
+"Mif","Spiral ganglion neurons",3,145,0.0645540074248676,4.13793103448276
+"Mif","Spiral ganglion neurons",12,99,0.0727205134730414,8.08080808080808
+"Mif","Spiral ganglion neurons",24,124,0.0107610379395808,1.61290322580645
+"Mif","Stria vascularis",3,1,0,0
+"Mif","Stria vascularis",24,73,0.113682535525,4.10958904109589
+"Mif","Supporting cells",3,2333,0.0356240843711146,2.5289327046721
+"Mif","Supporting cells",12,4948,0.0695348338588487,5.5375909458367
+"Mif","Supporting cells",24,5222,0.0101727117821827,0.574492531597089
+"Ddx1","Endothelial",3,28,0.0433038173164845,7.14285714285714
+"Ddx1","Endothelial",12,3,0,0
+"Ddx1","Inner hair cells",3,167,0.228330000938824,23.3532934131737
+"Ddx1","Inner hair cells",12,152,0.132111566321466,11.8421052631579
+"Ddx1","Inner hair cells",24,164,0.100645942320619,9.75609756097561
+"Ddx1","Macrophages/Microglia",3,68,0.14286947895856,11.7647058823529
+"Ddx1","Macrophages/Microglia",12,81,0.198590617301569,16.0493827160494
+"Ddx1","Macrophages/Microglia",24,96,0.13441462174015,15.625
+"Ddx1","Outer hair cells",3,174,0.111047720635793,9.77011494252874
+"Ddx1","Outer hair cells",12,249,0.207295223086143,16.4658634538153
+"Ddx1","Outer hair cells",24,25,0.23232538206103,16
+"Ddx1","Spiral ganglion neurons",3,145,0.143522022981645,17.2413793103448
+"Ddx1","Spiral ganglion neurons",12,99,0.153718656060836,12.1212121212121
+"Ddx1","Spiral ganglion neurons",24,124,0.259082582055868,18.5483870967742
+"Ddx1","Stria vascularis",3,1,0,0
+"Ddx1","Stria vascularis",24,73,0.0180111328278789,1.36986301369863
+"Ddx1","Supporting cells",3,2333,0.161980353673195,12.3017573939134
+"Ddx1","Supporting cells",12,4948,0.164387292085904,13.338722716249
+"Ddx1","Supporting cells",24,5222,0.170503267714632,12.1026426656453
+"Tbk1","Endothelial",3,28,0.384728439098711,28.5714285714286
+"Tbk1","Endothelial",12,3,1.08523193568219,33.3333333333333
+"Tbk1","Inner hair cells",3,167,0.295006845191762,25.748502994012
+"Tbk1","Inner hair cells",12,152,0.272661537702253,23.0263157894737
+"Tbk1","Inner hair cells",24,164,0.214733174557138,18.2926829268293
+"Tbk1","Macrophages/Microglia",3,68,0.386612228450465,25
+"Tbk1","Macrophages/Microglia",12,81,0.339340033118403,24.6913580246914
+"Tbk1","Macrophages/Microglia",24,96,0.212525278261194,20.8333333333333
+"Tbk1","Outer hair cells",3,174,0.240893807952416,18.3908045977011
+"Tbk1","Outer hair cells",12,249,0.168228906830782,14.0562248995984
+"Tbk1","Outer hair cells",24,25,0.17819887107264,8
+"Tbk1","Spiral ganglion neurons",3,145,0.204444229179771,21.3793103448276
+"Tbk1","Spiral ganglion neurons",12,99,0.13759376107198,11.1111111111111
+"Tbk1","Spiral ganglion neurons",24,124,0.270589814351066,25
+"Tbk1","Stria vascularis",3,1,0,0
+"Tbk1","Stria vascularis",24,73,0.149154910518719,9.58904109589041
+"Tbk1","Supporting cells",3,2333,0.202967529889194,14.9164166309473
+"Tbk1","Supporting cells",12,4948,0.214457732096091,17.5020210185934
+"Tbk1","Supporting cells",24,5222,0.198868755538475,13.7686710072769
+"Fgf16","Endothelial",3,28,0,0
+"Fgf16","Endothelial",12,3,0,0
+"Fgf16","Inner hair cells",3,167,0.00987414239265309,0.598802395209581
+"Fgf16","Inner hair cells",12,152,0.00687245591035106,0.657894736842105
+"Fgf16","Inner hair cells",24,164,0,0
+"Fgf16","Macrophages/Microglia",3,68,0,0
+"Fgf16","Macrophages/Microglia",12,81,0,0
+"Fgf16","Macrophages/Microglia",24,96,0,0
+"Fgf16","Outer hair cells",3,174,0,0
+"Fgf16","Outer hair cells",12,249,0,0
+"Fgf16","Outer hair cells",24,25,0,0
+"Fgf16","Spiral ganglion neurons",3,145,0,0
+"Fgf16","Spiral ganglion neurons",12,99,0,0
+"Fgf16","Spiral ganglion neurons",24,124,0,0
+"Fgf16","Stria vascularis",3,1,0,0
+"Fgf16","Stria vascularis",24,73,0,0
+"Fgf16","Supporting cells",3,2333,0,0
+"Fgf16","Supporting cells",12,4948,0.000906593737260476,0.0808407437348424
+"Fgf16","Supporting cells",24,5222,6.50277944196433e-05,0.0191497510532363
+"Csf1r","Endothelial",3,28,0.0846459728678237,7.14285714285714
+"Csf1r","Endothelial",12,3,0,0
+"Csf1r","Inner hair cells",3,167,0.00454642889214212,1.19760479041916
+"Csf1r","Inner hair cells",12,152,0.0296983547508717,1.97368421052632
+"Csf1r","Inner hair cells",24,164,0,0
+"Csf1r","Macrophages/Microglia",3,68,0.945063947722881,47.0588235294118
+"Csf1r","Macrophages/Microglia",12,81,1.22710013273002,56.7901234567901
+"Csf1r","Macrophages/Microglia",24,96,0.463358731986806,30.2083333333333
+"Csf1r","Outer hair cells",3,174,0,0
+"Csf1r","Outer hair cells",12,249,0.0110607074602897,1.60642570281124
+"Csf1r","Outer hair cells",24,25,0,0
+"Csf1r","Spiral ganglion neurons",3,145,0.0119093643359743,1.37931034482759
+"Csf1r","Spiral ganglion neurons",12,99,0.0290338964010464,3.03030303030303
+"Csf1r","Spiral ganglion neurons",24,124,0.0551289179465229,3.2258064516129
+"Csf1r","Stria vascularis",3,1,0,0
+"Csf1r","Stria vascularis",24,73,0.0420612138547712,2.73972602739726
+"Csf1r","Supporting cells",3,2333,0.0108720012200497,0.985855122160309
+"Csf1r","Supporting cells",12,4948,0.00948348721868128,0.767987065481002
+"Csf1r","Supporting cells",24,5222,0.00139111152930202,0.172347759479127
+"P2ry12","Endothelial",3,28,0,0
+"P2ry12","Endothelial",12,3,0,0
+"P2ry12","Inner hair cells",3,167,0.0195069607091355,2.9940119760479
+"P2ry12","Inner hair cells",12,152,0,0
+"P2ry12","Inner hair cells",24,164,0.0106402401168838,0.609756097560976
+"P2ry12","Macrophages/Microglia",3,68,0.148593080851594,10.2941176470588
+"P2ry12","Macrophages/Microglia",12,81,0.380193929067682,20.9876543209877
+"P2ry12","Macrophages/Microglia",24,96,0.162416552546029,14.5833333333333
+"P2ry12","Outer hair cells",3,174,0.0184917888853418,1.14942528735632
+"P2ry12","Outer hair cells",12,249,0.0156019506079527,1.20481927710843
+"P2ry12","Outer hair cells",24,25,0,0
+"P2ry12","Spiral ganglion neurons",3,145,0.027428328639364,2.75862068965517
+"P2ry12","Spiral ganglion neurons",12,99,0,0
+"P2ry12","Spiral ganglion neurons",24,124,0.0623460878595684,4.03225806451613
+"P2ry12","Stria vascularis",3,1,0,0
+"P2ry12","Stria vascularis",24,73,0,0
+"P2ry12","Supporting cells",3,2333,0.0111752942399229,0.900128589798543
+"P2ry12","Supporting cells",12,4948,0.0147959752506426,1.21261115602264
+"P2ry12","Supporting cells",24,5222,0.00447894185939983,0.268096514745308
+"Trem2","Endothelial",3,28,0.0290938739674677,3.57142857142857
+"Trem2","Endothelial",12,3,0,0
+"Trem2","Inner hair cells",3,167,0.00164828095367791,0.598802395209581
+"Trem2","Inner hair cells",12,152,0,0
+"Trem2","Inner hair cells",24,164,0,0
+"Trem2","Macrophages/Microglia",3,68,0.0424598752937531,2.94117647058824
+"Trem2","Macrophages/Microglia",12,81,0.224646752191486,13.5802469135802
+"Trem2","Macrophages/Microglia",24,96,0.0123321914868065,1.04166666666667
+"Trem2","Outer hair cells",3,174,0,0
+"Trem2","Outer hair cells",12,249,0,0
+"Trem2","Outer hair cells",24,25,0,0
+"Trem2","Spiral ganglion neurons",3,145,0,0
+"Trem2","Spiral ganglion neurons",12,99,0,0
+"Trem2","Spiral ganglion neurons",24,124,0,0
+"Trem2","Stria vascularis",3,1,0,0
+"Trem2","Stria vascularis",24,73,0,0
+"Trem2","Supporting cells",3,2333,0.00117811601226208,0.042863266180883
+"Trem2","Supporting cells",12,4948,0.00401567441501382,0.242522231204527
+"Trem2","Supporting cells",24,5222,0,0
+"Lyz1","Endothelial",3,28,0,0
+"Lyz1","Endothelial",12,3,0,0
+"Lyz1","Inner hair cells",3,167,0,0
+"Lyz1","Inner hair cells",12,152,0,0
+"Lyz1","Inner hair cells",24,164,0,0
+"Lyz1","Macrophages/Microglia",3,68,0.0266225246001333,1.47058823529412
+"Lyz1","Macrophages/Microglia",12,81,0.0161564023880173,1.23456790123457
+"Lyz1","Macrophages/Microglia",24,96,0.0243829807684716,2.08333333333333
+"Lyz1","Outer hair cells",3,174,0,0
+"Lyz1","Outer hair cells",12,249,0,0
+"Lyz1","Outer hair cells",24,25,0,0
+"Lyz1","Spiral ganglion neurons",3,145,0,0
+"Lyz1","Spiral ganglion neurons",12,99,0.0194844504115307,1.01010101010101
+"Lyz1","Spiral ganglion neurons",24,124,0,0
+"Lyz1","Stria vascularis",3,1,0,0
+"Lyz1","Stria vascularis",24,73,0,0
+"Lyz1","Supporting cells",3,2333,0.00208137541692568,0.128589798542649
+"Lyz1","Supporting cells",12,4948,0.000758736131107076,0.101050929668553
+"Lyz1","Supporting cells",24,5222,0.000802002361916543,0.0382995021064726
+"Lyz2","Endothelial",3,28,0.119355578697609,7.14285714285714
+"Lyz2","Endothelial",12,3,0,0
+"Lyz2","Inner hair cells",3,167,0.00454642889214212,1.19760479041916
+"Lyz2","Inner hair cells",12,152,0.039579347590988,3.28947368421053
+"Lyz2","Inner hair cells",24,164,0,0
+"Lyz2","Macrophages/Microglia",3,68,0.362350155793774,19.1176470588235
+"Lyz2","Macrophages/Microglia",12,81,0.976517029486892,35.8024691358025
+"Lyz2","Macrophages/Microglia",24,96,0.324654338704425,14.5833333333333
+"Lyz2","Outer hair cells",3,174,0,0
+"Lyz2","Outer hair cells",12,249,0.0141331980673786,1.20481927710843
+"Lyz2","Outer hair cells",24,25,0,0
+"Lyz2","Spiral ganglion neurons",3,145,0.0316057328279693,1.37931034482759
+"Lyz2","Spiral ganglion neurons",12,99,0.0168048618269518,2.02020202020202
+"Lyz2","Spiral ganglion neurons",24,124,0.0051625877228697,1.61290322580645
+"Lyz2","Stria vascularis",3,1,0,0
+"Lyz2","Stria vascularis",24,73,0.0213796639186584,1.36986301369863
+"Lyz2","Supporting cells",3,2333,0.0119904685897403,0.942991855979426
+"Lyz2","Supporting cells",12,4948,0.0212432770981511,1.13177041228779
+"Lyz2","Supporting cells",24,5222,0.00236242849724709,0.0957487552661815
+"Ptprc","Endothelial",3,28,0.046467848960833,7.14285714285714
+"Ptprc","Endothelial",12,3,0,0
+"Ptprc","Inner hair cells",3,167,0.0212239126663293,1.79640718562874
+"Ptprc","Inner hair cells",12,152,0.0154082605723604,1.31578947368421
+"Ptprc","Inner hair cells",24,164,0.0356509973700856,2.4390243902439
+"Ptprc","Macrophages/Microglia",3,68,0.989911400302117,50
+"Ptprc","Macrophages/Microglia",12,81,1.66578641590574,69.1358024691358
+"Ptprc","Macrophages/Microglia",24,96,1.05733309973567,47.9166666666667
+"Ptprc","Outer hair cells",3,174,0.0101733655716599,1.14942528735632
+"Ptprc","Outer hair cells",12,249,0.00235077838676102,0.401606425702811
+"Ptprc","Outer hair cells",24,25,0,0
+"Ptprc","Spiral ganglion neurons",3,145,0.0152045093600911,2.06896551724138
+"Ptprc","Spiral ganglion neurons",12,99,0.0213689480208324,1.01010101010101
+"Ptprc","Spiral ganglion neurons",24,124,0.0196675554117834,3.2258064516129
+"Ptprc","Stria vascularis",3,1,0,0
+"Ptprc","Stria vascularis",24,73,0,0
+"Ptprc","Supporting cells",3,2333,0.0120635867203753,0.900128589798543
+"Ptprc","Supporting cells",12,4948,0.010785309258002,0.747776879547292
+"Ptprc","Supporting cells",24,5222,0.00930145832819926,0.670241286863271
